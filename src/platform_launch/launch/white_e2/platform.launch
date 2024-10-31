@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!--Sensor selection arguments-->
+  <arg name="use_gps" default="false" />
+  <arg name="use_camera" default="false" />
+  <arg name="use_radar1" default="false" />
+  <arg name="use_lidar1" default="false" />
+
+  <!--Frames and Namespaces-->
+  <arg name="veh_frame" default="base_link"/>
+  <arg name="lidar1_frame" default="lidar1"/>
+  <arg name="front_radar_frame" default="front_radar"/>
+  <arg name="gps_frame" default="novatel_gps"/>
+  <arg name="imu_frame" default="novatel_imu"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="$(arg veh_frame)_to_$(arg front_radar_frame)" args="1.45 0 0.07 0 0 0 $(arg veh_frame) $(arg front_radar_frame) 50" if="$(arg use_radar1)"/>
+  <node pkg="tf" type="static_transform_publisher" name="$(arg veh_frame)_to_$(arg lidar1_frame)" args="-0.12 0 1.6 0 0 0 $(arg veh_frame) $(arg lidar1_frame) 50" if="$(arg use_lidar1)"/>
+  
+  <!--Include launch files and pass arguments to them-->
+
+  <!--Drivers-->
+  <include file="$(find platform_launch)/launch/core/all_supported_drivers.launch">
+
+    <arg name="use_novatel" value="$(arg use_gps)" />
+    <arg name="use_vlp16_1" value="$(arg use_lidar1)" />
+    <arg name="use_mako_1" value="$(arg use_camera)" />
+
+    <arg name="vlp16_1_frame" value="$(arg lidar1_frame)" />
+    <arg name="vlp16_1_ip" value="192.168.40.201" />
+    <arg name="vlp16_1_port" value="2368" />
+
+    <arg name="novatel_imu_rate" value="50" />
+    <arg name="novatel_imu_sample_rate" value="125" />
+    <arg name="novatel_ip" value="192.168.74.10" />
+    <arg name="novatel_port" value="2000" />
+
+    <!-- 
+    	Pixel format:
+	    1. Mono8
+	    2. Mono12
+	    3. Mono12Packed
+	    4. BayerRG8
+	    5. BayerRG12Packed
+	    6. BayerGR12
+	    7. RGB8Packed
+	    8. BGR8Packed
+    -->
+    
+    <arg name="mako_1_ip" value="192.168.30.1" />
+    <arg name="mako_1_frame" value="mako_1"/>
+    <arg name="mako_1_frame_rate" value="15"/>
+    <arg name="mako_1_pixel_format" value="BGR8Packed"/> 
+    
+  </include>
+  
+  <include file="$(find delphi_esr)/launch/delphi_esr_can.launch" if="$(arg use_radar1)">
+    <arg name="frame_id" value="$(arg front_radar_frame)"/>
+  </include>
+
+</launch>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

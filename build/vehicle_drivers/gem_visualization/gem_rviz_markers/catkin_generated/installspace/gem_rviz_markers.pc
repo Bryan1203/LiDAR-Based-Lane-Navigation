@@ -1,0 +1,8 @@
+prefix=/home/gem/BobaBee_ws/install
+
+Name: gem_rviz_markers
+Description: Description of gem_rviz_markers
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

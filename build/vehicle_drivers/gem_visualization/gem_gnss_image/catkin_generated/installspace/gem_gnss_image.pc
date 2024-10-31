@@ -1,0 +1,8 @@
+prefix=/home/gem/BobaBee_ws/install
+
+Name: gem_gnss_image
+Description: Description of gem_gnss_image
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
