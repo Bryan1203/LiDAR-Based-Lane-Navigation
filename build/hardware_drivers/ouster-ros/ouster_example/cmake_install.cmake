@@ -1,8 +1,8 @@
-# Install script for directory: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/ouster-sdk
+# Install script for directory: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/ouster-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gem/BobaBee_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,19 +38,19 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/ouster_example/generated/ouster")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gem/demo_ws/build/hardware_drivers/ouster-ros/ouster_example/generated/ouster")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/ouster_example/ouster_client/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/ouster-ros/ouster_example/ouster_client/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK/OusterSDKTargets.cmake"
-         "/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
+         "/home/gem/demo_ws/build/hardware_drivers/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK/OusterSDKTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -59,23 +59,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/gem/demo_ws/build/hardware_drivers/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES "/home/gem/demo_ws/build/hardware_drivers/ouster-ros/ouster_example/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OusterSDK" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/ouster_example/OusterSDKConfig.cmake"
-    "/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/ouster_example/OusterSDKConfigVersion.cmake"
+    "/home/gem/demo_ws/build/hardware_drivers/ouster-ros/ouster_example/OusterSDKConfig.cmake"
+    "/home/gem/demo_ws/build/hardware_drivers/ouster-ros/ouster_example/OusterSDKConfigVersion.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/ouster-sdk/LICENSE"
-    "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/ouster-sdk/LICENSE-bin"
+    "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/ouster-sdk/LICENSE"
+    "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/ouster-sdk/LICENSE-bin"
     )
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/gem/BobaBee_ws/src/basic_launch
+# Install script for directory: /home/gem/demo_ws/src/basic_launch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gem/BobaBee_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gem/BobaBee_ws/build/basic_launch/catkin_generated/installspace/basic_launch.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gem/demo_ws/build/basic_launch/catkin_generated/installspace/basic_launch.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_launch/cmake" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/build/basic_launch/catkin_generated/installspace/basic_launchConfig.cmake"
-    "/home/gem/BobaBee_ws/build/basic_launch/catkin_generated/installspace/basic_launchConfig-version.cmake"
+    "/home/gem/demo_ws/build/basic_launch/catkin_generated/installspace/basic_launchConfig.cmake"
+    "/home/gem/demo_ws/build/basic_launch/catkin_generated/installspace/basic_launchConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_launch" TYPE FILE FILES "/home/gem/BobaBee_ws/src/basic_launch/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_launch" TYPE FILE FILES "/home/gem/demo_ws/src/basic_launch/package.xml")
 endif()
 

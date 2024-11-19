@@ -1,0 +1,8 @@
+prefix=/home/gem/demo_ws/devel
+
+Name: depthai_bridge
+Description: Description of depthai_bridge
+Version: 2.9.0
+Cflags: -I/home/gem/demo_ws/src/hardware_drivers/depthai-ros/depthai_bridge/include
+Libs: -L${prefix}/lib -ldepthai_bridge
+Requires: depthai_ros_msgs camera_info_manager roscpp sensor_msgs std_msgs vision_msgs image_transport cv_bridge stereo_msgs tf2_ros urdf robot_state_publisher tf2 tf2_geometry_msgs

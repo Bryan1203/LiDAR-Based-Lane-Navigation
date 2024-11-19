@@ -1,0 +1,33 @@
+\subsubsection usage Usage
+\verbatim
+<node name="depthai_ros_driver" pkg="depthai_ros_driver" type="depthai_ros_driver">
+  <param name="camera_i_enable_ir" type="bool" value="True" />
+  <param name="camera_i_floodlight_brightness" type="double" value="0.0" />
+  <param name="camera_i_laser_dot_brightness" type="double" value="800.0" />
+  <param name="left_r_keep_preview_aspect_ratio" type="bool" value="True" />
+  <param name="left_r_exposure" type="int" value="1000" />
+  <param name="left_r_focus" type="int" value="1" />
+  <param name="left_r_iso" type="int" value="800" />
+  <param name="left_r_set_man_exposure" type="bool" value="False" />
+  <param name="left_r_set_man_focus" type="bool" value="False" />
+  <param name="left_r_set_man_whitebalance" type="bool" value="False" />
+  <param name="left_r_whitebalance" type="int" value="3300" />
+  <param name="right_r_keep_preview_aspect_ratio" type="bool" value="True" />
+  <param name="right_r_exposure" type="int" value="1000" />
+  <param name="right_r_focus" type="int" value="1" />
+  <param name="right_r_iso" type="int" value="800" />
+  <param name="right_r_set_man_exposure" type="bool" value="False" />
+  <param name="right_r_set_man_focus" type="bool" value="False" />
+  <param name="right_r_set_man_whitebalance" type="bool" value="False" />
+  <param name="right_r_whitebalance" type="int" value="3300" />
+  <param name="rgb_r_keep_preview_aspect_ratio" type="bool" value="True" />
+  <param name="rgb_r_exposure" type="int" value="1000" />
+  <param name="rgb_r_focus" type="int" value="1" />
+  <param name="rgb_r_iso" type="int" value="800" />
+  <param name="rgb_r_set_man_exposure" type="bool" value="False" />
+  <param name="rgb_r_set_man_focus" type="bool" value="False" />
+  <param name="rgb_r_set_man_whitebalance" type="bool" value="False" />
+  <param name="rgb_r_whitebalance" type="int" value="3300" />
+</node>
+\endverbatim
+

@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~lambda" : \b [int] WLS Lambda min: 0, default: 8000, max: 20000
+- \b "~sigma" : \b [double] WLS Sigma min: 0.0, default: 1.5, max: 2.0
+

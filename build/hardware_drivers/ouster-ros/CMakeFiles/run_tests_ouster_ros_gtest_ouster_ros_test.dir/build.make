@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for run_tests_ouster_ros_gtest_ouster_ros_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
 include hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/progress.make
 
 hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/gem/BobaBee_ws/build/test_results/ouster_ros/gtest-ouster_ros_test.xml "/home/gem/BobaBee_ws/devel/lib/ouster_ros/ouster_ros_test --gtest_output=xml:/home/gem/BobaBee_ws/build/test_results/ouster_ros/gtest-ouster_ros_test.xml"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/gem/demo_ws/build/test_results/ouster_ros/gtest-ouster_ros_test.xml "/home/gem/demo_ws/build/devel/lib/ouster_ros/ouster_ros_test --gtest_output=xml:/home/gem/demo_ws/build/test_results/ouster_ros/gtest-ouster_ros_test.xml"
 
 run_tests_ouster_ros_gtest_ouster_ros_test: hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test
 run_tests_ouster_ros_gtest_ouster_ros_test: hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/build.make
@@ -67,10 +67,10 @@ hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_tes
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/build
 
 hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/clean
 
 hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/ouster-ros /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/ouster-ros /home/gem/demo_ws/build/hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/run_tests_ouster_ros_gtest_ouster_ros_test.dir/depend
 

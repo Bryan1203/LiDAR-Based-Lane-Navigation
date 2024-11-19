@@ -1,8 +1,8 @@
-# Install script for directory: /home/gem/BobaBee_ws/src/vehicle_drivers/gem_visualization/gem_rviz_markers
+# Install script for directory: /home/gem/demo_ws/src/vehicle_drivers/gem_visualization/gem_rviz_markers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gem/BobaBee_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gem/BobaBee_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/catkin_generated/installspace/gem_rviz_markers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gem/demo_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/catkin_generated/installspace/gem_rviz_markers.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gem_rviz_markers/cmake" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/catkin_generated/installspace/gem_rviz_markersConfig.cmake"
-    "/home/gem/BobaBee_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/catkin_generated/installspace/gem_rviz_markersConfig-version.cmake"
+    "/home/gem/demo_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/catkin_generated/installspace/gem_rviz_markersConfig.cmake"
+    "/home/gem/demo_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/catkin_generated/installspace/gem_rviz_markersConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gem_rviz_markers" TYPE FILE FILES "/home/gem/BobaBee_ws/src/vehicle_drivers/gem_visualization/gem_rviz_markers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gem_rviz_markers" TYPE FILE FILES "/home/gem/demo_ws/src/vehicle_drivers/gem_visualization/gem_rviz_markers/package.xml")
 endif()
 

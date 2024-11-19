@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/tests/ring_buffer_test.cpp" "/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_test.dir/tests/ring_buffer_test.cpp.o"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/tests/ring_buffer_test.cpp" "/home/gem/demo_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_test.dir/tests/ring_buffer_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/gem/BobaBee_ws/devel/include"
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/include"
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/ouster-sdk/ouster_client/include"
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
+  "devel/include"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/include"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/ouster-sdk/ouster_client/include"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/ouster-sdk/ouster_client/include/optional-lite"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -34,7 +34,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gem/BobaBee_ws/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/gem/demo_ws/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

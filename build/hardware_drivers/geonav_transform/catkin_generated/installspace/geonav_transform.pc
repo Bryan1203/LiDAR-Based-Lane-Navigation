@@ -1,4 +1,4 @@
-prefix=/home/gem/BobaBee_ws/install
+prefix=/usr/local
 
 Name: geonav_transform
 Description: Description of geonav_transform

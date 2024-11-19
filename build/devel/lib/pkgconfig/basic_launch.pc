@@ -1,0 +1,8 @@
+prefix=/home/gem/demo_ws/build/devel
+
+Name: basic_launch
+Description: Description of basic_launch
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

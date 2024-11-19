@@ -1,0 +1,32 @@
+<library path="lib/libdepthai_filters">
+  <class name="depthai_filters/Detection2DOverlay" type="depthai_filters::Detection2DOverlay" base_class_type="nodelet::Nodelet">
+    <description>
+  Detection 2D Overlay.
+    </description>
+  </class>
+  <class name="depthai_filters/SegmentationOverlay" type="depthai_filters::SegmentationOverlay" base_class_type="nodelet::Nodelet">
+    <description>
+  Segmentation Overlay.
+    </description>
+  </class>
+  <class name="depthai_filters/WLSFilter" type="depthai_filters::WLSFilter" base_class_type="nodelet::Nodelet">
+    <description>
+  WLS Filter.
+    </description>
+  </class>
+  <class name="depthai_filters/SpatialBB" type="depthai_filters::SpatialBB" base_class_type="nodelet::Nodelet">
+    <description>
+  Spatial Bounding Box publisher.
+    </description>
+  </class>
+  <class name="depthai_filters/FeatureTrackerOverlay" type="depthai_filters::FeatureTrackerOverlay" base_class_type="nodelet::Nodelet">
+    <description>
+    2D Overlay for tracked features
+    </description>
+  </class>
+  <class name="depthai_filters/Features3D" type="depthai_filters::Features3D" base_class_type="nodelet::Nodelet">
+    <description>
+    3D Features (PCL) publisher
+    </description>
+  </class>
+</library>

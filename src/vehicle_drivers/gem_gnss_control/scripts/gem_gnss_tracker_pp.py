@@ -106,8 +106,8 @@ class PurePursuit(object):
         self.rate       = rospy.Rate(10)
 
         self.look_ahead = 4
-        self.wheelbase  = 1.75 # meters
-        self.offset     = 0    # meters
+        self.wheelbase  = 2.57 # meters
+        self.offset     = 1.26 # meters
 
         # self.gnss_sub   = rospy.Subscriber("/novatel/inspva", Inspva, self.inspva_callback)
 
@@ -123,8 +123,8 @@ class PurePursuit(object):
         self.speed_sub  = rospy.Subscriber("/pacmod/parsed_tx/vehicle_speed_rpt", VehicleSpeedRpt, self.speed_callback)
         self.speed      = 0.0
 
-        self.olat       = 40.092857    
-        self.olon       = -88.235992 
+        self.olat       = 40.092855    
+        self.olon       = -88.235981 
 
         # read waypoints into the system 
         self.goal       = 0            
@@ -173,7 +173,7 @@ class PurePursuit(object):
         self.steer_pub = rospy.Publisher('/pacmod/as_rx/steer_cmd', PositionWithSpeed, queue_size=1)
         self.steer_cmd = PositionWithSpeed()
         self.steer_cmd.angular_position = 0.0 # radians, -: clockwise, +: counter-clockwise
-        self.steer_cmd.angular_velocity_limit = 2.0 # radians/second
+        self.steer_cmd.angular_velocity_limit = 3.5 # radians/second
 
     def ins_callback(self, msg):
         self.heading = round(msg.heading, 6)
@@ -353,8 +353,8 @@ class PurePursuit(object):
             if output_accel > self.max_accel:
                 output_accel = self.max_accel
 
-            if output_accel < 0.3:
-                output_accel = 0.3
+            if output_accel < 0.2:
+                output_accel = 0.2
 
             if (f_delta_deg <= 30 and f_delta_deg >= -30):
                 self.turn_cmd.ui16_cmd = 1

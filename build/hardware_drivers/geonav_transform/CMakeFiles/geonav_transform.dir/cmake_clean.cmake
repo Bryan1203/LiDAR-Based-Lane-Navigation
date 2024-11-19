@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gem/BobaBee_ws/devel/lib/libgeonav_transform.pdb"
-  "/home/gem/BobaBee_ws/devel/lib/libgeonav_transform.so"
+  "../../devel/lib/libgeonav_transform.pdb"
+  "../../devel/lib/libgeonav_transform.so"
   "CMakeFiles/geonav_transform.dir/src/geonav_transform.cpp.o"
   "CMakeFiles/geonav_transform.dir/src/geonav_utilities.cpp.o"
 )

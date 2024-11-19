@@ -43,349 +43,349 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for camera_control_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/progress.make
 
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageGoal.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageResult.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageGoal.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageFeedback.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesGoal.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesFeedback.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GetCamProperties.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBinning.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBool.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBrightness.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetExposure.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGain.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGamma.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetROI.h
-hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetSleeping.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageAction.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageGoal.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageResult.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageAction.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageActionGoal.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageActionResult.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageGoal.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageResult.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageFeedback.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesAction.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesActionGoal.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesActionResult.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesActionFeedback.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesGoal.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesResult.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesFeedback.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GetCamProperties.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetBinning.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetBool.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetBrightness.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetExposure.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetGain.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetGamma.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetROI.h
+hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetSleeping.h
 
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageAction.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from camera_control_msgs/GrabAndSaveImageAction.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageAction.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageAction.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageActionGoal.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageActionResult.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageActionFeedback.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabAndSaveImageAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from camera_control_msgs/GrabAndSaveImageAction.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabAndSaveImageAction.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from camera_control_msgs/GrabAndSaveImageActionGoal.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionGoal.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageActionGoal.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from camera_control_msgs/GrabAndSaveImageActionGoal.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionGoal.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from camera_control_msgs/GrabAndSaveImageActionResult.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionResult.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageActionResult.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from camera_control_msgs/GrabAndSaveImageActionResult.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionResult.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from camera_control_msgs/GrabAndSaveImageActionFeedback.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionFeedback.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageActionFeedback.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from camera_control_msgs/GrabAndSaveImageActionFeedback.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabAndSaveImageActionFeedback.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from camera_control_msgs/GrabAndSaveImageGoal.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabAndSaveImageGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabAndSaveImageGoal.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg
+devel/include/camera_control_msgs/GrabAndSaveImageGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from camera_control_msgs/GrabAndSaveImageGoal.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabAndSaveImageGoal.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from camera_control_msgs/GrabAndSaveImageResult.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabAndSaveImageResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabAndSaveImageResult.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg
+devel/include/camera_control_msgs/GrabAndSaveImageResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from camera_control_msgs/GrabAndSaveImageResult.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabAndSaveImageResult.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from camera_control_msgs/GrabAndSaveImageFeedback.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h: devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg
+devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from camera_control_msgs/GrabAndSaveImageFeedback.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabAndSaveImageFeedback.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageAction.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from camera_control_msgs/GrabHDRImageAction.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageAction.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabHDRImageAction.h: devel/share/camera_control_msgs/msg/GrabHDRImageAction.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: devel/share/camera_control_msgs/msg/GrabHDRImageActionResult.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: devel/share/camera_control_msgs/msg/GrabHDRImageActionFeedback.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: devel/share/camera_control_msgs/msg/GrabHDRImageActionGoal.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabHDRImageAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from camera_control_msgs/GrabHDRImageAction.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageAction.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from camera_control_msgs/GrabHDRImageActionGoal.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionGoal.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: devel/share/camera_control_msgs/msg/GrabHDRImageActionGoal.msg
+devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg
+devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabHDRImageActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from camera_control_msgs/GrabHDRImageActionGoal.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageActionGoal.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from camera_control_msgs/GrabHDRImageActionResult.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionResult.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: devel/share/camera_control_msgs/msg/GrabHDRImageActionResult.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabHDRImageActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from camera_control_msgs/GrabHDRImageActionResult.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageActionResult.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from camera_control_msgs/GrabHDRImageActionFeedback.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageActionFeedback.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: devel/share/camera_control_msgs/msg/GrabHDRImageActionFeedback.msg
+devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg
+devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from camera_control_msgs/GrabHDRImageActionFeedback.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageActionFeedback.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from camera_control_msgs/GrabHDRImageGoal.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabHDRImageGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabHDRImageGoal.h: devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg
+devel/include/camera_control_msgs/GrabHDRImageGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from camera_control_msgs/GrabHDRImageGoal.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from camera_control_msgs/GrabHDRImageResult.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabHDRImageResult.h: devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg
+devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
+devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabHDRImageResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from camera_control_msgs/GrabHDRImageResult.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageResult.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from camera_control_msgs/GrabHDRImageFeedback.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabHDRImageFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabHDRImageFeedback.h: devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg
+devel/include/camera_control_msgs/GrabHDRImageFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from camera_control_msgs/GrabHDRImageFeedback.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageFeedback.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesAction.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from camera_control_msgs/GrabImagesAction.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesAction.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabImagesAction.h: devel/share/camera_control_msgs/msg/GrabImagesAction.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: devel/share/camera_control_msgs/msg/GrabImagesActionResult.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: devel/share/camera_control_msgs/msg/GrabImagesResult.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: devel/share/camera_control_msgs/msg/GrabImagesGoal.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: devel/share/camera_control_msgs/msg/GrabImagesActionFeedback.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: devel/share/camera_control_msgs/msg/GrabImagesActionGoal.msg
+devel/include/camera_control_msgs/GrabImagesAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from camera_control_msgs/GrabImagesAction.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabImagesAction.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from camera_control_msgs/GrabImagesActionGoal.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionGoal.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabImagesActionGoal.h: devel/share/camera_control_msgs/msg/GrabImagesActionGoal.msg
+devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabImagesActionGoal.h: devel/share/camera_control_msgs/msg/GrabImagesGoal.msg
+devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabImagesActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from camera_control_msgs/GrabImagesActionGoal.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabImagesActionGoal.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from camera_control_msgs/GrabImagesActionResult.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionResult.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabImagesActionResult.h: devel/share/camera_control_msgs/msg/GrabImagesActionResult.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: devel/share/camera_control_msgs/msg/GrabImagesResult.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabImagesActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from camera_control_msgs/GrabImagesActionResult.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabImagesActionResult.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from camera_control_msgs/GrabImagesActionFeedback.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesActionFeedback.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabImagesActionFeedback.h: devel/share/camera_control_msgs/msg/GrabImagesActionFeedback.msg
+devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabImagesActionFeedback.h: devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg
+devel/include/camera_control_msgs/GrabImagesActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from camera_control_msgs/GrabImagesActionFeedback.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabImagesActionFeedback.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesGoal.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesGoal.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from camera_control_msgs/GrabImagesGoal.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesGoal.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabImagesGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabImagesGoal.h: devel/share/camera_control_msgs/msg/GrabImagesGoal.msg
+devel/include/camera_control_msgs/GrabImagesGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from camera_control_msgs/GrabImagesGoal.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabImagesGoal.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesResult.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from camera_control_msgs/GrabImagesResult.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesResult.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabImagesResult.h: devel/share/camera_control_msgs/msg/GrabImagesResult.msg
+devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/sensor_msgs/msg/CameraInfo.msg
+devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/sensor_msgs/msg/Image.msg
+devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+devel/include/camera_control_msgs/GrabImagesResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from camera_control_msgs/GrabImagesResult.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabImagesResult.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesFeedback.h: /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from camera_control_msgs/GrabImagesFeedback.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GrabImagesFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GrabImagesFeedback.h: devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg
+devel/include/camera_control_msgs/GrabImagesFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from camera_control_msgs/GrabImagesFeedback.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabImagesFeedback.msg -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GetCamProperties.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GetCamProperties.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/GetCamProperties.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GetCamProperties.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/GetCamProperties.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from camera_control_msgs/GetCamProperties.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/GetCamProperties.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/GetCamProperties.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/GetCamProperties.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/GetCamProperties.srv
+devel/include/camera_control_msgs/GetCamProperties.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/GetCamProperties.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from camera_control_msgs/GetCamProperties.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/GetCamProperties.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBinning.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBinning.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetBinning.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBinning.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBinning.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from camera_control_msgs/SetBinning.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetBinning.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetBinning.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetBinning.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetBinning.srv
+devel/include/camera_control_msgs/SetBinning.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetBinning.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from camera_control_msgs/SetBinning.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetBinning.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBool.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBool.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetBool.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBool.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBool.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from camera_control_msgs/SetBool.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetBool.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetBool.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetBool.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetBool.srv
+devel/include/camera_control_msgs/SetBool.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetBool.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from camera_control_msgs/SetBool.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetBool.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBrightness.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBrightness.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetBrightness.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBrightness.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBrightness.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from camera_control_msgs/SetBrightness.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetBrightness.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetBrightness.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetBrightness.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetBrightness.srv
+devel/include/camera_control_msgs/SetBrightness.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetBrightness.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from camera_control_msgs/SetBrightness.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetBrightness.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetExposure.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetExposure.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetExposure.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetExposure.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetExposure.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from camera_control_msgs/SetExposure.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetExposure.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetExposure.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetExposure.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetExposure.srv
+devel/include/camera_control_msgs/SetExposure.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetExposure.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from camera_control_msgs/SetExposure.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetExposure.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGain.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGain.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetGain.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGain.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGain.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from camera_control_msgs/SetGain.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetGain.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetGain.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetGain.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetGain.srv
+devel/include/camera_control_msgs/SetGain.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetGain.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from camera_control_msgs/SetGain.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetGain.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGamma.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGamma.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetGamma.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGamma.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGamma.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from camera_control_msgs/SetGamma.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetGamma.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetGamma.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetGamma.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetGamma.srv
+devel/include/camera_control_msgs/SetGamma.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetGamma.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from camera_control_msgs/SetGamma.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetGamma.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetROI.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetROI.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from camera_control_msgs/SetROI.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetROI.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetROI.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetROI.srv
+devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/share/sensor_msgs/msg/RegionOfInterest.msg
+devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetROI.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from camera_control_msgs/SetROI.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetROI.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetSleeping.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetSleeping.h: /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetSleeping.srv
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetSleeping.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetSleeping.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from camera_control_msgs/SetSleeping.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs/srv/SetSleeping.srv -Icamera_control_msgs:/home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/BobaBee_ws/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/camera_control_msgs/SetSleeping.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/camera_control_msgs/SetSleeping.h: /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetSleeping.srv
+devel/include/camera_control_msgs/SetSleeping.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/camera_control_msgs/SetSleeping.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from camera_control_msgs/SetSleeping.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs/srv/SetSleeping.srv -Icamera_control_msgs:/home/gem/demo_ws/build/devel/share/camera_control_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p camera_control_msgs -o /home/gem/demo_ws/build/devel/include/camera_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 camera_control_msgs_generate_messages_cpp: hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageAction.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageGoal.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageResult.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageAction.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionGoal.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionResult.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageGoal.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageResult.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabHDRImageFeedback.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesAction.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionGoal.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionResult.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesActionFeedback.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesGoal.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesResult.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GrabImagesFeedback.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/GetCamProperties.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBinning.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBool.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetBrightness.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetExposure.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGain.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetGamma.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetROI.h
-camera_control_msgs_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/camera_control_msgs/SetSleeping.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageAction.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageActionGoal.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageActionResult.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageActionFeedback.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageGoal.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageResult.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabAndSaveImageFeedback.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageAction.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageActionGoal.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageActionResult.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageActionFeedback.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageGoal.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageResult.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabHDRImageFeedback.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesAction.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesActionGoal.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesActionResult.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesActionFeedback.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesGoal.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesResult.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GrabImagesFeedback.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/GetCamProperties.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetBinning.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetBool.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetBrightness.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetExposure.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetGain.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetGamma.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetROI.h
+camera_control_msgs_generate_messages_cpp: devel/include/camera_control_msgs/SetSleeping.h
 camera_control_msgs_generate_messages_cpp: hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : camera_control_msgs_generate_messages_cpp
@@ -396,10 +396,10 @@ hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_mes
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/build
 
 hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/clean
 
 hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/camera_control_msgs_generate_messages_cpp.dir/depend
 

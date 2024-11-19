@@ -43,53 +43,53 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for ouster_ros_generate_messages_eus.
 
 # Include the progress variables for this target.
 include hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/progress.make
 
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetConfig.l
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/SetConfig.l
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/manifest.l
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/srv/GetConfig.l
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/srv/SetConfig.l
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/manifest.l
 
 
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ouster_ros/PacketMsg.msg"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/msg
+devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ouster_ros/PacketMsg.msg"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/roseus/ros/ouster_ros/msg
 
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetConfig.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetConfig.l: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ouster_ros/GetConfig.srv"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv
+devel/share/roseus/ros/ouster_ros/srv/GetConfig.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/ouster_ros/srv/GetConfig.l: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ouster_ros/GetConfig.srv"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/roseus/ros/ouster_ros/srv
 
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/SetConfig.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/SetConfig.l: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from ouster_ros/SetConfig.srv"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv
+devel/share/roseus/ros/ouster_ros/srv/SetConfig.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/ouster_ros/srv/SetConfig.l: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from ouster_ros/SetConfig.srv"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/roseus/ros/ouster_ros/srv
 
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from ouster_ros/GetMetadata.srv"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv
+devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from ouster_ros/GetMetadata.srv"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/roseus/ros/ouster_ros/srv
 
-/home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp manifest code for ouster_ros"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros ouster_ros std_msgs sensor_msgs geometry_msgs
+devel/share/roseus/ros/ouster_ros/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp manifest code for ouster_ros"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/gem/demo_ws/build/devel/share/roseus/ros/ouster_ros ouster_ros std_msgs sensor_msgs geometry_msgs
 
 ouster_ros_generate_messages_eus: hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus
-ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l
-ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetConfig.l
-ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/SetConfig.l
-ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l
-ouster_ros_generate_messages_eus: /home/gem/BobaBee_ws/devel/share/roseus/ros/ouster_ros/manifest.l
+ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/msg/PacketMsg.l
+ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/srv/GetConfig.l
+ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/srv/SetConfig.l
+ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/srv/GetMetadata.l
+ouster_ros_generate_messages_eus: devel/share/roseus/ros/ouster_ros/manifest.l
 ouster_ros_generate_messages_eus: hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/build.make
 
 .PHONY : ouster_ros_generate_messages_eus
@@ -100,10 +100,10 @@ hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/buil
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/build
 
 hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/ouster_ros_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/ouster_ros_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/clean
 
 hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/ouster-ros /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/ouster-ros /home/gem/demo_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_eus.dir/depend
 

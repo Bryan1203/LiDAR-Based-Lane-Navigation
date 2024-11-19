@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="depthai_filters" pkg="depthai_filters" type="depthai_filters">
+  <param name="lambda" type="int" value="8000" />
+  <param name="sigma" type="double" value="1.5" />
+</node>
+\endverbatim
+

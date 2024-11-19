@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -105,7 +105,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/gem/BobaBee_ws/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gem/BobaBee_ws/build/CPackSourceConfig.cmake
+	cd /home/gem/demo_ws/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/gem/demo_ws/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/gem/BobaBee_ws/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/gem/demo_ws/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gem/BobaBee_ws/build/CMakeFiles /home/gem/BobaBee_ws/build/vehicle_drivers/gem_visualization/gem_gnss_image/CMakeFiles/progress.marks
-	cd /home/gem/BobaBee_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gem/BobaBee_ws/build/CMakeFiles 0
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gem/demo_ws/build/CMakeFiles /home/gem/demo_ws/build/vehicle_drivers/gem_visualization/gem_gnss_image/CMakeFiles/progress.marks
+	cd /home/gem/demo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gem/demo_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gem/BobaBee_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/clean
+	cd /home/gem/demo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,17 +176,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gem/BobaBee_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/preinstall
+	cd /home/gem/demo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gem/BobaBee_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/preinstall
+	cd /home/gem/demo_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vehicle_drivers/gem_visualization/gem_gnss_image/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -215,6 +215,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

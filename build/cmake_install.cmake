@@ -1,8 +1,8 @@
-# Install script for directory: /home/gem/BobaBee_ws/src
+# Install script for directory: /home/gem/demo_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gem/BobaBee_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,103 +49,107 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/gem/BobaBee_ws/install/_setup_util.py")
+   "/usr/local/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/gem/BobaBee_ws/install" TYPE PROGRAM FILES "/home/gem/BobaBee_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/gem/demo_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/gem/BobaBee_ws/install/env.sh")
+   "/usr/local/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/gem/BobaBee_ws/install" TYPE PROGRAM FILES "/home/gem/BobaBee_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/gem/demo_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/gem/BobaBee_ws/install/setup.bash;/home/gem/BobaBee_ws/install/local_setup.bash")
+   "/usr/local/setup.bash;/usr/local/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/gem/BobaBee_ws/install" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/gem/BobaBee_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+    "/home/gem/demo_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/gem/demo_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/gem/BobaBee_ws/install/setup.sh;/home/gem/BobaBee_ws/install/local_setup.sh")
+   "/usr/local/setup.sh;/usr/local/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/gem/BobaBee_ws/install" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/gem/BobaBee_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+    "/home/gem/demo_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/gem/demo_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/gem/BobaBee_ws/install/setup.zsh;/home/gem/BobaBee_ws/install/local_setup.zsh")
+   "/usr/local/setup.zsh;/usr/local/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/gem/BobaBee_ws/install" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/gem/BobaBee_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
+    "/home/gem/demo_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/gem/demo_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/gem/BobaBee_ws/install/.rosinstall")
+   "/usr/local/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/gem/BobaBee_ws/install" TYPE FILE FILES "/home/gem/BobaBee_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/gem/demo_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gem/BobaBee_ws/build/gtest/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/basic_launch/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/platform_launch/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/vehicle_drivers/gem_gnss_control/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/vehicle_drivers/gem_visualization/gem_gnss_image/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/vehicle_drivers/gem_pacmod_control/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/geonav_transform/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/vehicle_drivers/gem_visualization/gem_description/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/zed-ros-wrapper/zed-ros-interfaces/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/zed-ros-wrapper/zed_nodelets/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/zed-ros-wrapper/zed_ros/cmake_install.cmake")
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/zed-ros-wrapper/zed_wrapper/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/gtest/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/basic_launch/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/depthai-ros/depthai-ros/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/vehicle_drivers/gem_visualization/gem_rviz_markers/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/radar_bridge/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/camera_control_msgs/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/arena_camera/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/vehicle_drivers/gem_gnss_control/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/vehicle_drivers/gem_visualization/gem_gnss_image/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/livox_ros_driver2/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/ouster-ros/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/geonav_transform/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/septentrio_gnss_driver/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/vehicle_drivers/gem_visualization/gem_e4_description/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/depthai-ros/depthai_ros_msgs/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/depthai-ros/depthai_bridge/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/depthai-ros/depthai_filters/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/depthai-ros/depthai_descriptions/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/depthai-ros/depthai_examples/cmake_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/depthai-ros/depthai_ros_driver/cmake_install.cmake")
 
 endif()
 
@@ -157,5 +161,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gem/BobaBee_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gem/demo_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

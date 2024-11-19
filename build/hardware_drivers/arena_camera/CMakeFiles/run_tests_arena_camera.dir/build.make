@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for run_tests_arena_camera.
 
@@ -63,10 +63,10 @@ hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/build: run_t
 .PHONY : hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/build
 
 hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/arena_camera && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_arena_camera.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/arena_camera && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_arena_camera.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/clean
 
 hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/arena_camera /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/arena_camera /home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/arena_camera /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/arena_camera /home/gem/demo_ws/build/hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/arena_camera/CMakeFiles/run_tests_arena_camera.dir/depend
 

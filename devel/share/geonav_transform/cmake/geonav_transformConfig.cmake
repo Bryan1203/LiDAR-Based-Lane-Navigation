@@ -67,14 +67,14 @@ set(geonav_transform_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(geonav_transform_SOURCE_PREFIX /home/gem/BobaBee_ws/src/hardware_drivers/geonav_transform)
-  set(geonav_transform_DEVEL_PREFIX /home/gem/BobaBee_ws/devel)
+  set(geonav_transform_SOURCE_PREFIX /home/gem/demo_ws/src/hardware_drivers/geonav_transform)
+  set(geonav_transform_DEVEL_PREFIX /home/gem/demo_ws/devel)
   set(geonav_transform_INSTALL_PREFIX "")
   set(geonav_transform_PREFIX ${geonav_transform_DEVEL_PREFIX})
 else()
   set(geonav_transform_SOURCE_PREFIX "")
   set(geonav_transform_DEVEL_PREFIX "")
-  set(geonav_transform_INSTALL_PREFIX /home/gem/BobaBee_ws/install)
+  set(geonav_transform_INSTALL_PREFIX /home/gem/demo_ws/install)
   set(geonav_transform_PREFIX ${geonav_transform_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(geonav_transform_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/gem/BobaBee_ws/src/hardware_drivers/geonav_transform/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/gem/demo_ws/src/hardware_drivers/geonav_transform/include;/usr/include/eigen3 " STREQUAL " ")
   set(geonav_transform_INCLUDE_DIRS "")
-  set(_include_dirs "/home/gem/BobaBee_ws/src/hardware_drivers/geonav_transform/include;/usr/include/eigen3")
+  set(_include_dirs "/home/gem/demo_ws/src/hardware_drivers/geonav_transform/include;/usr/include/eigen3")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "https://github.com/bsb808/geonav_transform " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/gem/BobaBee_ws/src/hardware_drivers/geonav_transform/include;/usr/
         message(FATAL_ERROR "Project 'geonav_transform' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'geonav_transform' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/gem/BobaBee_ws/src/hardware_drivers/geonav_transform/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'geonav_transform' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/gem/demo_ws/src/hardware_drivers/geonav_transform/${idir}'.  ${_report}")
     endif()
     _list_append_unique(geonav_transform_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/gem/BobaBee_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/gem/demo_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

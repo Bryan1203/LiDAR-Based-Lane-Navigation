@@ -43,54 +43,54 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for ouster_ros_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/progress.make
 
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/PacketMsg.h
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/GetConfig.h
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/SetConfig.h
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/GetMetadata.h
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: devel/include/ouster_ros/PacketMsg.h
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: devel/include/ouster_ros/GetConfig.h
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: devel/include/ouster_ros/SetConfig.h
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp: devel/include/ouster_ros/GetMetadata.h
 
 
-/home/gem/BobaBee_ws/devel/include/ouster_ros/PacketMsg.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/ouster_ros/PacketMsg.h: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg
-/home/gem/BobaBee_ws/devel/include/ouster_ros/PacketMsg.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ouster_ros/PacketMsg.msg"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/ouster_ros/PacketMsg.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/ouster_ros/PacketMsg.h: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg
+devel/include/ouster_ros/PacketMsg.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ouster_ros/PacketMsg.msg"
+	cd /home/gem/demo_ws/src/hardware_drivers/ouster-ros && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetConfig.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetConfig.h: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetConfig.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetConfig.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ouster_ros/GetConfig.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/ouster_ros/GetConfig.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/ouster_ros/GetConfig.h: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv
+devel/include/ouster_ros/GetConfig.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/ouster_ros/GetConfig.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ouster_ros/GetConfig.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/ouster-ros && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/ouster_ros/SetConfig.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/ouster_ros/SetConfig.h: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv
-/home/gem/BobaBee_ws/devel/include/ouster_ros/SetConfig.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/ouster_ros/SetConfig.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ouster_ros/SetConfig.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/ouster_ros/SetConfig.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/ouster_ros/SetConfig.h: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv
+devel/include/ouster_ros/SetConfig.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/ouster_ros/SetConfig.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ouster_ros/SetConfig.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/ouster-ros && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetMetadata.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetMetadata.h: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetMetadata.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gem/BobaBee_ws/devel/include/ouster_ros/GetMetadata.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from ouster_ros/GetMetadata.srv"
-	cd /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros && /home/gem/BobaBee_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+devel/include/ouster_ros/GetMetadata.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/ouster_ros/GetMetadata.h: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv
+devel/include/ouster_ros/GetMetadata.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/ouster_ros/GetMetadata.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from ouster_ros/GetMetadata.srv"
+	cd /home/gem/demo_ws/src/hardware_drivers/ouster-ros && /home/gem/demo_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/include/ouster_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
 ouster_ros_generate_messages_cpp: hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp
-ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/PacketMsg.h
-ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/GetConfig.h
-ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/SetConfig.h
-ouster_ros_generate_messages_cpp: /home/gem/BobaBee_ws/devel/include/ouster_ros/GetMetadata.h
+ouster_ros_generate_messages_cpp: devel/include/ouster_ros/PacketMsg.h
+ouster_ros_generate_messages_cpp: devel/include/ouster_ros/GetConfig.h
+ouster_ros_generate_messages_cpp: devel/include/ouster_ros/SetConfig.h
+ouster_ros_generate_messages_cpp: devel/include/ouster_ros/GetMetadata.h
 ouster_ros_generate_messages_cpp: hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/build.make
 
 .PHONY : ouster_ros_generate_messages_cpp
@@ -101,10 +101,10 @@ hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/buil
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/build
 
 hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/ouster_ros_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/ouster_ros_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/clean
 
 hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/ouster-ros /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/ouster-ros /home/gem/demo_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_cpp.dir/depend
 

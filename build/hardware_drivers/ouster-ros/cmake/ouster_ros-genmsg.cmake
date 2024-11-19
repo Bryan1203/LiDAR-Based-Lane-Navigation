@@ -2,7 +2,7 @@
 
 message(STATUS "ouster_ros: 1 messages, 3 services")
 
-set(MSG_I_FLAGS "-Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,24 +17,24 @@ add_custom_target(ouster_ros_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
 add_custom_target(_ouster_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" ""
 )
 
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
 add_custom_target(_ouster_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" ""
 )
 
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
 add_custom_target(_ouster_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" ""
 )
 
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
 add_custom_target(_ouster_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ouster_ros" "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" ""
 )
 
 #
@@ -44,7 +44,7 @@ add_custom_target(_ouster_ros_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ouster_ros
@@ -52,19 +52,19 @@ _generate_msg_cpp(ouster_ros
 
 ### Generating Services
 _generate_srv_cpp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_cpp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_cpp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ouster_ros
@@ -82,13 +82,13 @@ add_custom_target(ouster_ros_generate_messages_cpp
 add_dependencies(ouster_ros_generate_messages ouster_ros_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_cpp _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_cpp _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_cpp _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_cpp _ouster_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -101,7 +101,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ouster_ros_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ouster_ros
@@ -109,19 +109,19 @@ _generate_msg_eus(ouster_ros
 
 ### Generating Services
 _generate_srv_eus(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_eus(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_eus(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ouster_ros
@@ -139,13 +139,13 @@ add_custom_target(ouster_ros_generate_messages_eus
 add_dependencies(ouster_ros_generate_messages ouster_ros_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_eus _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_eus _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_eus _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_eus _ouster_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -158,7 +158,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ouster_ros_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ouster_ros
@@ -166,19 +166,19 @@ _generate_msg_lisp(ouster_ros
 
 ### Generating Services
 _generate_srv_lisp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_lisp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_lisp(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ouster_ros
@@ -196,13 +196,13 @@ add_custom_target(ouster_ros_generate_messages_lisp
 add_dependencies(ouster_ros_generate_messages ouster_ros_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_lisp _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_lisp _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_lisp _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_lisp _ouster_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -215,7 +215,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ouster_ros_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ouster_ros
@@ -223,19 +223,19 @@ _generate_msg_nodejs(ouster_ros
 
 ### Generating Services
 _generate_srv_nodejs(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_nodejs(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_nodejs(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ouster_ros
@@ -253,13 +253,13 @@ add_custom_target(ouster_ros_generate_messages_nodejs
 add_dependencies(ouster_ros_generate_messages ouster_ros_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_nodejs _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_nodejs _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_nodejs _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_nodejs _ouster_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -272,7 +272,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ouster_ros_generate_messages_nodejs
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ouster_ros
@@ -280,19 +280,19 @@ _generate_msg_py(ouster_ros
 
 ### Generating Services
 _generate_srv_py(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_py(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ouster_ros
 )
 _generate_srv_py(ouster_ros
-  "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
+  "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ouster_ros
@@ -310,13 +310,13 @@ add_custom_target(ouster_ros_generate_messages_py
 add_dependencies(ouster_ros_generate_messages ouster_ros_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_py _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_py _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_py _ouster_ros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
+get_filename_component(_filename "/home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv" NAME_WE)
 add_dependencies(ouster_ros_generate_messages_py _ouster_ros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

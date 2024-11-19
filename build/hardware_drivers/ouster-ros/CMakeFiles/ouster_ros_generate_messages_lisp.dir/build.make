@@ -43,47 +43,47 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for ouster_ros_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/progress.make
 
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp
-hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp
+hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp
 
 
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ouster_ros/PacketMsg.msg"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/msg
+devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ouster_ros/PacketMsg.msg"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/common-lisp/ros/ouster_ros/msg
 
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from ouster_ros/GetConfig.srv"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv
+devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from ouster_ros/GetConfig.srv"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetConfig.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/common-lisp/ros/ouster_ros/srv
 
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from ouster_ros/SetConfig.srv"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv
+devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from ouster_ros/SetConfig.srv"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/SetConfig.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/common-lisp/ros/ouster_ros/srv
 
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp: /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/BobaBee_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from ouster_ros/GetMetadata.srv"
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv -Iouster_ros:/home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv
+devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp: /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gem/demo_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from ouster_ros/GetMetadata.srv"
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gem/demo_ws/src/hardware_drivers/ouster-ros/srv/GetMetadata.srv -Iouster_ros:/home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ouster_ros -o /home/gem/demo_ws/build/devel/share/common-lisp/ros/ouster_ros/srv
 
 ouster_ros_generate_messages_lisp: hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp
-ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp
-ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp
-ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp
-ouster_ros_generate_messages_lisp: /home/gem/BobaBee_ws/devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp
+ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/msg/PacketMsg.lisp
+ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/srv/GetConfig.lisp
+ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/srv/SetConfig.lisp
+ouster_ros_generate_messages_lisp: devel/share/common-lisp/ros/ouster_ros/srv/GetMetadata.lisp
 ouster_ros_generate_messages_lisp: hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/build.make
 
 .PHONY : ouster_ros_generate_messages_lisp
@@ -94,10 +94,10 @@ hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/bui
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/build
 
 hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/ouster_ros_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/ouster_ros_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/clean
 
 hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/ouster-ros /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/ouster-ros /home/gem/demo_ws/build/hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/ouster_ros_generate_messages_lisp.dir/depend
 

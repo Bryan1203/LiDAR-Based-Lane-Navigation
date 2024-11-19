@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gem/BobaBee_ws/devel/lib/libouster_ros.pdb"
-  "/home/gem/BobaBee_ws/devel/lib/libouster_ros.so"
+  "../../devel/lib/libouster_ros.pdb"
+  "../../devel/lib/libouster_ros.so"
   "CMakeFiles/ouster_ros.dir/src/os_ros.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gem/BobaBee_ws/devel/lib/libouster_client.a"
-  "/home/gem/BobaBee_ws/devel/lib/libouster_client.pdb"
+  "../../../../devel/lib/libouster_client.a"
+  "../../../../devel/lib/libouster_client.pdb"
   "CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o"
   "CMakeFiles/ouster_client.dir/src/client.cpp.o"
   "CMakeFiles/ouster_client.dir/src/image_processing.cpp.o"

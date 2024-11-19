@@ -1,0 +1,32 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~camera_i_enable_ir" : \b [bool] Enabling IR min: False, default: True, max: True
+- \b "~camera_i_floodlight_brightness" : \b [double] Floodlight brightness min: 0.0, default: 0.0, max: 1500.0
+- \b "~camera_i_laser_dot_brightness" : \b [double] Laser dot brightness min: 0.0, default: 800.0, max: 1200.0
+- \b "~left_r_keep_preview_aspect_ratio" : \b [bool] Keep preview aspect ratio min: False, default: True, max: True
+- \b "~left_r_exposure" : \b [int] Sensor exposure min: 1, default: 1000, max: 33000
+- \b "~left_r_focus" : \b [int] Focus min: 0, default: 1, max: 255
+- \b "~left_r_iso" : \b [int] Sensor iso min: 100, default: 800, max: 1600
+- \b "~left_r_set_man_exposure" : \b [bool] Enable manual exposure min: False, default: False, max: True
+- \b "~left_r_set_man_focus" : \b [bool] Enable manual focus min: False, default: False, max: True
+- \b "~left_r_set_man_whitebalance" : \b [bool] Enable manual whitebalance min: False, default: False, max: True
+- \b "~left_r_whitebalance" : \b [int] Whitebalance min: 1000, default: 3300, max: 12000
+- \b "~right_r_keep_preview_aspect_ratio" : \b [bool] Keep preview aspect ratio min: False, default: True, max: True
+- \b "~right_r_exposure" : \b [int] Sensor exposure min: 1, default: 1000, max: 33000
+- \b "~right_r_focus" : \b [int] Focus min: 0, default: 1, max: 255
+- \b "~right_r_iso" : \b [int] Sensor iso min: 100, default: 800, max: 1600
+- \b "~right_r_set_man_exposure" : \b [bool] Enable manual exposure min: False, default: False, max: True
+- \b "~right_r_set_man_focus" : \b [bool] Enable manual focus min: False, default: False, max: True
+- \b "~right_r_set_man_whitebalance" : \b [bool] Enable manual whitebalance min: False, default: False, max: True
+- \b "~right_r_whitebalance" : \b [int] Whitebalance min: 1000, default: 3300, max: 12000
+- \b "~rgb_r_keep_preview_aspect_ratio" : \b [bool] Keep preview aspect ratio min: False, default: True, max: True
+- \b "~rgb_r_exposure" : \b [int] Sensor exposure min: 1, default: 1000, max: 33000
+- \b "~rgb_r_focus" : \b [int] Focus min: 0, default: 1, max: 255
+- \b "~rgb_r_iso" : \b [int] Sensor iso min: 100, default: 800, max: 1600
+- \b "~rgb_r_set_man_exposure" : \b [bool] Enable manual exposure min: False, default: False, max: True
+- \b "~rgb_r_set_man_focus" : \b [bool] Enable manual focus min: False, default: False, max: True
+- \b "~rgb_r_set_man_whitebalance" : \b [bool] Enable manual whitebalance min: False, default: False, max: True
+- \b "~rgb_r_whitebalance" : \b [int] Whitebalance min: 1000, default: 3300, max: 12000
+

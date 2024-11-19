@@ -1,8 +1,0 @@
-prefix=/home/gem/BobaBee_ws/devel
-
-Name: gem_pacmod_control
-Description: Description of gem_pacmod_control
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
