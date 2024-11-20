@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gem/BobaBee_ws/devel/lib/arena_camera/write_device_user_id_to_camera"
-  "/home/gem/BobaBee_ws/devel/lib/arena_camera/write_device_user_id_to_camera.pdb"
+  "../../devel/lib/arena_camera/write_device_user_id_to_camera"
+  "../../devel/lib/arena_camera/write_device_user_id_to_camera.pdb"
   "CMakeFiles/write_device_user_id_to_camera.dir/src/write_device_user_id_to_camera.cpp.o"
 )
 

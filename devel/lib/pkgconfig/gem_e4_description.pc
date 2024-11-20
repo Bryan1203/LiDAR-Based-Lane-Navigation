@@ -1,0 +1,8 @@
+prefix=/home/gem/demo_ws/devel
+
+Name: gem_e4_description
+Description: Description of gem_e4_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

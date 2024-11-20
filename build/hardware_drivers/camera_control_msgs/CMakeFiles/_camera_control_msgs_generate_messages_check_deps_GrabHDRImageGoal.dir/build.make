@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for _camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
 include hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/progress.make
 
 hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py camera_control_msgs /home/gem/BobaBee_ws/devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg 
+	cd /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py camera_control_msgs /home/gem/demo_ws/build/devel/share/camera_control_msgs/msg/GrabHDRImageGoal.msg 
 
 _camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal: hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal
 _camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal: hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/build.make
@@ -67,10 +67,10 @@ hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_me
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/build
 
 hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/clean
 
 hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/_camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gem/BobaBee_ws/devel/lib/arena_camera/arena_camera_node"
-  "/home/gem/BobaBee_ws/devel/lib/arena_camera/arena_camera_node.pdb"
+  "../../devel/lib/arena_camera/arena_camera_node"
+  "../../devel/lib/arena_camera/arena_camera_node.pdb"
   "CMakeFiles/arena_camera_node.dir/src/arena_camera.cpp.o"
   "CMakeFiles/arena_camera_node.dir/src/arena_camera_node.cpp.o"
   "CMakeFiles/arena_camera_node.dir/src/arena_camera_parameter.cpp.o"

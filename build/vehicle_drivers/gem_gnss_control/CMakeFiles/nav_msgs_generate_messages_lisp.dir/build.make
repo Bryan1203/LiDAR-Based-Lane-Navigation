@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for nav_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/
 .PHONY : vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 
 vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean:
-	cd /home/gem/BobaBee_ws/build/vehicle_drivers/gem_gnss_control && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/vehicle_drivers/gem_gnss_control && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean
 
 vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/vehicle_drivers/gem_gnss_control /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/vehicle_drivers/gem_gnss_control /home/gem/BobaBee_ws/build/vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/vehicle_drivers/gem_gnss_control /home/gem/demo_ws/build /home/gem/demo_ws/build/vehicle_drivers/gem_gnss_control /home/gem/demo_ws/build/vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vehicle_drivers/gem_gnss_control/CMakeFiles/nav_msgs_generate_messages_lisp.dir/depend
 

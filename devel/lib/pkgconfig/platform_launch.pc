@@ -1,8 +1,0 @@
-prefix=/home/gem/BobaBee_ws/devel
-
-Name: platform_launch
-Description: Description of platform_launch
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

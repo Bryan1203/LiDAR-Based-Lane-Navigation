@@ -1,4 +1,4 @@
-prefix=/home/gem/BobaBee_ws/install
+prefix=/usr/local
 
 Name: camera_control_msgs
 Description: Description of camera_control_msgs

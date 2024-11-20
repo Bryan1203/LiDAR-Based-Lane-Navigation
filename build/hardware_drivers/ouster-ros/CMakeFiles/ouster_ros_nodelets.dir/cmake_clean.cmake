@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gem/BobaBee_ws/devel/lib/libouster_ros_nodelets.pdb"
-  "/home/gem/BobaBee_ws/devel/lib/libouster_ros_nodelets.so"
+  "../../devel/lib/libouster_ros_nodelets.pdb"
+  "../../devel/lib/libouster_ros_nodelets.so"
   "CMakeFiles/ouster_ros_nodelets.dir/src/os_cloud_nodelet.cpp.o"
   "CMakeFiles/ouster_ros_nodelets.dir/src/os_driver_nodelet.cpp.o"
   "CMakeFiles/ouster_ros_nodelets.dir/src/os_image_nodelet.cpp.o"

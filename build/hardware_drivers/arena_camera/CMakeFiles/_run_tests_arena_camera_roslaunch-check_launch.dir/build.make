@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for _run_tests_arena_camera_roslaunch-check_launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
 include hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/progress.make
 
 hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/arena_camera && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/gem/BobaBee_ws/build/test_results/arena_camera/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/gem/BobaBee_ws/build/test_results/arena_camera" "/opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/gem/BobaBee_ws/build/test_results/arena_camera/roslaunch-check_launch.xml\" \"/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/launch\" "
+	cd /home/gem/demo_ws/build/hardware_drivers/arena_camera && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/gem/demo_ws/build/test_results/arena_camera/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/gem/demo_ws/build/test_results/arena_camera" "/opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/gem/demo_ws/build/test_results/arena_camera/roslaunch-check_launch.xml\" \"/home/gem/demo_ws/src/hardware_drivers/arena_camera/launch\" "
 
 _run_tests_arena_camera_roslaunch-check_launch: hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch
 _run_tests_arena_camera_roslaunch-check_launch: hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/build.make
@@ -67,10 +67,10 @@ hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check
 .PHONY : hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/build
 
 hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/arena_camera && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/arena_camera && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/clean
 
 hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/arena_camera /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/arena_camera /home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/arena_camera /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/arena_camera /home/gem/demo_ws/build/hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/arena_camera/CMakeFiles/_run_tests_arena_camera_roslaunch-check_launch.dir/depend
 

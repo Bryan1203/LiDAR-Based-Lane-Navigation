@@ -1,0 +1,8 @@
+prefix=/home/gem/demo_ws/build/devel
+
+Name: arena_camera
+Description: Description of arena_camera
+Version: 0.0.0
+Cflags: -I/home/gem/demo_ws/src/hardware_drivers/arena_camera/include
+Libs: -L${prefix}/lib -larena_camera
+Requires: actionlib camera_control_msgs camera_info_manager cv_bridge diagnostic_updater image_geometry image_transport roscpp roslint roslaunch sensor_msgs

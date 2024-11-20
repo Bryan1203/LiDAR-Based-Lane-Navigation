@@ -1,4 +1,4 @@
-prefix=/home/gem/BobaBee_ws/devel
+prefix=/home/gem/demo_ws/devel
 
 Name: gem_rviz_markers
 Description: Description of gem_rviz_markers

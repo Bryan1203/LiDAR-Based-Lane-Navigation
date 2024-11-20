@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/eigen3".split(
 PROJECT_CATKIN_DEPENDS = "roscpp;message_runtime;std_msgs;sensor_msgs;geometry_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-louster_ros".split(';') if "-louster_ros" != "" else []
 PROJECT_NAME = "ouster_ros"
-PROJECT_SPACE_DIR = "/home/gem/BobaBee_ws/install"
+PROJECT_SPACE_DIR = "/usr/local"
 PROJECT_VERSION = "0.9.2"

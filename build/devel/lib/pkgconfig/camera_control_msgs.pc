@@ -1,0 +1,8 @@
+prefix=/home/gem/demo_ws/build/devel
+
+Name: camera_control_msgs
+Description: Description of camera_control_msgs
+Version: 0.2.1
+Cflags: -I/home/gem/demo_ws/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs sensor_msgs message_runtime

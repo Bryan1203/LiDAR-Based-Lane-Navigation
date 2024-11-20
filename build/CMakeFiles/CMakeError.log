@@ -1,21 +1,23 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gem/demo_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_fb23c/fast && /usr/bin/make -f CMakeFiles/cmTC_fb23c.dir/build.make CMakeFiles/cmTC_fb23c.dir/build
-make[1]: Entering directory '/home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fb23c.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fb23c.dir/src.c.o   -c /home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_fb23c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb23c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_fb23c.dir/src.c.o  -o cmTC_fb23c 
-/usr/bin/ld: CMakeFiles/cmTC_fb23c.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_d996c/fast && make[1]: Entering directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d996c.dir/build.make CMakeFiles/cmTC_d996c.dir/build
+make[2]: Entering directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d996c.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d996c.dir/src.c.o   -c /home/gem/demo_ws/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d996c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d996c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_d996c.dir/src.c.o  -o cmTC_d996c 
+/usr/bin/ld: CMakeFiles/cmTC_d996c.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_fb23c.dir/build.make:87: cmTC_fb23c] Error 1
-make[1]: Leaving directory '/home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_fb23c/fast] Error 2
+make[2]: *** [CMakeFiles/cmTC_d996c.dir/build.make:87: cmTC_d996c] Error 1
+make[2]: Leaving directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_d996c/fast] Error 2
+make[1]: Leaving directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
@@ -39,39 +41,22 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/gem/demo_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6a8f2/fast && /usr/bin/make -f CMakeFiles/cmTC_6a8f2.dir/build.make CMakeFiles/cmTC_6a8f2.dir/build
-make[1]: Entering directory '/home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6a8f2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6a8f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6a8f2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a8f2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6a8f2.dir/CheckFunctionExists.c.o  -o cmTC_6a8f2  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_343e8/fast && make[1]: Entering directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_343e8.dir/build.make CMakeFiles/cmTC_343e8.dir/build
+make[2]: Entering directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_343e8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_343e8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_343e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_343e8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_343e8.dir/CheckFunctionExists.c.o  -o cmTC_343e8  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_6a8f2.dir/build.make:87: cmTC_6a8f2] Error 1
-make[1]: Leaving directory '/home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_6a8f2/fast] Error 2
-
-
-
-Determining if the function sgemm_ exists failed with the following output:
-Change Dir: /home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_36ec2/fast && /usr/bin/make -f CMakeFiles/cmTC_36ec2.dir/build.make CMakeFiles/cmTC_36ec2.dir/build
-make[1]: Entering directory '/home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_36ec2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fPIE   -o CMakeFiles/cmTC_36ec2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_36ec2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36ec2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_36ec2.dir/CheckFunctionExists.c.o  -o cmTC_36ec2 
-/usr/bin/ld: CMakeFiles/cmTC_36ec2.dir/CheckFunctionExists.c.o: in function `main':
-CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
-collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_36ec2.dir/build.make:87: cmTC_36ec2] Error 1
-make[1]: Leaving directory '/home/gem/BobaBee_ws/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_36ec2/fast] Error 2
+make[2]: *** [CMakeFiles/cmTC_343e8.dir/build.make:87: cmTC_343e8] Error 1
+make[2]: Leaving directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_343e8/fast] Error 2
+make[1]: Leaving directory '/home/gem/demo_ws/build/CMakeFiles/CMakeTmp'
 
 
 

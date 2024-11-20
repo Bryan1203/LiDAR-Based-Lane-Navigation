@@ -1,8 +1,8 @@
-# Install script for directory: /home/gem/BobaBee_ws/src/hardware_drivers/arena_camera
+# Install script for directory: /home/gem/demo_ws/src/hardware_drivers/arena_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gem/BobaBee_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,40 +38,40 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/catkin_generated/safe_execute_install.cmake")
+  include("/home/gem/demo_ws/build/hardware_drivers/arena_camera/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/catkin_generated/installspace/arena_camera.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gem/demo_ws/build/hardware_drivers/arena_camera/catkin_generated/installspace/arena_camera.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera/cmake" TYPE FILE FILES
-    "/home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/catkin_generated/installspace/arena_cameraConfig.cmake"
-    "/home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/catkin_generated/installspace/arena_cameraConfig-version.cmake"
+    "/home/gem/demo_ws/build/hardware_drivers/arena_camera/catkin_generated/installspace/arena_cameraConfig.cmake"
+    "/home/gem/demo_ws/build/hardware_drivers/arena_camera/catkin_generated/installspace/arena_cameraConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera" TYPE FILE FILES "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera" TYPE FILE FILES "/home/gem/demo_ws/src/hardware_drivers/arena_camera/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera/launch" TYPE DIRECTORY FILES "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/launch/" FILES_MATCHING REGEX "/[^/]*\\.launch$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera/launch" TYPE DIRECTORY FILES "/home/gem/demo_ws/src/hardware_drivers/arena_camera/launch/" FILES_MATCHING REGEX "/[^/]*\\.launch$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera/config" TYPE DIRECTORY FILES "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/config/" FILES_MATCHING REGEX "/[^/]*\\.yaml$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera/config" TYPE DIRECTORY FILES "/home/gem/demo_ws/src/hardware_drivers/arena_camera/config/" FILES_MATCHING REGEX "/[^/]*\\.yaml$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arena_camera" TYPE PROGRAM FILES
-    "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/scripts/file_sequencer.py"
-    "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/scripts/grab_and_save_image_action_server.py"
-    "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/scripts/result_bag_to_action.py"
-    "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/scripts/sequence_to_file.py"
-    "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/scripts/toggle_camera"
-    "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/scripts/triggered_image_topic.py"
+    "/home/gem/demo_ws/src/hardware_drivers/arena_camera/scripts/file_sequencer.py"
+    "/home/gem/demo_ws/src/hardware_drivers/arena_camera/scripts/grab_and_save_image_action_server.py"
+    "/home/gem/demo_ws/src/hardware_drivers/arena_camera/scripts/result_bag_to_action.py"
+    "/home/gem/demo_ws/src/hardware_drivers/arena_camera/scripts/sequence_to_file.py"
+    "/home/gem/demo_ws/src/hardware_drivers/arena_camera/scripts/toggle_camera"
+    "/home/gem/demo_ws/src/hardware_drivers/arena_camera/scripts/triggered_image_topic.py"
     )
 endif()
 
@@ -82,7 +82,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arena_camera/arena_camera_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arena_camera" TYPE EXECUTABLE FILES "/home/gem/BobaBee_ws/devel/lib/arena_camera/arena_camera_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arena_camera" TYPE EXECUTABLE FILES "/home/gem/demo_ws/build/devel/lib/arena_camera/arena_camera_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arena_camera/arena_camera_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arena_camera/arena_camera_node")
     file(RPATH_CHANGE
@@ -102,7 +102,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arena_camera/write_device_user_id_to_camera"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arena_camera" TYPE EXECUTABLE FILES "/home/gem/BobaBee_ws/devel/lib/arena_camera/write_device_user_id_to_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/arena_camera" TYPE EXECUTABLE FILES "/home/gem/demo_ws/build/devel/lib/arena_camera/write_device_user_id_to_camera")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arena_camera/write_device_user_id_to_camera" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/arena_camera/write_device_user_id_to_camera")
     file(RPATH_CHANGE
@@ -116,6 +116,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/arena_camera" TYPE DIRECTORY FILES "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/include/arena_camera/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/internal$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/arena_camera" TYPE DIRECTORY FILES "/home/gem/demo_ws/src/hardware_drivers/arena_camera/include/arena_camera/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/internal$" EXCLUDE)
 endif()
 

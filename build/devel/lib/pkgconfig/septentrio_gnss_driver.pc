@@ -1,0 +1,8 @@
+prefix=/home/gem/demo_ws/build/devel
+
+Name: septentrio_gnss_driver
+Description: Description of septentrio_gnss_driver
+Version: 1.3.2
+Cflags: -I/home/gem/demo_ws/build/devel/include -I/home/gem/demo_ws/src/hardware_drivers/septentrio_gnss_driver/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: cpp_common rosconsole roscpp roscpp_serialization rostime xmlrpcpp message_runtime

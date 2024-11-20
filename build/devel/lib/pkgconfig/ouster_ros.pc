@@ -1,0 +1,8 @@
+prefix=/home/gem/demo_ws/build/devel
+
+Name: ouster_ros
+Description: Description of ouster_ros
+Version: 0.9.2
+Cflags: -I/home/gem/demo_ws/build/devel/include -I/home/gem/demo_ws/src/hardware_drivers/ouster-ros/include -I/home/gem/demo_ws/src/hardware_drivers/ouster-ros/ouster-sdk/ouster_client/include -I/home/gem/demo_ws/src/hardware_drivers/ouster-ros/ouster-sdk/ouster_client/include/optional-lite -I/usr/include/eigen3
+Libs: -L${prefix}/lib -louster_ros
+Requires: roscpp message_runtime std_msgs sensor_msgs geometry_msgs

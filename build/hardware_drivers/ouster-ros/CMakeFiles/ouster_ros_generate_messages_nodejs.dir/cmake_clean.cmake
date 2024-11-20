@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/gem/BobaBee_ws/devel/share/gennodejs/ros/ouster_ros/msg/PacketMsg.js"
-  "/home/gem/BobaBee_ws/devel/share/gennodejs/ros/ouster_ros/srv/GetConfig.js"
-  "/home/gem/BobaBee_ws/devel/share/gennodejs/ros/ouster_ros/srv/GetMetadata.js"
-  "/home/gem/BobaBee_ws/devel/share/gennodejs/ros/ouster_ros/srv/SetConfig.js"
+  "../../devel/share/gennodejs/ros/ouster_ros/msg/PacketMsg.js"
+  "../../devel/share/gennodejs/ros/ouster_ros/srv/GetConfig.js"
+  "../../devel/share/gennodejs/ros/ouster_ros/srv/GetMetadata.js"
+  "../../devel/share/gennodejs/ros/ouster_ros/srv/SetConfig.js"
   "CMakeFiles/ouster_ros_generate_messages_nodejs"
 )
 

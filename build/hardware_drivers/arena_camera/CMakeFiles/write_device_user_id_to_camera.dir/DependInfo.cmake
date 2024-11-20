@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/src/write_device_user_id_to_camera.cpp" "/home/gem/BobaBee_ws/build/hardware_drivers/arena_camera/CMakeFiles/write_device_user_id_to_camera.dir/src/write_device_user_id_to_camera.cpp.o"
+  "/home/gem/demo_ws/src/hardware_drivers/arena_camera/src/write_device_user_id_to_camera.cpp" "/home/gem/demo_ws/build/hardware_drivers/arena_camera/CMakeFiles/write_device_user_id_to_camera.dir/src/write_device_user_id_to_camera.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ArenaSDK_Linux_x64/GenICam/library/CPP/include"
   "/opt/ArenaSDK_Linux_x64/include/Arena"
-  "/home/gem/BobaBee_ws/src/hardware_drivers/arena_camera/include"
+  "/home/gem/demo_ws/src/hardware_drivers/arena_camera/include"
   )
 
 # Targets to which this target links.

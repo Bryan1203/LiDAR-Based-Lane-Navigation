@@ -1,4 +1,4 @@
-prefix=/home/gem/BobaBee_ws/install
+prefix=/usr/local
 
 Name: gem_gnss_control
 Description: Description of gem_gnss_control

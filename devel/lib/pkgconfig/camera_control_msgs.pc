@@ -1,8 +1,8 @@
-prefix=/home/gem/BobaBee_ws/devel
+prefix=/home/gem/demo_ws/devel
 
 Name: camera_control_msgs
 Description: Description of camera_control_msgs
 Version: 0.2.1
-Cflags: -I/home/gem/BobaBee_ws/devel/include
+Cflags: -I/home/gem/demo_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: actionlib_msgs sensor_msgs message_runtime

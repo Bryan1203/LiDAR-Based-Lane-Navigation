@@ -67,14 +67,14 @@ set(arena_camera_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(arena_camera_SOURCE_PREFIX /home/gem/BobaBee_ws/src/hardware_drivers/arena_camera)
-  set(arena_camera_DEVEL_PREFIX /home/gem/BobaBee_ws/devel)
+  set(arena_camera_SOURCE_PREFIX /home/gem/demo_ws/src/hardware_drivers/arena_camera)
+  set(arena_camera_DEVEL_PREFIX /home/gem/demo_ws/build/devel)
   set(arena_camera_INSTALL_PREFIX "")
   set(arena_camera_PREFIX ${arena_camera_DEVEL_PREFIX})
 else()
   set(arena_camera_SOURCE_PREFIX "")
   set(arena_camera_DEVEL_PREFIX "")
-  set(arena_camera_INSTALL_PREFIX /home/gem/BobaBee_ws/install)
+  set(arena_camera_INSTALL_PREFIX /usr/local)
   set(arena_camera_PREFIX ${arena_camera_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/gem/BobaBee_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /usr/local/lib;/home/gem/KACHOW/demo_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

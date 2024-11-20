@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for _ouster_ros_generate_messages_check_deps_PacketMsg.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
 include hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/progress.make
 
 hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ouster_ros /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg 
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ouster_ros /home/gem/demo_ws/src/hardware_drivers/ouster-ros/msg/PacketMsg.msg 
 
 _ouster_ros_generate_messages_check_deps_PacketMsg: hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg
 _ouster_ros_generate_messages_check_deps_PacketMsg: hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/build.make
@@ -67,10 +67,10 @@ hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/build
 
 hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/ouster-ros && $(CMAKE_COMMAND) -P CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/clean
 
 hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros /home/gem/BobaBee_ws/build/hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/ouster-ros /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/ouster-ros /home/gem/demo_ws/build/hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/ouster-ros/CMakeFiles/_ouster_ros_generate_messages_check_deps_PacketMsg.dir/depend
 

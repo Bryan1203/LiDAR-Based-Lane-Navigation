@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: depthai_descriptions
+Description: Description of depthai_descriptions
+Version: 2.9.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

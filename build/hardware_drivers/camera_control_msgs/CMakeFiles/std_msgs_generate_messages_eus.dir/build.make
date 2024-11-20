@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gem/BobaBee_ws/src
+CMAKE_SOURCE_DIR = /home/gem/demo_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gem/BobaBee_ws/build
+CMAKE_BINARY_DIR = /home/gem/demo_ws/build
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.d
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 
 hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	cd /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/gem/BobaBee_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/BobaBee_ws/src /home/gem/BobaBee_ws/src/hardware_drivers/camera_control_msgs /home/gem/BobaBee_ws/build /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs /home/gem/BobaBee_ws/build/hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gem/demo_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gem/demo_ws/src /home/gem/demo_ws/src/hardware_drivers/camera_control_msgs /home/gem/demo_ws/build /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs /home/gem/demo_ws/build/hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hardware_drivers/camera_control_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 
