@@ -3,6 +3,7 @@ from sklearn.cluster import DBSCAN
 from sklearn.linear_model import RANSACRegressor
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
+import matplotlib.pyplot as plt
 
 # Load the .npy file
 lidar_points  = np.load("lane_lines.npy")
@@ -36,27 +37,32 @@ for cluster_id in np.unique(dbscan.labels_):
     X_range = np.linspace(np.min(X_cluster), np.max(X_cluster), 100).reshape(-1, 1)
     Y_pred = ransac.predict(X_range)
     fitted_lines[cluster_id] = (X_range, Y_pred)
+    # Plot the points and fitted line
+    plt.scatter(X_cluster, Y_cluster, color='blue', label='Lane Points')
+    plt.plot(X_range, Y_pred, color='red', label='RANSAC Lane Line')
+    plt.legend()
+    plt.show()
 
-# --------------- Publish the Lane Lines ---------------------#
-import rospy
-from sensor_msgs.msg import PointCloud2
-import sensor_msgs.point_cloud2 as pc2
+# # --------------- Publish the Lane Lines ---------------------#
+# import rospy
+# from sensor_msgs.msg import PointCloud2
+# import sensor_msgs.point_cloud2 as pc2
 
-rospy.init_node("lane_line_ransac_publisher")
-pub = rospy.Publisher("/ransac_lane_lines", PointCloud2, queue_size=10)
+# rospy.init_node("lane_line_ransac_publisher")
+# pub = rospy.Publisher("/ransac_lane_lines", PointCloud2, queue_size=10)
 
-header = rospy.Header()
-header.frame_id = "map"
+# header = rospy.Header()
+# header.frame_id = "map"
 
-# Convert fitted lines to PointCloud2
-while not rospy.is_shutdown():
-    all_points = []
-    for cluster_id, (X_range, Y_pred) in fitted_lines.items():
-        for x, y in zip(X_range.flatten(), Y_pred):
-            all_points.append((x, y, 0.0))  # z = 0 for simplicity
+# # Convert fitted lines to PointCloud2
+# while not rospy.is_shutdown():
+#     all_points = []
+#     for cluster_id, (X_range, Y_pred) in fitted_lines.items():
+#         for x, y in zip(X_range.flatten(), Y_pred):
+#             all_points.append((x, y, 0.0))  # z = 0 for simplicity
 
-    # Create and publish PointCloud2
-    cloud_msg = pc2.create_cloud_xyz32(header, all_points)
-    pub.publish(cloud_msg)
-    rospy.sleep(0.1)
+#     # Create and publish PointCloud2
+#     cloud_msg = pc2.create_cloud_xyz32(header, all_points)
+#     pub.publish(cloud_msg)
+#     rospy.sleep(0.1)
 
