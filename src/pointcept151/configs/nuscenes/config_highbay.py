@@ -38,11 +38,11 @@ model = dict(
         enc_depths=(2, 2, 2, 6, 2),
         enc_channels=(32, 64, 128, 256, 512),
         enc_num_head=(2, 4, 8, 16, 32),
-        enc_patch_size=(64, 64, 64, 64, 64),
+        enc_patch_size=(1024, 1024, 1024, 1024, 1024),
         dec_depths=(2, 2, 2, 2),
         dec_channels=(64, 64, 128, 256),
         dec_num_head=(4, 4, 8, 16),
-        dec_patch_size=(64, 64, 64, 64),
+        dec_patch_size=(1024, 1024, 1024, 1024),
         mlp_ratio=4,
         qkv_bias=True,
         qk_scale=None,
@@ -52,7 +52,7 @@ model = dict(
         shuffle_orders=True,
         pre_norm=True,
         enable_rpe=False,
-        enable_flash=False,
+        enable_flash=True,
         upcast_attention=False,
         upcast_softmax=False,
         cls_mode=False,
@@ -144,7 +144,7 @@ data = dict(
             dict(type='Copy', keys_dict=dict(segment='origin_segment')),
             dict(
                 type='GridSample',
-                grid_size=0.025,
+                grid_size=0.05,
                 hash_type='fnv',
                 mode='train',
                 keys=('coord', 'strength', 'segment'),
@@ -167,55 +167,7 @@ data = dict(
                     keys=('coord', 'grid_coord', 'index'),
                     feat_keys=('coord', 'strength'))
             ],
-            aug_transform=[[{
-                'type': 'RandomScale',
-                'scale': [0.9, 0.9]
-            }], [{
-                'type': 'RandomScale',
-                'scale': [0.95, 0.95]
-            }], [{
-                'type': 'RandomScale',
-                'scale': [1, 1]
-            }], [{
-                'type': 'RandomScale',
-                'scale': [1.05, 1.05]
-            }], [{
-                'type': 'RandomScale',
-                'scale': [1.1, 1.1]
-            }],
-                           [{
-                               'type': 'RandomScale',
-                               'scale': [0.9, 0.9]
-                           }, {
-                               'type': 'RandomFlip',
-                               'p': 1
-                           }],
-                           [{
-                               'type': 'RandomScale',
-                               'scale': [0.95, 0.95]
-                           }, {
-                               'type': 'RandomFlip',
-                               'p': 1
-                           }],
-                           [{
-                               'type': 'RandomScale',
-                               'scale': [1, 1]
-                           }, {
-                               'type': 'RandomFlip',
-                               'p': 1
-                           }],
-                           [{
-                               'type': 'RandomScale',
-                               'scale': [1.05, 1.05]
-                           }, {
-                               'type': 'RandomFlip',
-                               'p': 1
-                           }],
-                           [{
-                               'type': 'RandomScale',
-                               'scale': [1.1, 1.1]
-                           }, {
-                               'type': 'RandomFlip',
-                               'p': 1
-                           }]]),
+            aug_transform = [
+                [dict(type="RandomRotateTargetAngle", angle=[0], axis="z", center=[0, 0, 0], p=1)]
+            ]),
         ignore_index=-1))
