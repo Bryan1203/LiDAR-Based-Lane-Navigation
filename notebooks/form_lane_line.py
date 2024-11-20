@@ -5,11 +5,15 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 import matplotlib.pyplot as plt
 
-# Load the .npy file
-lidar_points  = np.load("lane_lines.npy")
+# Load the lane line labels and point cloud data
+lane_labels = np.load("lane_lines.npy")
+point_cloud = np.load("pointcloud.npy")
 
-# Filter points labeled as lane lines (e.g., label == 1)
-lane_line_points = lidar_points[lidar_points[:, 4] == 1]
+# Get lane point indices from frame 0 
+frame0_lane_indices = lane_labels[0] == 1
+
+# Extract lane points from point cloud using frame 0 indices
+lane_line_points = point_cloud[frame0_lane_indices]
 
 
 # ---------------------------CLUSTERING and RANSAC--------------------------------#
