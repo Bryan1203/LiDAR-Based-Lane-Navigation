@@ -6,14 +6,15 @@ from sklearn.pipeline import make_pipeline
 import matplotlib.pyplot as plt
 
 # Load the lane line labels and point cloud data
-lane_labels = np.load("lane_lines.npy")
-point_cloud = np.load("pointcloud.npy")
+lane_labels = np.load(r"D:\484_final_project\processed_point_cloud\slam06_laneline.npy")
+point_cloud = np.load(r"D:\484_final_project\processed_point_cloud\slam06_mapping_global.npy")
 
 # Get lane point indices from frame 0 
 frame0_lane_indices = lane_labels[0] == 1
 
 # Extract lane points from point cloud using frame 0 indices
-lane_line_points = point_cloud[frame0_lane_indices]
+frame0_points = point_cloud[0].reshape(-1,point_cloud.shape[1])
+lane_line_points = frame0_points[frame0_lane_indices]
 
 
 # ---------------------------CLUSTERING and RANSAC--------------------------------#
