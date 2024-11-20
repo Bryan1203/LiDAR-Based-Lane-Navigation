@@ -1,0 +1,183 @@
+# Configuration Settings for the Rover Rx
+
+# INS Parameters
+
+device: tcp://10.42.0.127:28784
+
+serial:
+  baudrate: 921600
+  hw_flow_control: "off"
+
+stream_device:
+  tcp:
+    ip_server: ""
+    port: 0
+  udp:
+    ip_server: ""
+    port: 0
+    unicast_ip: ""
+
+configure_rx: false
+
+login:
+  user: ""
+  password: ""
+
+osnma:
+  mode: "loose"
+  ntp_server: ""
+  keep_open: true
+
+frame_id: gnss
+
+imu_frame_id: imu
+
+poi_frame_id: base_link
+
+vsm_frame_id: vsm
+
+aux1_frame_id: aux1
+
+vehicle_frame_id: base_link
+
+local_frame_id: odom
+
+insert_local_frame: false
+
+get_spatial_config_from_tf: true
+
+lock_utm_zone: true
+
+use_ros_axis_orientation: false
+
+receiver_type: ins
+
+multi_antenna: true
+
+datum: WGS84
+
+att_offset:
+  heading: 90.0
+  pitch: 0.0
+
+ant_type: "TWI7972+GP NONE"
+ant_serial_nr: "Unknown"
+ant_aux1_type: "TWI7972+GP NONE"
+ant_aux1_serial_nr: "Unknown"
+
+polling_period:
+  pvt: 0
+  rest: 500
+
+use_gnss_time: false
+
+latency_compensation: false
+
+rtk_settings:
+  keep_open: true
+  ntrip_1:
+    id: ""
+    caster: ""
+    caster_port: 2101
+    username: ""
+    password: ""
+    mountpoint: ""
+    version: "v2"
+    tls: false
+    fingerprint: ""
+    rtk_standard: "auto"
+    send_gga: "auto"
+  ip_server_1:
+    id: ""
+    port: 0
+    rtk_standard: "auto"
+    send_gga: "auto"
+  serial_1:
+    port: ""
+    baud_rate: 115200
+    rtk_standard: "auto"
+    send_gga: "auto"
+
+publish:
+  # For both GNSS and INS Rxs
+  navsatfix: true
+  gpsfix: false
+  gpgga: false
+  gprmc: false
+  gpst: false
+  measepoch: false
+  pvtcartesian: false
+  pvtgeodetic: true
+  basevectorcart: false
+  basevectorgeod: false
+  poscovcartesian: false
+  poscovgeodetic: false
+  velcovcartesian: false
+  velcovgeodetic: false
+  atteuler: false
+  attcoveuler: false
+  pose: false
+  twist: true
+  diagnostics: false
+  aimplusstatus: false
+  galauthstatus: false
+  # For INS Rx only
+  insnavcart: false
+  insnavgeod: true
+  extsensormeas: false
+  imusetup: false
+  velsensorsetup: false
+  exteventinsnavcart: false
+  exteventinsnavgeod: false
+  imu: true
+  localization: false
+  tf: false
+  localization_ecef: false
+  tf_ecef: false
+
+# INS-Specific Parameters
+
+ins_spatial_config:
+  imu_orientation:
+    theta_x: 180.0
+    theta_y: 0.0
+    theta_z: 0.0
+  poi_lever_arm:
+    delta_x: 0.0
+    delta_y: 0.0
+    delta_z: 0.0
+  ant_lever_arm:
+    x: 0.0
+    y: -0.635
+    z: -1.580
+  vsm_lever_arm:
+    vsm_x: 0.0
+    vsm_y: 0.0
+    vsm_z: 0.0
+
+ins_initial_heading: auto
+
+ins_std_dev_mask:
+  att_std_dev: 5.0
+  pos_std_dev: 10.0
+
+ins_use_poi: true
+
+ins_vsm:
+  ros:
+    source: ""
+    config: [false, false, false]
+    variances_by_parameter: false
+    variances: [0.0, 0.0, 0.0]
+  ip_server:
+    id: ""
+    port: 0
+    keep_open: true
+  serial:
+    port: ""
+    baud_rate: 115200
+    keep_open: true
+  
+# logger
+
+activate_debug_log: false

@@ -1,0 +1,18 @@
+(cl:in-package camera_control_msgs-srv)
+(cl:export '(TARGET_BRIGHTNESS-VAL
+          TARGET_BRIGHTNESS
+          BRIGHTNESS_CONTINUOUS-VAL
+          BRIGHTNESS_CONTINUOUS
+          EXPOSURE_AUTO-VAL
+          EXPOSURE_AUTO
+          GAIN_AUTO-VAL
+          GAIN_AUTO
+          REACHED_BRIGHTNESS-VAL
+          REACHED_BRIGHTNESS
+          REACHED_EXPOSURE_TIME-VAL
+          REACHED_EXPOSURE_TIME
+          REACHED_GAIN_VALUE-VAL
+          REACHED_GAIN_VALUE
+          SUCCESS-VAL
+          SUCCESS
+))

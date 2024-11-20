@@ -1,0 +1,48 @@
+/oak:
+    camera_i_nn_type: none
+    camera_i_mx_id: '14442C103167C7D600'
+    camera_i_enable_imu: true
+    # ----------------------------------
+    rgb_i_publish_topic: true
+    # 1280 x 720
+#    rgb_i_output_isp: false
+#    rgb_i_set_isp_scale: false
+#    rgb_i_width: 1280
+#    rgb_i_height: 720
+    # ----------------------------------
+#    rgb_i_isp_den: 6   # 1280 x 800
+#    rgb_i_isp_num: 4   # 1280 x 800
+    rgb_i_isp_den: 5   # 1152 x 720
+    rgb_i_isp_num: 3   # 1152 x 720
+    # ----------------------------------
+    right_i_publish_topic: true
+    # 1280 x 720
+#    right_i_output_isp: false
+#    right_i_set_isp_scale: false
+#    right_i_width: 1280
+#    right_i_height: 720
+    # ----------------------------------
+#    right_i_isp_den: 6   # 1280 x 800    
+#    right_i_isp_num: 4   # 1280 x 800
+    right_i_isp_den: 5   # 1152 x 720
+    right_i_isp_num: 3   # 1152 x 720
+    # ----------------------------------   
+    left_i_publish_topic: true
+    # 1280 x 720     
+#    left_i_output_isp: false
+#    left_i_set_isp_scale: false
+#    left_i_width: 1280
+#    left_i_height: 720
+    # ----------------------------------
+#    left_i_isp_den: 6   # 1280 x 800   
+#    left_i_isp_num: 4   # 1280 x 800
+    left_i_isp_den: 5   # 1152 x 720
+    left_i_isp_num: 3   # 1152 x 720   
+    # ----------------------------------    
+    stereo_i_align_depth: true
+    stereo_i_subpixel: true
+    
+    
+    
+    
+    

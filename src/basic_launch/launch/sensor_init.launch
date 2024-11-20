@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- robot_description is used by nodes that publish to joint_states. -->  
+  <param name="robot_description" textfile="$(find gem_e4_description)/urdf/gem_e4.urdf" />
+  
+  <!-- Read joint positions from joint_states, then publish the vehicle's state to tf. -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+  
+  <!-- Should be replaced with the real hardware interface -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  
+  <!-- Static transforms of sensors-->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="top_lidar_link_to_os_sensor" args="0 0 0.04 0 0 0 top_lidar_link os_sensor" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="front_lidar_link_to_livox_frame" args="0 0 0.03 0 0.28 0 front_lidar_link livox_frame" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="front_radar_link_to_umrr" args="0 0 0 0 0 0 front_radar_link umrr" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="front_camera_link_to_oak_d_base_frame" args="0 0 0 0 0 0 front_camera_link oak-d-base-frame" />
+  
+  <!-- GNSS -->
+  <include file="$(find septentrio_gnss_driver)/launch/rover.launch" />
+  
+  <!-- Top LiDAR -->
+  <include file="src/hardware_drivers/ouster-ros/launch/driver.launch" />
+  
+  <!-- Front LiDAR -->
+  <include file="$(find livox_ros_driver2)/launch/HAP.launch" /> 
+  
+  <!-- Corner Cameras -->
+  <!-- <include file="$(find arena_camera)/launch/arena_camera_node_multi_device.launch" />
+  <node name="corner_cameras_image_converter" pkg="arena_camera" type="corner_cameras_image_converter_e4.py" /> -->
+  
+  <!-- Front Camera -->
+  <include file="$(find depthai_ros_driver)/launch/rgbd_pcl.launch" />
+  
+  <!-- Smartmicro radar bridge from ROS2 to ROS1 -->
+  <node name="radar_bridge" pkg="radar_bridge" type="radar_bridge.py" />
+  
+  <!-- RViz visualization -->
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find basic_launch)/rviz/blue_e4_text.rviz" />
+
+</launch>
+
+
+
+
+
+
+

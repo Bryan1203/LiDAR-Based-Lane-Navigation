@@ -1,0 +1,10 @@
+rosbag record -b 4096 /oak/rgb/image_raw /ouster/points
+
+
+rosbag record -b 4096 /oak/left/image_raw /oak/rgb/image_raw /oak/right/image_raw /oak/stereo/image_raw /livox/lidar
+
+rosbag record -b 4096 /ouster/points /livox/lidar
+
+
+rosbag record -b 4096 /camera_corners/arena_camera_node/image_raw /camera_fl/arena_camera_node/camera_info /camera_fl/arena_camera_node/image_raw /camera_fr/arena_camera_node/camera_info /camera_fr/arena_camera_node/image_raw /camera_rl/arena_camera_node/camera_info /camera_rl/arena_camera_node/image_raw /camera_rr/arena_camera_node/camera_info /camera_rr/arena_camera_node/image_raw /oak/rgb/camera_info /oak/rgb/image_raw /oak/stereo/image_raw /ouster/metadata /ouster/points
+
