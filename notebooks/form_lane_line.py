@@ -70,4 +70,3 @@ for cluster_id in np.unique(dbscan.labels_):
 #     cloud_msg = pc2.create_cloud_xyz32(header, all_points)
 #     pub.publish(cloud_msg)
 #     rospy.sleep(0.1)
-
