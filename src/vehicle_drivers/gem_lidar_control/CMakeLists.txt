@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   std_msgs
   tf
+  visualization_msgs
 )
 
 catkin_package(
