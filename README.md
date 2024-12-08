@@ -28,4 +28,5 @@ python3 src/windowSearch_realtime.py
 
 roslaunch src/kiss-icp/ros/launch/odometry.launch topic:=/ouster/points
 
+python3 src/pointcept151/inference_ros_filter.py _model_type:=near_ir
 
