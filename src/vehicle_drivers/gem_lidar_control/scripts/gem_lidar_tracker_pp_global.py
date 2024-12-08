@@ -9,6 +9,8 @@ import rospy
 from std_msgs.msg import String, Bool, Float32, Float64
 from pacmod_msgs.msg import PositionWithSpeed, PacmodCmd, SystemRptFloat, VehicleSpeedRpt
 from visualization_msgs.msg import Marker
+from nav_msgs.msg import Odometry
+from geometry_msgs.msg import Point
 
 class PID(object):
     def __init__(self, kp, ki, kd, wg=None):
@@ -69,8 +71,8 @@ class OnlineFilter(object):
 
 class PurePursuit(object):
     def __init__(self):
-        self.rate = rospy.Rate(10)
-        self.look_ahead = 4  # Look-ahead distance
+        self.rate = rospy.Rate(1)
+        self.look_ahead = 10  # Look-ahead distance
         self.wheelbase = 2.57  # Vehicle wheelbase
 
         # Path storage and threading lock
@@ -82,23 +84,27 @@ class PurePursuit(object):
         self.last_goal_index = 0
         
         # Subscribe to topics
-        self.waypoints_sub = rospy.Subscriber("/waypoints", Marker, self.waypoints_callback)
+        self.waypoints_sub = rospy.Subscriber("/waypoint_marker", Marker, self.waypoints_callback)
+        self.global_pose_sub = rospy.Subscriber("/waypoint/pose", Odometry, self.global_pose_callback)
         self.speed_sub = rospy.Subscriber("/pacmod/parsed_tx/vehicle_speed_rpt", VehicleSpeedRpt, self.speed_callback)
         self.enable_sub = rospy.Subscriber("/pacmod/as_tx/enable", Bool, self.enable_callback)
+        self.used_waypoints_pub = rospy.Publisher("/used_waypoints", Marker, queue_size=1)
         
         # Vehicle state
         self.speed = 0.0
         self.gem_enable = False
-        self.pacmod_enable = False
+        self.pacmod_enable = False  
         
         # Speed control parameters
         self.desired_speed = 1.5
-        self.max_accel = 0.5
+        self.max_accel = 0.75
         self.pid_speed = PID(0.5, 0.0, 0.1, wg=20)
         self.speed_filter = OnlineFilter(1.2, 30, 4)
 
         # Initialize PACMod control
         self.setup_pacmod_control()
+
+        self.kevin_msg = None
 
     def setup_pacmod_control(self):
         """Initialize PACMod publishers and messages"""
@@ -139,31 +145,41 @@ class PurePursuit(object):
 
     def waypoints_callback(self, msg):
         """Process incoming waypoints marker message"""
+        # Save message for visualization
+        self.kevin_msg = msg
+        # rospy.loginfo(msg.pose)
         if msg.type != msg.POINTS:
+            rospy.logwarn("Invalid marker type. Expected POINTS.")
             return
             
-        with self.path_lock:
-            new_path_x = []
-            new_path_y = []
-            # Convert points to vehicle frame (x-forward, y-right)
-            for point in msg.points:
-                new_path_x.append(point.x)
-                new_path_y.append(-point.y)
-            
-            # Smooth transition between path updates
-            if self.current_path_x:
-                closest_idx = self.find_closest_point(
-                    self.current_path_x[self.last_goal_index],
-                    self.current_path_y[self.last_goal_index],
-                    new_path_x,
-                    new_path_y
-                )
-                self.last_goal_index = closest_idx
-            
-            self.current_path_x = new_path_x
-            self.current_path_y = new_path_y
-            self.wp_size = len(self.current_path_x)
-            self.dist_arr = np.zeros(self.wp_size)
+        # with self.path_lock:
+        new_path_x = []
+        new_path_y = []
+        # Convert points to vehicle frame (x-forward, y-right)
+        for point in msg.points:
+            new_path_x.append(point.x)
+            new_path_y.append(-point.y)
+        
+        # Smooth transition between path updates
+        if self.current_path_x:
+            closest_idx = self.find_closest_point(
+                self.current_path_x[self.last_goal_index],
+                self.current_path_y[self.last_goal_index],
+                new_path_x,
+                new_path_y
+            )
+            self.last_goal_index = closest_idx
+        
+        self.current_path_x = new_path_x
+        self.current_path_y = new_path_y
+        self.wp_size = len(self.current_path_x)
+        self.dist_arr = np.zeros(self.wp_size)
+
+    def global_pose_callback(self, msg):
+        """Update current vehicle position"""
+        rospy.loginfo("Current pose: %s", msg.pose.pose)
+        self.current_pose = msg.pose.pose   
+
 
     def speed_callback(self, msg):
         """Update current vehicle speed"""
@@ -171,6 +187,7 @@ class PurePursuit(object):
 
     def enable_callback(self, msg):
         """Update PACMod enable status"""
+        # rospy.loginfo("PACMod enable status: %s", msg.data)
         self.pacmod_enable = msg.data
 
     def find_closest_point(self, x, y, path_x, path_y):
@@ -206,6 +223,39 @@ class PurePursuit(object):
         else:
             steer_angle = 0.0
         return steer_angle
+    
+    def publish_point_markers(self, original_msg, points, publisher):
+        """Publish visualization markers for average points"""
+        marker = Marker()
+        marker.header.frame_id = original_msg.header.frame_id
+        marker.header.stamp = original_msg.header.stamp
+        marker.ns = "used_waypoints"
+        marker.id = 0
+        marker.type = Marker.POINTS
+        marker.action = Marker.ADD
+        
+        # Set marker properties
+        marker.scale.x = 0.2
+        marker.scale.y = 0.2
+        marker.scale.z = 0.2
+        
+        # Set marker color (green)
+        marker.color.r = 1.0
+        marker.color.g = 0.0
+        marker.color.b = 0.0
+        marker.color.a = 1.0
+        
+        # Add points
+        marker.points = []
+        for point in points:
+            p = Point()
+            p.x = point[0]
+            p.y = point[1]
+            p.z = 0.0  # Or point[2] if you have z coordinates
+            marker.points.append(p)
+        
+        publisher.publish(marker)
+        return
 
     def start_pp(self):
         """Main pure pursuit control loop"""
@@ -214,78 +264,92 @@ class PurePursuit(object):
             if not self.gem_enable and self.pacmod_enable:
                 self.enable_pacmod()
                 
-            with self.path_lock:
-                if len(self.current_path_x) < 2:
-                    rospy.loginfo("Waiting for waypoints...")
-                    self.rate.sleep()
-                    continue
+            # with self.path_lock:
 
-                # Vehicle is at origin in local frame
-                curr_x, curr_y = 0, 0
+            # print length of current path
+            rospy.loginfo("Current path length: %d", len(self.current_path_x))
+            # rospy.loginfo("Current path length: %d", len(self.current_path_y))
+            if len(self.current_path_x) < 2:
+                # rospy.loginfo(self.current_path_x)
+                rospy.loginfo("Waiting for waypoints...")
+                self.rate.sleep()
+                continue
 
-                # Calculate distances to all waypoints
-                for i in range(self.wp_size):
-                    self.dist_arr[i] = self.dist(
-                        (self.current_path_x[i], self.current_path_y[i]), 
-                        (curr_x, curr_y)
-                    )
+            # Vehicle is at origin in global frame
+            curr_x, curr_y = self.current_pose.position.x, self.current_pose.position.y
 
-                # Find points within look-ahead distance
-                goal_arr = np.where(
-                    (self.dist_arr < self.look_ahead + 0.3) & 
-                    (self.dist_arr > self.look_ahead - 0.3)
-                )[0]
+            # Calculate distances to all waypoints
+            for i in range(self.wp_size):
+                self.dist_arr[i] = self.dist(
+                    (self.current_path_x[i], self.current_path_y[i]), 
+                    (curr_x, curr_y)
+                )
+            # rospy.loginfo("Distances: %s", self.dist_arr)
+            # Find points within look-ahead distance
+            self.look_ahead = self.dist_arr.min()
+            rospy.loginfo("Look-ahead distance: %f", self.look_ahead)
+            goal_arr = np.where(
+                (self.dist_arr < self.look_ahead + 0.5) & 
+                (self.dist_arr > self.look_ahead - 0.5)
+            )[0]
+            # rospy.loginfo("Goal points: %s", goal_arr)
+            # Find goal point starting from last goal
+            start_idx = self.last_goal_index
+            self.goal = start_idx
 
-                # Find goal point starting from last goal
-                start_idx = self.last_goal_index
-                self.goal = start_idx
+            # Publish used waypoints
+            used_points = []
+            for idx in goal_arr:
+                used_points.append([self.current_path_x[idx], -self.current_path_y[idx]])
+            self.publish_point_markers(self.kevin_msg, used_points, self.used_waypoints_pub)
 
-                for idx in goal_arr:
-                    if idx >= start_idx:
-                        v1 = [self.current_path_x[idx], self.current_path_y[idx]]
-                        v2 = [1, 0]  # Vehicle's forward direction
-                        temp_angle = self.find_angle(v1, v2)
-                        if abs(temp_angle) < np.pi/2:
-                            self.goal = idx
-                            self.last_goal_index = idx
-                            break
+            for idx in goal_arr:
+                if idx >= start_idx:
+                    v1 = [self.current_path_x[idx], self.current_path_y[idx]]
+                    
+                    v2 = [self.current_pose.position.x, self.current_pose.position.y]
+                    temp_angle = self.find_angle(v1, v2)
+                    if abs(temp_angle) < np.pi/2:
+                        self.goal = idx
+                        self.last_goal_index = idx
+                        break
 
-                # Calculate steering control
-                L = self.dist_arr[self.goal]
-                alpha = math.atan2(self.current_path_y[self.goal], 
-                                 self.current_path_x[self.goal])
+            # Calculate steering control
+            L = self.dist_arr[self.goal]
+            alpha = math.atan2(self.current_path_y[self.goal], 
+                                self.current_path_x[self.goal])
 
-                # Pure pursuit control law
-                k = 0.41  # Gain
-                angle_i = math.atan((k * 2 * self.wheelbase * math.sin(alpha)) / L)
-                angle = angle_i * 2
+            # Pure pursuit control law
+            k = 0.41  # Gain
+            angle_i = math.atan((k * 2 * self.wheelbase * math.sin(alpha)) / L)
+            angle = angle_i * 2
 
-                # Convert to steering angle
-                f_delta = round(np.clip(angle, -0.61, 0.61), 3)
-                f_delta_deg = np.degrees(f_delta)
-                steering_angle = self.front2steer(f_delta_deg)
+            # Convert to steering angle
+            f_delta = round(np.clip(angle, -0.61, 0.61), 3)
+            f_delta_deg = np.degrees(f_delta)
+            steering_angle = self.front2steer(f_delta_deg)
 
-                if self.gem_enable:
-                    # Speed control
-                    current_time = rospy.get_time()
-                    filt_vel = self.speed_filter.get_data(self.speed)
-                    output_accel = self.pid_speed.get_control(current_time, self.desired_speed - filt_vel)
-                    output_accel = np.clip(output_accel, 0.2, self.max_accel)
+            if self.gem_enable:
+                # Speed control
+                current_time = rospy.get_time()
+                filt_vel = self.speed_filter.get_data(self.speed)
+                output_accel = self.pid_speed.get_control(current_time, self.desired_speed - filt_vel)
+                output_accel = np.clip(output_accel, 0.2, self.max_accel)
 
-                    # Turn signal control based on steering angle
-                    if -30 <= f_delta_deg <= 30:
-                        self.turn_cmd.ui16_cmd = 1  # No signal
-                    elif f_delta_deg > 30:
-                        self.turn_cmd.ui16_cmd = 2  # Left
-                    else:
-                        self.turn_cmd.ui16_cmd = 0  # Right
+                # Turn signal control based on steering angle
+                if -30 <= f_delta_deg <= 30:
+                    self.turn_cmd.ui16_cmd = 1  # No signal
+                elif f_delta_deg > 30:
+                    self.turn_cmd.ui16_cmd = 2  # Left
+                else:
+                    self.turn_cmd.ui16_cmd = 0  # Right
 
-                    # Publish control commands
-                    self.accel_cmd.f64_cmd = output_accel
-                    self.steer_cmd.angular_position = np.radians(steering_angle)
-                    self.accel_pub.publish(self.accel_cmd)
-                    self.steer_pub.publish(self.steer_cmd)
-                    self.turn_pub.publish(self.turn_cmd)
+                # Publish control commands
+                self.accel_cmd.f64_cmd = output_accel
+                self.steer_cmd.angular_position = np.radians(steering_angle)
+                self.accel_pub.publish(self.accel_cmd)
+                self.steer_pub.publish(self.steer_cmd)
+                self.turn_pub.publish(self.turn_cmd)
 
             self.rate.sleep()
 
@@ -311,6 +375,12 @@ class PurePursuit(object):
         self.turn_pub.publish(self.turn_cmd)
         self.brake_pub.publish(self.brake_cmd)
         self.accel_pub.publish(self.accel_cmd)
+
+        # Print control cmd
+        rospy.loginfo("gear_cmd: %d", self.gear_cmd.ui16_cmd)
+        rospy.loginfo("brake_cmd: %f", self.brake_cmd.f64_cmd)
+        rospy.loginfo("accel_cmd: %f", self.accel_cmd.f64_cmd)
+
 
         self.gem_enable = True
 

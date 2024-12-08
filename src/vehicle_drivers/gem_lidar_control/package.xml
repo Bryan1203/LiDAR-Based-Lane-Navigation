@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>gem_gnss_control</name>
+  <name>gem_lidar_control</name>
   <version>1.0.0</version>
   <description> The gem_gnss_control package </description>
   <author email="hangcui1201@gmail.com">Hang Cui</author>
