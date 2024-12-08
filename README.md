@@ -12,3 +12,20 @@ $ roslaunch basic_launch visualization.launch
 # Enable joystick control
 $ source devel/setup.bash
 $ roslaunch basic_launch dbw_joystick.launch
+
+
+# to create pointcept conda env
+conda env create -f pointcept151.yml -n pointcept151
+
+conda activate pointcept151
+python3 src/pointcept151/inference_ros_filter.py
+
+conda activate pointcept151
+python3 src/sequence_matching.py
+
+conda activate pointcept151
+python3 src/windowSearch_realtime.py
+
+roslaunch src/kiss-icp/ros/launch/odometry.launch topic:=/ouster/points
+
+
