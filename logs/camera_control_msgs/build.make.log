@@ -1,0 +1,245 @@
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabImagesFeedback[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetBrightness[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetROI[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageAction[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageAction[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabImagesResult[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageResult[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageActionGoal[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageFeedback[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetGain[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageActionFeedback[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageAction
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetBrightness
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetROI
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabImagesFeedback
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageResult
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageAction
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetGamma[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GetCamProperties[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabImagesActionResult[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageActionGoal
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageActionFeedback[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetSleeping[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabImagesResult
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageFeedback
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageGoal[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageActionResult[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabImagesAction[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageActionFeedback
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetGain
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageResult[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageActionGoal[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GetCamProperties
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetGamma
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageActionFeedback
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetSleeping
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabImagesActionResult
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageGoal
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageActionResult[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetBinning[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageFeedback[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabImagesActionGoal[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabImagesAction
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetBool[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabImagesGoal[0m
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_GrabImagesActionFeedback[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageActionResult
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageGoal
+[35m[1mScanning dependencies of target _camera_control_msgs_generate_messages_check_deps_SetExposure[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageActionGoal
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabAndSaveImageResult
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageFeedback
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabHDRImageActionResult
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetBinning
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabImagesActionGoal
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabImagesActionFeedback
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetBool
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_SetExposure
+[  0%] Built target _camera_control_msgs_generate_messages_check_deps_GrabImagesGoal
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target camera_control_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target camera_control_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target camera_control_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target camera_control_msgs_generate_messages_nodejs[0m
+[  2%] [34m[1mGenerating C++ code from camera_control_msgs/GrabAndSaveImageActionResult.msg[0m
+[  2%] [34m[1mGenerating C++ code from camera_control_msgs/GrabAndSaveImageAction.msg[0m
+[  2%] [34m[1mGenerating C++ code from camera_control_msgs/GrabAndSaveImageGoal.msg[0m
+[35m[1mScanning dependencies of target camera_control_msgs_generate_messages_eus[0m
+[  2%] [34m[1mGenerating C++ code from camera_control_msgs/GrabAndSaveImageActionFeedback.msg[0m
+[  3%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabAndSaveImageActionGoal.msg[0m
+[  3%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabAndSaveImageAction.msg[0m
+[  4%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabAndSaveImageAction.msg[0m
+[  4%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabAndSaveImageAction[0m
+[  5%] [34m[1mGenerating C++ code from camera_control_msgs/GrabAndSaveImageActionGoal.msg[0m
+[  6%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabAndSaveImageActionGoal.msg[0m
+[  6%] [34m[1mGenerating C++ code from camera_control_msgs/GrabAndSaveImageResult.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabAndSaveImageAction.msg[0m
+[  8%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabAndSaveImageActionResult.msg[0m
+[  9%] [34m[1mGenerating C++ code from camera_control_msgs/GrabAndSaveImageFeedback.msg[0m
+[ 10%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabAndSaveImageActionFeedback.msg[0m
+[ 10%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabAndSaveImageActionResult.msg[0m
+[ 10%] [34m[1mGenerating C++ code from camera_control_msgs/GrabHDRImageAction.msg[0m
+[ 10%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabAndSaveImageGoal.msg[0m
+[ 11%] [34m[1mGenerating C++ code from camera_control_msgs/GrabHDRImageActionResult.msg[0m
+[ 12%] [34m[1mGenerating C++ code from camera_control_msgs/GrabHDRImageActionGoal.msg[0m
+[ 12%] [34m[1mGenerating C++ code from camera_control_msgs/GrabHDRImageActionFeedback.msg[0m
+[ 12%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabAndSaveImageActionGoal.msg[0m
+[ 13%] [34m[1mGenerating C++ code from camera_control_msgs/GrabHDRImageGoal.msg[0m
+[ 14%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabAndSaveImageActionFeedback.msg[0m
+[ 15%] [34m[1mGenerating C++ code from camera_control_msgs/GrabHDRImageResult.msg[0m
+[ 15%] [34m[1mGenerating C++ code from camera_control_msgs/GrabHDRImageFeedback.msg[0m
+[ 16%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabAndSaveImageResult.msg[0m
+[ 16%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabAndSaveImageFeedback.msg[0m
+[ 16%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabAndSaveImageGoal.msg[0m
+[ 17%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabAndSaveImageActionResult.msg[0m
+[ 18%] [34m[1mGenerating C++ code from camera_control_msgs/GrabImagesAction.msg[0m
+[ 18%] [34m[1mGenerating C++ code from camera_control_msgs/GrabImagesActionGoal.msg[0m
+[ 20%] [34m[1mGenerating C++ code from camera_control_msgs/GrabImagesActionResult.msg[0m
+[ 21%] [34m[1mGenerating C++ code from camera_control_msgs/GrabImagesActionFeedback.msg[0m
+[ 22%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabHDRImageAction.msg[0m
+[ 22%] [34m[1mGenerating C++ code from camera_control_msgs/GrabImagesGoal.msg[0m
+[ 24%] [34m[1mGenerating C++ code from camera_control_msgs/GrabImagesResult.msg[0m
+[ 24%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabHDRImageActionGoal.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabAndSaveImageResult.msg[0m
+[ 26%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabAndSaveImageActionGoal[0m
+[ 27%] [34m[1mGenerating C++ code from camera_control_msgs/GrabImagesFeedback.msg[0m
+[ 28%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabAndSaveImageActionResult[0m
+[ 28%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabAndSaveImageActionFeedback[0m
+[ 29%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabAndSaveImageActionFeedback.msg[0m
+[ 29%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabHDRImageActionResult.msg[0m
+[ 29%] [34m[1mGenerating C++ code from camera_control_msgs/GetCamProperties.srv[0m
+[ 30%] [34m[1mGenerating C++ code from camera_control_msgs/SetBinning.srv[0m
+[ 30%] [34m[1mGenerating C++ code from camera_control_msgs/SetBool.srv[0m
+[ 31%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabAndSaveImageFeedback.msg[0m
+[ 32%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabHDRImageActionFeedback.msg[0m
+[ 33%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabHDRImageActionGoal.msg[0m
+[ 33%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabHDRImageAction.msg[0m
+[ 34%] [34m[1mGenerating C++ code from camera_control_msgs/SetBrightness.srv[0m
+[ 34%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabHDRImageGoal.msg[0m
+[ 36%] [34m[1mGenerating C++ code from camera_control_msgs/SetExposure.srv[0m
+[ 36%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabHDRImageResult.msg[0m
+[ 37%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabHDRImageFeedback.msg[0m
+[ 38%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabHDRImageActionResult.msg[0m
+[ 38%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabAndSaveImageGoal.msg[0m
+[ 38%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabImagesAction.msg[0m
+[ 40%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabAndSaveImageResult.msg[0m
+[ 40%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabAndSaveImageFeedback.msg[0m
+[ 41%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabImagesActionGoal.msg[0m
+[ 42%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabImagesActionResult.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabHDRImageActionFeedback.msg[0m
+[ 43%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabAndSaveImageGoal[0m
+[ 44%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabHDRImageAction.msg[0m
+[ 45%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabHDRImageActionGoal.msg[0m
+[ 45%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabHDRImageActionResult.msg[0m
+[ 46%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabImagesGoal.msg[0m
+[ 46%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabImagesActionFeedback.msg[0m
+[ 47%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabHDRImageGoal.msg[0m
+[ 48%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabAndSaveImageFeedback[0m
+[ 49%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabHDRImageAction[0m
+[ 49%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabHDRImageActionGoal[0m
+[ 49%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabImagesResult.msg[0m
+[ 49%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabAndSaveImageResult[0m
+[ 50%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabHDRImageActionFeedback.msg[0m
+[ 50%] [34m[1mGenerating C++ code from camera_control_msgs/SetGain.srv[0m
+[ 51%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabHDRImageGoal.msg[0m
+[ 51%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabHDRImageResult.msg[0m
+[ 51%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabHDRImageResult.msg[0m
+[ 52%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabHDRImageFeedback.msg[0m
+[ 53%] [34m[1mGenerating C++ code from camera_control_msgs/SetGamma.srv[0m
+[ 54%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabHDRImageActionResult[0m
+[ 55%] [34m[1mGenerating Javascript code from camera_control_msgs/GrabImagesFeedback.msg[0m
+[ 55%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabHDRImageActionFeedback[0m
+[ 56%] [34m[1mGenerating Javascript code from camera_control_msgs/GetCamProperties.srv[0m
+[ 57%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabImagesAction.msg[0m
+[ 60%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabHDRImageResult[0m
+[ 60%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabHDRImageFeedback.msg[0m
+[ 61%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabHDRImageGoal[0m
+[ 61%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabImagesAction.msg[0m
+[ 62%] [34m[1mGenerating C++ code from camera_control_msgs/SetROI.srv[0m
+[ 62%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabImagesActionGoal.msg[0m
+[ 62%] [34m[1mGenerating Javascript code from camera_control_msgs/SetBinning.srv[0m
+[ 62%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabHDRImageFeedback[0m
+[ 63%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabImagesAction[0m
+[ 64%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabImagesActionGoal[0m
+[ 64%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabImagesActionResult[0m
+[ 65%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabImagesActionGoal.msg[0m
+[ 66%] [34m[1mGenerating Javascript code from camera_control_msgs/SetBrightness.srv[0m
+[ 67%] [34m[1mGenerating Javascript code from camera_control_msgs/SetBool.srv[0m
+[ 68%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabImagesActionResult.msg[0m
+[ 68%] [34m[1mGenerating Javascript code from camera_control_msgs/SetExposure.srv[0m
+[ 69%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabImagesActionFeedback.msg[0m
+[ 69%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabImagesGoal.msg[0m
+[ 70%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabImagesActionFeedback[0m
+[ 71%] [34m[1mGenerating Javascript code from camera_control_msgs/SetGain.srv[0m
+[ 71%] [34m[1mGenerating Javascript code from camera_control_msgs/SetGamma.srv[0m
+[ 71%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabImagesGoal[0m
+[ 72%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabImagesResult.msg[0m
+[ 74%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabImagesActionResult.msg[0m
+[ 74%] [34m[1mGenerating Javascript code from camera_control_msgs/SetSleeping.srv[0m
+[ 75%] [34m[1mGenerating Javascript code from camera_control_msgs/SetROI.srv[0m
+[ 75%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabImagesActionFeedback.msg[0m
+[ 75%] [34m[1mGenerating C++ code from camera_control_msgs/SetSleeping.srv[0m
+[ 76%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabImagesGoal.msg[0m
+[ 77%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabImagesResult.msg[0m
+[ 78%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabImagesResult[0m
+[ 78%] [34m[1mGenerating EusLisp code from camera_control_msgs/GrabImagesFeedback.msg[0m
+[ 78%] [34m[1mGenerating Lisp code from camera_control_msgs/GrabImagesFeedback.msg[0m
+[ 80%] [34m[1mGenerating Python from MSG camera_control_msgs/GrabImagesFeedback[0m
+[ 80%] Built target camera_control_msgs_generate_messages_nodejs
+[ 80%] [34m[1mGenerating Python code from SRV camera_control_msgs/GetCamProperties[0m
+[ 81%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetBinning[0m
+[ 82%] [34m[1mGenerating EusLisp code from camera_control_msgs/GetCamProperties.srv[0m
+[ 83%] [34m[1mGenerating Lisp code from camera_control_msgs/GetCamProperties.srv[0m
+[ 83%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetBinning.srv[0m
+[ 84%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetBool[0m
+[ 84%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetBrightness[0m
+[ 85%] [34m[1mGenerating Lisp code from camera_control_msgs/SetBinning.srv[0m
+[ 86%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetBool.srv[0m
+[ 86%] [34m[1mGenerating Lisp code from camera_control_msgs/SetBool.srv[0m
+[ 87%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetBrightness.srv[0m
+[ 88%] [34m[1mGenerating Lisp code from camera_control_msgs/SetBrightness.srv[0m
+[ 89%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetExposure[0m
+[ 89%] Built target camera_control_msgs_generate_messages_cpp
+[ 89%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetExposure.srv[0m
+[ 90%] [34m[1mGenerating Lisp code from camera_control_msgs/SetExposure.srv[0m
+[ 90%] [34m[1mGenerating Lisp code from camera_control_msgs/SetGain.srv[0m
+[ 91%] [34m[1mGenerating Lisp code from camera_control_msgs/SetGamma.srv[0m
+[ 92%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetGamma.srv[0m
+[ 93%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetGain.srv[0m
+[ 93%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetGain[0m
+[ 93%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetROI.srv[0m
+[ 93%] [34m[1mGenerating Lisp code from camera_control_msgs/SetROI.srv[0m
+[ 94%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetGamma[0m
+[ 95%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetROI[0m
+[ 96%] [34m[1mGenerating Lisp code from camera_control_msgs/SetSleeping.srv[0m
+[ 96%] [34m[1mGenerating Python code from SRV camera_control_msgs/SetSleeping[0m
+[ 97%] [34m[1mGenerating EusLisp code from camera_control_msgs/SetSleeping.srv[0m
+[ 97%] [34m[1mGenerating EusLisp manifest code for camera_control_msgs[0m
+[ 97%] Built target camera_control_msgs_generate_messages_lisp
+[100%] [34m[1mGenerating Python srv __init__.py for camera_control_msgs[0m
+[100%] [34m[1mGenerating Python msg __init__.py for camera_control_msgs[0m
+[100%] Built target camera_control_msgs_generate_messages_py
+[100%] Built target camera_control_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target camera_control_msgs_generate_messages[0m
+[100%] Built target camera_control_msgs_generate_messages

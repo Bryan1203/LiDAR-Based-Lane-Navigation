@@ -1,0 +1,5 @@
+hardware_drivers/radar_bridge
+/home/kevin/ece484_final_project/devel/.private/radar_bridge/cmake.lock /home/kevin/ece484_final_project/devel/./cmake.lock
+/home/kevin/ece484_final_project/devel/.private/radar_bridge/share/radar_bridge/cmake/radar_bridgeConfig.cmake /home/kevin/ece484_final_project/devel/share/radar_bridge/cmake/radar_bridgeConfig.cmake
+/home/kevin/ece484_final_project/devel/.private/radar_bridge/share/radar_bridge/cmake/radar_bridgeConfig-version.cmake /home/kevin/ece484_final_project/devel/share/radar_bridge/cmake/radar_bridgeConfig-version.cmake
+/home/kevin/ece484_final_project/devel/.private/radar_bridge/lib/pkgconfig/radar_bridge.pc /home/kevin/ece484_final_project/devel/lib/pkgconfig/radar_bridge.pc

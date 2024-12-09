@@ -1,0 +1,6 @@
+kiss-icp/ros
+/home/kevin/ece484_final_project/devel/.private/kiss_icp/cmake.lock /home/kevin/ece484_final_project/devel/./cmake.lock
+/home/kevin/ece484_final_project/devel/.private/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake /home/kevin/ece484_final_project/devel/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+/home/kevin/ece484_final_project/devel/.private/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake /home/kevin/ece484_final_project/devel/share/kiss_icp/cmake/kiss_icpConfig.cmake
+/home/kevin/ece484_final_project/devel/.private/kiss_icp/lib/kiss_icp/odometry_node /home/kevin/ece484_final_project/devel/lib/kiss_icp/odometry_node
+/home/kevin/ece484_final_project/devel/.private/kiss_icp/lib/pkgconfig/kiss_icp.pc /home/kevin/ece484_final_project/devel/lib/pkgconfig/kiss_icp.pc

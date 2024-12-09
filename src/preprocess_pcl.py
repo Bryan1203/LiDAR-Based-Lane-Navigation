@@ -11,10 +11,11 @@ import time
 class PointCloudFilter:
     def __init__(self):
         # Initialize parameters
-        self.height_threshold = -1.0
-        self.distance_threshold = 30.0
-        self.xy_threshold = 30.0
-        self.ring_threshold = 80
+        # self.height_threshold = -1.5
+        # self.distance_threshold = 30.0
+        # self.xy_threshold = 30.0
+        self.ring_threshold = 70
+        self.range_threshold = 40000
         
         # Initialize the ROS node
         rospy.init_node('filtered_point_cloud_node', anonymous=True)
@@ -24,7 +25,7 @@ class PointCloudFilter:
             PointField(name='x', offset=0, datatype=PointField.FLOAT32, count=1),
             PointField(name='y', offset=4, datatype=PointField.FLOAT32, count=1),
             PointField(name='z', offset=8, datatype=PointField.FLOAT32, count=1),
-            PointField(name='intensity', offset=12, datatype=PointField.FLOAT32, count=1)
+            PointField(name='signal', offset=12, datatype=PointField.FLOAT32, count=1)
         ]
         
         # Create publisher for filtered point cloud
@@ -50,8 +51,8 @@ class PointCloudFilter:
             start_time = time.time()
             filtered = []
             for point in pc2.read_points(msg, skip_nans=True):
-                if point[6]>=self.ring_threshold:
-                    filtered.append((point[0],point[1],point[2],point[6]))
+                if point[6]>=self.ring_threshold and point[8]<=self.range_threshold:
+                    filtered.append((point[0],point[1],point[2],point[3]))
 
             post_filter_time = time.time()
             # Create header

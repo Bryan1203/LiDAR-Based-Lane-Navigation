@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch GEM lidar tracker node -->
+    <node name="gem_lidar_tracker_pp" 
+          pkg="gem_lidar_control" 
+          type="gem_lidar_tracker_pp.py" 
+          output="screen">
+    </node>
+
+    <!-- Launch waypoint generator node -->
+    <node name="waypoint_generator" 
+          pkg="gem_lidar_control" 
+          type="windowSearch_realtime.py" 
+          output="screen">
+    </node>
+</launch>

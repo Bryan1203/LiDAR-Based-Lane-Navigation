@@ -1,0 +1,4 @@
+Symlinking /home/kevin/ece484_final_project/devel/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+Symlinking /home/kevin/ece484_final_project/devel/share/kiss_icp/cmake/kiss_icpConfig.cmake
+Symlinking /home/kevin/ece484_final_project/devel/lib/kiss_icp/odometry_node
+Symlinking /home/kevin/ece484_final_project/devel/lib/pkgconfig/kiss_icp.pc

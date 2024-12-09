@@ -1,0 +1,5 @@
+hardware_drivers/depthai-ros/depthai_descriptions
+/home/kevin/ece484_final_project/devel/.private/depthai_descriptions/cmake.lock /home/kevin/ece484_final_project/devel/./cmake.lock
+/home/kevin/ece484_final_project/devel/.private/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake /home/kevin/ece484_final_project/devel/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+/home/kevin/ece484_final_project/devel/.private/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake /home/kevin/ece484_final_project/devel/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+/home/kevin/ece484_final_project/devel/.private/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc /home/kevin/ece484_final_project/devel/lib/pkgconfig/depthai_descriptions.pc

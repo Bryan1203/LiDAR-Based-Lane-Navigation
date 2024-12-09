@@ -1,0 +1,17 @@
+[31m[1mCMake Error[0m at /home/kevin/ece484_final_project/src/hardware_drivers/ouster-ros/ouster-sdk/ouster_client/CMakeLists.txt:5 (find_package):
+  By not providing "Findspdlog.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "spdlog", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "spdlog" with any
+  of the following names:
+
+    spdlogConfig.cmake
+    spdlog-config.cmake
+
+  Add the installation prefix of "spdlog" to CMAKE_PREFIX_PATH or set
+  "spdlog_DIR" to a directory containing one of the above files.  If "spdlog"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

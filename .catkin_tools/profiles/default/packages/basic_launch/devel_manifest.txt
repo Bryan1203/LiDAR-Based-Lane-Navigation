@@ -1,0 +1,5 @@
+basic_launch
+/home/kevin/ece484_final_project/devel/.private/basic_launch/cmake.lock /home/kevin/ece484_final_project/devel/./cmake.lock
+/home/kevin/ece484_final_project/devel/.private/basic_launch/share/basic_launch/cmake/basic_launchConfig.cmake /home/kevin/ece484_final_project/devel/share/basic_launch/cmake/basic_launchConfig.cmake
+/home/kevin/ece484_final_project/devel/.private/basic_launch/share/basic_launch/cmake/basic_launchConfig-version.cmake /home/kevin/ece484_final_project/devel/share/basic_launch/cmake/basic_launchConfig-version.cmake
+/home/kevin/ece484_final_project/devel/.private/basic_launch/lib/pkgconfig/basic_launch.pc /home/kevin/ece484_final_project/devel/lib/pkgconfig/basic_launch.pc

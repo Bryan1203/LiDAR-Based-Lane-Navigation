@@ -1,0 +1,1378 @@
+## RUN 1
+
+gem@gem-nuvo:~/bobabee_ws_test/notebooks/timing_test$ python3 test.py
+[WARN] [1732392954.862058]: Odom time 1732386143.746406 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732392954.863315]: No matching point cloud for odometry at time 1732386143.746
+[WARN] [1732392954.864307]: Odom time 1732386143.846421 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732392954.865321]: No matching point cloud for odometry at time 1732386143.846
+[WARN] [1732392954.869196]: Odom time 1732386143.946323 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732392954.870066]: No matching point cloud for odometry at time 1732386143.946
+[WARN] [1732392954.871034]: Odom time 1732386144.0463037 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732392954.871845]: No matching point cloud for odometry at time 1732386144.046
+[WARN] [1732392954.872603]: Odom time 1732386144.146322 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732392954.873327]: No matching point cloud for odometry at time 1732386144.146
+[WARN] [1732392954.874244]: Odom time 1732386144.24625 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732392954.875116]: No matching point cloud for odometry at time 1732386144.246
+[WARN] [1732392954.879178]: Odom time 1732386144.346485 outside buffer range [1732386143.3463602, 1732386143.6466048]
+[WARN] [1732392954.880279]: No matching point cloud for odometry at time 1732386144.346
+[WARN] [1732392954.906975]: Odom time 1732386144.4462526 outside buffer range [1732386143.3463602, 1732386144.0463037]
+[WARN] [1732392954.908256]: No matching point cloud for odometry at time 1732386144.446
+[WARN] [1732392956.057398]: Odom time 1732386144.9463954 outside buffer range [1732386143.3463602, 1732386144.6463666]
+[WARN] [1732392956.058698]: No matching point cloud for odometry at time 1732386144.946
+[WARN] [1732392956.059526]: Odom time 1732386145.0463238 outside buffer range [1732386143.3463602, 1732386144.6463666]
+[WARN] [1732392956.060253]: No matching point cloud for odometry at time 1732386145.046
+[WARN] [1732392956.060899]: Odom time 1732386145.1464043 outside buffer range [1732386143.3463602, 1732386144.6463666]
+[WARN] [1732392956.064709]: No matching point cloud for odometry at time 1732386145.146
+[WARN] [1732392956.065361]: Odom time 1732386145.246319 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732392956.066052]: No matching point cloud for odometry at time 1732386145.246
+[WARN] [1732392956.067168]: Odom time 1732386145.3466623 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732392956.067916]: No matching point cloud for odometry at time 1732386145.347
+[WARN] [1732392956.068564]: Odom time 1732386145.4463353 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732392956.069148]: No matching point cloud for odometry at time 1732386145.446
+[WARN] [1732392956.069801]: Odom time 1732386145.5464008 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732392956.070481]: No matching point cloud for odometry at time 1732386145.546
+[WARN] [1732392956.695097]: Odom time 1732386145.8465629 outside buffer range [1732386143.3463602, 1732386145.5464008]
+[WARN] [1732392956.696081]: No matching point cloud for odometry at time 1732386145.847
+[WARN] [1732392956.696972]: Odom time 1732386145.9463346 outside buffer range [1732386143.3463602, 1732386145.5464008]
+[WARN] [1732392956.701932]: No matching point cloud for odometry at time 1732386145.946
+[WARN] [1732392956.703411]: Odom time 1732386146.0462627 outside buffer range [1732386143.3463602, 1732386145.6463315]
+[WARN] [1732392956.705215]: No matching point cloud for odometry at time 1732386146.046
+[WARN] [1732392956.706991]: Odom time 1732386146.1463606 outside buffer range [1732386143.3463602, 1732386145.6463315]
+[WARN] [1732392956.713806]: No matching point cloud for odometry at time 1732386146.146
+[INFO] [1732392956.964288]: 
+Sync Statistics:
+  Total Odometry Messages: 30
+  Successful Matches: 11
+  Match Rate: 36.7%
+  Point Cloud Buffer Size: 28
+  Current Threshold: 0.300s
+  Average Time Difference: 0.155s
+[WARN] [1732392958.397893]: Odom time 1732386146.7464159 outside buffer range [1732386143.3463602, 1732386146.4462953]
+[WARN] [1732392958.399154]: No matching point cloud for odometry at time 1732386146.746
+[WARN] [1732392958.399996]: Odom time 1732386146.8462808 outside buffer range [1732386143.3463602, 1732386146.4462953]
+[WARN] [1732392958.400925]: No matching point cloud for odometry at time 1732386146.846
+[WARN] [1732392958.401775]: Odom time 1732386146.9463081 outside buffer range [1732386143.3463602, 1732386146.4462953]
+[WARN] [1732392958.402519]: No matching point cloud for odometry at time 1732386146.946
+[WARN] [1732392958.403270]: Odom time 1732386147.0462976 outside buffer range [1732386143.3463602, 1732386146.4462953]
+[WARN] [1732392958.408425]: No matching point cloud for odometry at time 1732386147.046
+[WARN] [1732392958.410016]: Odom time 1732386147.1463356 outside buffer range [1732386143.3463602, 1732386146.5462909]
+[WARN] [1732392958.411407]: No matching point cloud for odometry at time 1732386147.146
+[WARN] [1732392958.412955]: Odom time 1732386147.2463157 outside buffer range [1732386143.3463602, 1732386146.5462909]
+[WARN] [1732392958.414360]: No matching point cloud for odometry at time 1732386147.246
+[WARN] [1732392958.415704]: Odom time 1732386147.3463058 outside buffer range [1732386143.3463602, 1732386146.5462909]
+[WARN] [1732392958.417036]: No matching point cloud for odometry at time 1732386147.346
+[WARN] [1732392958.418463]: Odom time 1732386147.4462552 outside buffer range [1732386143.3463602, 1732386146.5462909]
+[WARN] [1732392958.423738]: No matching point cloud for odometry at time 1732386147.446
+[WARN] [1732392958.427161]: Odom time 1732386147.546386 outside buffer range [1732386143.3463602, 1732386146.6462886]
+[WARN] [1732392958.428109]: No matching point cloud for odometry at time 1732386147.546
+[WARN] [1732392958.429289]: Odom time 1732386147.6462631 outside buffer range [1732386143.3463602, 1732386146.6462886]
+[WARN] [1732392958.430167]: No matching point cloud for odometry at time 1732386147.646
+[WARN] [1732392958.431911]: Odom time 1732386147.7463186 outside buffer range [1732386143.3463602, 1732386146.6462886]
+[WARN] [1732392958.433070]: No matching point cloud for odometry at time 1732386147.746
+[WARN] [1732392958.437862]: Odom time 1732386147.8462584 outside buffer range [1732386143.3463602, 1732386146.7464159]
+[WARN] [1732392958.439348]: No matching point cloud for odometry at time 1732386147.846
+[WARN] [1732392958.469141]: Odom time 1732386147.9464571 outside buffer range [1732386143.3463602, 1732386147.0462976]
+[WARN] [1732392958.470686]: No matching point cloud for odometry at time 1732386147.946
+[INFO] [1732392961.962105]: 
+Sync Statistics:
+  Total Odometry Messages: 58
+  Successful Matches: 26
+  Match Rate: 44.8%
+  Point Cloud Buffer Size: 58
+  Current Threshold: 0.150s
+  Average Time Difference: 0.108s
+[WARN] [1732392962.517947]: Odom time 1732386149.3461347 outside buffer range [1732386143.3463602, 1732386149.1462176]
+[WARN] [1732392962.524197]: No matching point cloud for odometry at time 1732386149.346
+[WARN] [1732392962.525959]: Odom time 1732386149.446156 outside buffer range [1732386143.3463602, 1732386149.246266]
+[WARN] [1732392962.528193]: No matching point cloud for odometry at time 1732386149.446
+[WARN] [1732392962.530023]: Odom time 1732386151.0459776 outside buffer range [1732386143.3463602, 1732386149.246266]
+[WARN] [1732392962.531686]: No matching point cloud for odometry at time 1732386151.046
+[WARN] [1732392962.539788]: Odom time 1732386151.1462421 outside buffer range [1732386143.3463602, 1732386149.3461347]
+[WARN] [1732392962.542748]: No matching point cloud for odometry at time 1732386151.146
+[WARN] [1732392962.550617]: Odom time 1732386151.2460332 outside buffer range [1732386143.3463602, 1732386149.446156]
+[WARN] [1732392962.551972]: No matching point cloud for odometry at time 1732386151.246
+[WARN] [1732392962.553369]: Odom time 1732386151.34626 outside buffer range [1732386143.3463602, 1732386149.446156]
+[WARN] [1732392962.554325]: No matching point cloud for odometry at time 1732386151.346
+[WARN] [1732392962.555181]: Odom time 1732386151.446092 outside buffer range [1732386143.3463602, 1732386149.446156]
+[WARN] [1732392962.555967]: No matching point cloud for odometry at time 1732386151.446
+[WARN] [1732392962.556729]: Odom time 1732386151.546022 outside buffer range [1732386143.3463602, 1732386149.446156]
+[WARN] [1732392962.557460]: No matching point cloud for odometry at time 1732386151.546
+[WARN] [1732392962.558236]: Odom time 1732386151.6461575 outside buffer range [1732386143.3463602, 1732386149.446156]
+[WARN] [1732392962.562292]: No matching point cloud for odometry at time 1732386151.646
+[WARN] [1732392962.563167]: Odom time 1732386151.7461162 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732392962.564044]: No matching point cloud for odometry at time 1732386151.746
+[WARN] [1732392962.564790]: Odom time 1732386151.8461025 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732392962.565595]: No matching point cloud for odometry at time 1732386151.846
+[WARN] [1732392962.566352]: Odom time 1732386151.9460967 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732392962.567117]: No matching point cloud for odometry at time 1732386151.946
+[WARN] [1732392962.568175]: Odom time 1732386152.0461168 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732392962.568894]: No matching point cloud for odometry at time 1732386152.046
+[WARN] [1732392962.630813]: Odom time 1732386152.146081 outside buffer range [1732386143.3463602, 1732386150.4461448]
+[WARN] [1732392962.632136]: No matching point cloud for odometry at time 1732386152.146
+[WARN] [1732392962.735314]: Odom time 1732386152.2461665 outside buffer range [1732386143.3463602, 1732386151.9460967]
+[WARN] [1732392962.736565]: No matching point cloud for odometry at time 1732386152.246
+[WARN] [1732392964.078735]: Odom time 1732386152.746532 outside buffer range [1732386143.3463602, 1732386152.5462577]
+[WARN] [1732392964.079849]: No matching point cloud for odometry at time 1732386152.747
+[WARN] [1732392964.080888]: Odom time 1732386152.8469174 outside buffer range [1732386143.3463602, 1732386152.5462577]
+[WARN] [1732392964.085047]: No matching point cloud for odometry at time 1732386152.847
+[WARN] [1732392964.085892]: Odom time 1732386152.9462924 outside buffer range [1732386143.3463602, 1732386152.6462638]
+[WARN] [1732392964.086637]: No matching point cloud for odometry at time 1732386152.946
+[WARN] [1732392964.087599]: Odom time 1732386153.0462105 outside buffer range [1732386143.3463602, 1732386152.6462638]
+[WARN] [1732392964.088452]: No matching point cloud for odometry at time 1732386153.046
+[WARN] [1732392964.089379]: Odom time 1732386153.1461885 outside buffer range [1732386143.3463602, 1732386152.6462638]
+[WARN] [1732392964.090261]: No matching point cloud for odometry at time 1732386153.146
+[WARN] [1732392964.091206]: Odom time 1732386153.2461872 outside buffer range [1732386143.3463602, 1732386152.6462638]
+[WARN] [1732392964.092123]: No matching point cloud for odometry at time 1732386153.246
+[WARN] [1732392964.097137]: Odom time 1732386153.346248 outside buffer range [1732386143.3463602, 1732386152.746532]
+[WARN] [1732392964.098135]: No matching point cloud for odometry at time 1732386153.346
+[WARN] [1732392964.099062]: Odom time 1732386153.4463575 outside buffer range [1732386143.3463602, 1732386152.746532]
+[WARN] [1732392964.100263]: No matching point cloud for odometry at time 1732386153.446
+[WARN] [1732392964.102548]: Odom time 1732386153.5461876 outside buffer range [1732386143.3463602, 1732386152.746532]
+[WARN] [1732392964.104242]: No matching point cloud for odometry at time 1732386153.546
+[WARN] [1732392964.136973]: Odom time 1732386153.646166 outside buffer range [1732386143.3463602, 1732386153.1461885]
+[WARN] [1732392964.138319]: No matching point cloud for odometry at time 1732386153.646
+[WARN] [1732392966.148736]: Odom time 1732386154.346446 outside buffer range [1732386144.24625, 1732386154.146296]
+[WARN] [1732392966.149920]: No matching point cloud for odometry at time 1732386154.346
+[WARN] [1732392966.150777]: Odom time 1732386154.4463804 outside buffer range [1732386144.24625, 1732386154.146296]
+[WARN] [1732392966.151567]: No matching point cloud for odometry at time 1732386154.446
+[WARN] [1732392966.153689]: Odom time 1732386154.5466223 outside buffer range [1732386144.346485, 1732386154.2463589]
+[WARN] [1732392966.154457]: No matching point cloud for odometry at time 1732386154.547
+[WARN] [1732392966.155190]: Odom time 1732386154.6463687 outside buffer range [1732386144.346485, 1732386154.2463589]
+[WARN] [1732392966.155900]: No matching point cloud for odometry at time 1732386154.646
+[WARN] [1732392966.156710]: Odom time 1732386154.746428 outside buffer range [1732386144.346485, 1732386154.2463589]
+[WARN] [1732392966.157507]: No matching point cloud for odometry at time 1732386154.746
+[WARN] [1732392966.158300]: Odom time 1732386154.8462658 outside buffer range [1732386144.346485, 1732386154.2463589]
+[WARN] [1732392966.159021]: No matching point cloud for odometry at time 1732386154.846
+[WARN] [1732392966.159820]: Odom time 1732386154.9462247 outside buffer range [1732386144.346485, 1732386154.2463589]
+[WARN] [1732392966.162673]: No matching point cloud for odometry at time 1732386154.946
+[WARN] [1732392966.164048]: Odom time 1732386155.0464783 outside buffer range [1732386144.4462526, 1732386154.346446]
+[WARN] [1732392966.164838]: No matching point cloud for odometry at time 1732386155.046
+[WARN] [1732392966.165703]: Odom time 1732386155.1462772 outside buffer range [1732386144.4462526, 1732386154.346446]
+[WARN] [1732392966.166453]: No matching point cloud for odometry at time 1732386155.146
+[WARN] [1732392966.167206]: Odom time 1732386155.2462997 outside buffer range [1732386144.4462526, 1732386154.346446]
+[WARN] [1732392966.168046]: No matching point cloud for odometry at time 1732386155.246
+[WARN] [1732392966.168787]: Odom time 1732386155.3465283 outside buffer range [1732386144.4462526, 1732386154.346446]
+[WARN] [1732392966.169536]: No matching point cloud for odometry at time 1732386155.347
+[WARN] [1732392966.172129]: Odom time 1732386155.4463174 outside buffer range [1732386144.5464265, 1732386154.4463804]
+[WARN] [1732392966.173066]: No matching point cloud for odometry at time 1732386155.446
+[WARN] [1732392966.173919]: Odom time 1732386155.5463183 outside buffer range [1732386144.5464265, 1732386154.4463804]
+[WARN] [1732392966.174725]: No matching point cloud for odometry at time 1732386155.546
+[WARN] [1732392966.175765]: Odom time 1732386155.6463792 outside buffer range [1732386144.5464265, 1732386154.4463804]
+[WARN] [1732392966.176549]: No matching point cloud for odometry at time 1732386155.646
+[WARN] [1732392966.876709]: Odom time 1732386155.9463274 outside buffer range [1732386145.8465629, 1732386155.7462711]
+[WARN] [1732392966.877793]: No matching point cloud for odometry at time 1732386155.946
+[WARN] [1732392966.880007]: Odom time 1732386156.0463593 outside buffer range [1732386145.9463346, 1732386155.8465486]
+[WARN] [1732392966.880842]: No matching point cloud for odometry at time 1732386156.046
+[WARN] [1732392966.881742]: Odom time 1732386156.1466703 outside buffer range [1732386145.9463346, 1732386155.8465486]
+[WARN] [1732392966.882443]: No matching point cloud for odometry at time 1732386156.147
+[WARN] [1732392966.883106]: Odom time 1732386156.24651 outside buffer range [1732386145.9463346, 1732386155.8465486]
+[WARN] [1732392966.883935]: No matching point cloud for odometry at time 1732386156.247
+[WARN] [1732392966.884711]: Odom time 1732386156.346451 outside buffer range [1732386145.9463346, 1732386155.8465486]
+[WARN] [1732392966.885490]: No matching point cloud for odometry at time 1732386156.346
+[INFO] [1732392966.964700]: 
+Sync Statistics:
+  Total Odometry Messages: 116
+  Successful Matches: 40
+  Match Rate: 34.5%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.150s
+  Average Time Difference: 0.095s
+[WARN] [1732392967.562679]: Odom time 1732386156.646469 outside buffer range [1732386146.5462909, 1732386156.4463952]
+[WARN] [1732392967.564964]: No matching point cloud for odometry at time 1732386156.646
+[WARN] [1732392967.565737]: Odom time 1732386156.7464356 outside buffer range [1732386146.6462886, 1732386156.54639]
+[WARN] [1732392967.566435]: No matching point cloud for odometry at time 1732386156.746
+[WARN] [1732392967.567297]: Odom time 1732386156.8464422 outside buffer range [1732386146.6462886, 1732386156.54639]
+[WARN] [1732392967.568071]: No matching point cloud for odometry at time 1732386156.846
+[WARN] [1732392967.568760]: Odom time 1732386156.9467206 outside buffer range [1732386146.6462886, 1732386156.54639]
+[WARN] [1732392967.569437]: No matching point cloud for odometry at time 1732386156.947
+[WARN] [1732392967.570124]: Odom time 1732386157.0464063 outside buffer range [1732386146.6462886, 1732386156.54639]
+[WARN] [1732392967.570773]: No matching point cloud for odometry at time 1732386157.046
+[INFO] [1732392971.974874]: 
+Sync Statistics:
+  Total Odometry Messages: 135
+  Successful Matches: 54
+  Match Rate: 40.0%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.150s
+  Average Time Difference: 0.072s
+[WARN] [1732392972.019066]: Odom time 1732386160.5466223 outside buffer range [1732386149.0461864, 1732386158.946365]
+[WARN] [1732392972.021266]: No matching point cloud for odometry at time 1732386160.547
+[WARN] [1732392972.026374]: Odom time 1732386160.6467042 outside buffer range [1732386149.1462176, 1732386159.0463939]
+[WARN] [1732392972.028945]: No matching point cloud for odometry at time 1732386160.647
+[WARN] [1732392972.044739]: Odom time 1732386160.746744 outside buffer range [1732386149.3461347, 1732386159.2463572]
+[WARN] [1732392972.052087]: No matching point cloud for odometry at time 1732386160.747
+[WARN] [1732392972.053600]: Odom time 1732386160.8465712 outside buffer range [1732386149.446156, 1732386159.3463926]
+[WARN] [1732392972.054546]: No matching point cloud for odometry at time 1732386160.847
+[WARN] [1732392972.055491]: Odom time 1732386160.9468076 outside buffer range [1732386149.446156, 1732386159.3463926]
+[WARN] [1732392972.056332]: No matching point cloud for odometry at time 1732386160.947
+[WARN] [1732392972.057174]: Odom time 1732386161.046606 outside buffer range [1732386149.446156, 1732386159.3463926]
+[WARN] [1732392972.057931]: No matching point cloud for odometry at time 1732386161.047
+[WARN] [1732392972.058781]: Odom time 1732386161.1467123 outside buffer range [1732386149.446156, 1732386159.3463926]
+[WARN] [1732392972.059607]: No matching point cloud for odometry at time 1732386161.147
+[WARN] [1732392972.062223]: Odom time 1732386161.2467232 outside buffer range [1732386149.5461285, 1732386159.4464002]
+[WARN] [1732392972.063022]: No matching point cloud for odometry at time 1732386161.247
+[WARN] [1732392972.063856]: Odom time 1732386161.3467393 outside buffer range [1732386149.5461285, 1732386159.4464002]
+[WARN] [1732392972.064615]: No matching point cloud for odometry at time 1732386161.347
+[WARN] [1732392972.065433]: Odom time 1732386161.4469686 outside buffer range [1732386149.5461285, 1732386159.4464002]
+[WARN] [1732392972.066199]: No matching point cloud for odometry at time 1732386161.447
+[WARN] [1732392972.067031]: Odom time 1732386161.546904 outside buffer range [1732386149.5461285, 1732386159.4464002]
+[WARN] [1732392972.067830]: No matching point cloud for odometry at time 1732386161.547
+[WARN] [1732392972.163632]: Odom time 1732386161.6470077 outside buffer range [1732386151.1462421, 1732386161.046606]
+[WARN] [1732392972.164831]: No matching point cloud for odometry at time 1732386161.647
+[INFO] [1732392976.963583]: 
+Sync Statistics:
+  Total Odometry Messages: 160
+  Successful Matches: 67
+  Match Rate: 41.9%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.034s
+[WARN] [1732392977.451607]: Odom time 1732386166.0466661 outside buffer range [1732386155.2462997, 1732386165.1467361]
+[WARN] [1732392977.454215]: No matching point cloud for odometry at time 1732386166.047
+[WARN] [1732392977.455369]: Odom time 1732386166.1467137 outside buffer range [1732386155.3465283, 1732386165.2467062]
+[WARN] [1732392977.456061]: No matching point cloud for odometry at time 1732386166.147
+[WARN] [1732392977.456825]: Odom time 1732386166.2468007 outside buffer range [1732386155.3465283, 1732386165.2467062]
+[WARN] [1732392977.457742]: No matching point cloud for odometry at time 1732386166.247
+[WARN] [1732392977.458486]: Odom time 1732386166.3467982 outside buffer range [1732386155.3465283, 1732386165.2467062]
+[WARN] [1732392977.459460]: No matching point cloud for odometry at time 1732386166.347
+[WARN] [1732392977.460233]: Odom time 1732386166.4469419 outside buffer range [1732386155.3465283, 1732386165.2467062]
+[WARN] [1732392977.461094]: No matching point cloud for odometry at time 1732386166.447
+[WARN] [1732392977.463228]: Odom time 1732386166.5468342 outside buffer range [1732386155.4463174, 1732386165.3466294]
+[WARN] [1732392977.464030]: No matching point cloud for odometry at time 1732386166.547
+[WARN] [1732392977.464816]: Odom time 1732386166.6467505 outside buffer range [1732386155.4463174, 1732386165.3466294]
+[WARN] [1732392977.465605]: No matching point cloud for odometry at time 1732386166.647
+[WARN] [1732392977.466423]: Odom time 1732386166.7469099 outside buffer range [1732386155.4463174, 1732386165.3466294]
+[WARN] [1732392977.467310]: No matching point cloud for odometry at time 1732386166.747
+[WARN] [1732392977.468107]: Odom time 1732386166.8467174 outside buffer range [1732386155.4463174, 1732386165.3466294]
+[WARN] [1732392977.468951]: No matching point cloud for odometry at time 1732386166.847
+[WARN] [1732392977.469635]: Odom time 1732386166.9468064 outside buffer range [1732386155.4463174, 1732386165.3466294]
+[WARN] [1732392977.471726]: No matching point cloud for odometry at time 1732386166.947
+[WARN] [1732392977.542431]: Odom time 1732386167.0467505 outside buffer range [1732386156.646469, 1732386166.5468342]
+[WARN] [1732392977.545577]: No matching point cloud for odometry at time 1732386167.047
+[INFO] [1732392981.958833]: 
+Sync Statistics:
+  Total Odometry Messages: 185
+  Successful Matches: 81
+  Match Rate: 43.8%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.022s
+[WARN] [1732392982.392359]: Odom time 1732386170.946729 outside buffer range [1732386159.646557, 1732386169.546768]
+[WARN] [1732392982.396051]: No matching point cloud for odometry at time 1732386170.947
+[WARN] [1732392982.397549]: Odom time 1732386171.0467074 outside buffer range [1732386159.7466218, 1732386169.6467197]
+[WARN] [1732392982.398309]: No matching point cloud for odometry at time 1732386171.047
+[WARN] [1732392982.399079]: Odom time 1732386171.14676 outside buffer range [1732386159.7466218, 1732386169.6467197]
+[WARN] [1732392982.399893]: No matching point cloud for odometry at time 1732386171.147
+[WARN] [1732392982.400966]: Odom time 1732386171.246715 outside buffer range [1732386159.7466218, 1732386169.6467197]
+[WARN] [1732392982.402613]: No matching point cloud for odometry at time 1732386171.247
+[WARN] [1732392982.407780]: Odom time 1732386171.3467402 outside buffer range [1732386159.8466232, 1732386169.7467563]
+[WARN] [1732392982.409863]: No matching point cloud for odometry at time 1732386171.347
+[WARN] [1732392982.419373]: Odom time 1732386171.4466765 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732392982.420912]: No matching point cloud for odometry at time 1732386171.447
+[WARN] [1732392982.422396]: Odom time 1732386171.5467017 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732392982.423832]: No matching point cloud for odometry at time 1732386171.547
+[WARN] [1732392982.425583]: Odom time 1732386171.6473606 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732392982.436357]: No matching point cloud for odometry at time 1732386171.647
+[WARN] [1732392982.437803]: Odom time 1732386171.7470028 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732392982.438811]: No matching point cloud for odometry at time 1732386171.747
+[WARN] [1732392982.439771]: Odom time 1732386171.846751 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732392982.440641]: No matching point cloud for odometry at time 1732386171.847
+[WARN] [1732392982.441707]: Odom time 1732386171.9468353 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732392982.442569]: No matching point cloud for odometry at time 1732386171.947
+[WARN] [1732392982.519202]: Odom time 1732386172.0468857 outside buffer range [1732386161.7468402, 1732386171.6473606]
+[WARN] [1732392982.520415]: No matching point cloud for odometry at time 1732386172.047
+[WARN] [1732392982.888872]: Odom time 1732386172.2469165 outside buffer range [1732386162.2469406, 1732386172.1469274]
+[WARN] [1732392982.889851]: No matching point cloud for odometry at time 1732386172.247
+[WARN] [1732392982.890711]: Odom time 1732386172.346933 outside buffer range [1732386162.2469406, 1732386172.1469274]
+[WARN] [1732392982.891519]: No matching point cloud for odometry at time 1732386172.347
+[WARN] [1732392983.256794]: Odom time 1732386172.5468657 outside buffer range [1732386162.5467284, 1732386172.4468615]
+[WARN] [1732392983.257862]: No matching point cloud for odometry at time 1732386172.547
+[WARN] [1732392983.258911]: Odom time 1732386172.6468215 outside buffer range [1732386162.5467284, 1732386172.4468615]
+[WARN] [1732392983.259666]: No matching point cloud for odometry at time 1732386172.647
+[WARN] [1732392983.260576]: Odom time 1732386172.74681 outside buffer range [1732386162.5467284, 1732386172.4468615]
+[WARN] [1732392983.262971]: No matching point cloud for odometry at time 1732386172.747
+[WARN] [1732392984.204394]: Odom time 1732386173.1469314 outside buffer range [1732386163.146736, 1732386173.0467975]
+[WARN] [1732392984.211759]: No matching point cloud for odometry at time 1732386173.147
+[WARN] [1732392984.213745]: Odom time 1732386173.246903 outside buffer range [1732386163.246711, 1732386173.1469314]
+[WARN] [1732392984.215264]: No matching point cloud for odometry at time 1732386173.247
+[WARN] [1732392984.216274]: Odom time 1732386173.3469162 outside buffer range [1732386163.246711, 1732386173.1469314]
+[WARN] [1732392984.219985]: No matching point cloud for odometry at time 1732386173.347
+[WARN] [1732392984.221172]: Odom time 1732386173.446848 outside buffer range [1732386163.346735, 1732386173.246903]
+[WARN] [1732392984.222479]: No matching point cloud for odometry at time 1732386173.447
+[WARN] [1732392984.223345]: Odom time 1732386173.5468981 outside buffer range [1732386163.346735, 1732386173.246903]
+[WARN] [1732392984.224288]: No matching point cloud for odometry at time 1732386173.547
+[WARN] [1732392984.225079]: Odom time 1732386173.6468656 outside buffer range [1732386163.346735, 1732386173.246903]
+[WARN] [1732392984.225817]: No matching point cloud for odometry at time 1732386173.647
+[WARN] [1732392984.226649]: Odom time 1732386173.746904 outside buffer range [1732386163.346735, 1732386173.246903]
+[WARN] [1732392984.227508]: No matching point cloud for odometry at time 1732386173.747
+[WARN] [1732392984.618568]: Odom time 1732386173.946952 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732392984.620159]: No matching point cloud for odometry at time 1732386173.947
+[WARN] [1732392984.621087]: Odom time 1732386174.0469556 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732392984.621820]: No matching point cloud for odometry at time 1732386174.047
+[WARN] [1732392984.622860]: Odom time 1732386174.147087 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732392984.625802]: No matching point cloud for odometry at time 1732386174.147
+[WARN] [1732392985.022691]: Odom time 1732386174.3470833 outside buffer range [1732386164.3467307, 1732386174.2469797]
+[WARN] [1732392985.026313]: No matching point cloud for odometry at time 1732386174.347
+[WARN] [1732392985.028210]: Odom time 1732386174.446937 outside buffer range [1732386164.4466176, 1732386174.3470833]
+[WARN] [1732392985.029180]: No matching point cloud for odometry at time 1732386174.447
+[WARN] [1732392985.030170]: Odom time 1732386174.547016 outside buffer range [1732386164.4466176, 1732386174.3470833]
+[WARN] [1732392985.030962]: No matching point cloud for odometry at time 1732386174.547
+[WARN] [1732392985.411839]: Odom time 1732386174.7471685 outside buffer range [1732386164.746797, 1732386174.6471353]
+[WARN] [1732392985.413937]: No matching point cloud for odometry at time 1732386174.747
+[WARN] [1732392985.415729]: Odom time 1732386174.8469226 outside buffer range [1732386164.746797, 1732386174.6471353]
+[WARN] [1732392985.417504]: No matching point cloud for odometry at time 1732386174.847
+[WARN] [1732392985.430816]: Odom time 1732386174.9470053 outside buffer range [1732386164.946947, 1732386174.8469226]
+[WARN] [1732392985.432012]: No matching point cloud for odometry at time 1732386174.947
+[WARN] [1732392985.827358]: Odom time 1732386175.1470244 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732392985.829206]: No matching point cloud for odometry at time 1732386175.147
+[WARN] [1732392985.830863]: Odom time 1732386175.247001 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732392985.834181]: No matching point cloud for odometry at time 1732386175.247
+[WARN] [1732392985.835424]: Odom time 1732386175.3472514 outside buffer range [1732386165.2467062, 1732386175.1470244]
+[WARN] [1732392985.836377]: No matching point cloud for odometry at time 1732386175.347
+[WARN] [1732392986.242794]: Odom time 1732386175.5470364 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732392986.243973]: No matching point cloud for odometry at time 1732386175.547
+[WARN] [1732392986.244822]: Odom time 1732386175.6469471 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732392986.245593]: No matching point cloud for odometry at time 1732386175.647
+[WARN] [1732392986.246374]: Odom time 1732386175.7470126 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732392986.247127]: No matching point cloud for odometry at time 1732386175.747
+[WARN] [1732392986.619326]: Odom time 1732386175.9470048 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732392986.621195]: No matching point cloud for odometry at time 1732386175.947
+[WARN] [1732392986.622828]: Odom time 1732386176.0469925 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732392986.623994]: No matching point cloud for odometry at time 1732386176.047
+[WARN] [1732392986.624958]: Odom time 1732386176.147054 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732392986.625865]: No matching point cloud for odometry at time 1732386176.147
+[INFO] [1732392986.962947]: 
+Sync Statistics:
+  Total Odometry Messages: 240
+  Successful Matches: 94
+  Match Rate: 39.2%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.006s
+[WARN] [1732392987.381723]: Odom time 1732386176.4469764 outside buffer range [1732386166.4469419, 1732386176.3470201]
+[WARN] [1732392987.382957]: No matching point cloud for odometry at time 1732386176.447
+[WARN] [1732392987.385306]: Odom time 1732386176.5470316 outside buffer range [1732386166.5468342, 1732386176.4469764]
+[WARN] [1732392987.386103]: No matching point cloud for odometry at time 1732386176.547
+[WARN] [1732392987.386955]: Odom time 1732386176.6469963 outside buffer range [1732386166.5468342, 1732386176.4469764]
+[WARN] [1732392987.387638]: No matching point cloud for odometry at time 1732386176.647
+[WARN] [1732392987.388520]: Odom time 1732386176.7469919 outside buffer range [1732386166.5468342, 1732386176.4469764]
+[WARN] [1732392987.389186]: No matching point cloud for odometry at time 1732386176.747
+[WARN] [1732392987.390098]: Odom time 1732386176.8469846 outside buffer range [1732386166.5468342, 1732386176.4469764]
+[WARN] [1732392987.391102]: No matching point cloud for odometry at time 1732386176.847
+[WARN] [1732392987.712488]: Odom time 1732386177.0469258 outside buffer range [1732386167.0467505, 1732386176.9472127]
+[WARN] [1732392987.713619]: No matching point cloud for odometry at time 1732386177.047
+[WARN] [1732392987.719107]: Odom time 1732386177.1470616 outside buffer range [1732386167.146798, 1732386177.0469258]
+[WARN] [1732392987.730941]: No matching point cloud for odometry at time 1732386177.147
+[WARN] [1732392988.394104]: Odom time 1732386177.446832 outside buffer range [1732386167.4468696, 1732386177.3468926]
+[WARN] [1732392988.395350]: No matching point cloud for odometry at time 1732386177.447
+[WARN] [1732392988.396282]: Odom time 1732386177.5468237 outside buffer range [1732386167.4468696, 1732386177.3468926]
+[WARN] [1732392988.399265]: No matching point cloud for odometry at time 1732386177.547
+[WARN] [1732392988.400744]: Odom time 1732386177.6468117 outside buffer range [1732386167.5469294, 1732386177.446832]
+[WARN] [1732392988.401616]: No matching point cloud for odometry at time 1732386177.647
+[WARN] [1732392988.402382]: Odom time 1732386177.746831 outside buffer range [1732386167.5469294, 1732386177.446832]
+[WARN] [1732392988.403250]: No matching point cloud for odometry at time 1732386177.747
+[WARN] [1732392988.404003]: Odom time 1732386177.8470304 outside buffer range [1732386167.5469294, 1732386177.446832]
+[WARN] [1732392988.404799]: No matching point cloud for odometry at time 1732386177.847
+[INFO] [1732392991.958726]: 
+Sync Statistics:
+  Total Odometry Messages: 265
+  Successful Matches: 107
+  Match Rate: 40.4%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732392996.978041]: 
+Sync Statistics:
+  Total Odometry Messages: 275
+  Successful Matches: 117
+  Match Rate: 42.5%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393001.963791]: 
+Sync Statistics:
+  Total Odometry Messages: 288
+  Successful Matches: 130
+  Match Rate: 45.1%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393006.962440]: 
+Sync Statistics:
+  Total Odometry Messages: 304
+  Successful Matches: 146
+  Match Rate: 48.0%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[WARN] [1732393009.673276]: Odom time 1732386196.447239 outside buffer range [1732386179.8469596, 1732386196.3472044]
+[WARN] [1732393009.676042]: No matching point cloud for odometry at time 1732386196.447
+[WARN] [1732393009.677404]: Odom time 1732386197.6471097 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.678197]: No matching point cloud for odometry at time 1732386197.647
+[WARN] [1732393009.678900]: Odom time 1732386197.747185 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.679731]: No matching point cloud for odometry at time 1732386197.747
+[WARN] [1732393009.680522]: Odom time 1732386197.8472493 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.681501]: No matching point cloud for odometry at time 1732386197.847
+[WARN] [1732393009.682104]: Odom time 1732386197.9472096 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.682854]: No matching point cloud for odometry at time 1732386197.947
+[WARN] [1732393009.683593]: Odom time 1732386198.0472484 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.684300]: No matching point cloud for odometry at time 1732386198.047
+[WARN] [1732393009.685012]: Odom time 1732386198.1472213 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.685820]: No matching point cloud for odometry at time 1732386198.147
+[WARN] [1732393009.686627]: Odom time 1732386198.247226 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.687275]: No matching point cloud for odometry at time 1732386198.247
+[WARN] [1732393009.688000]: Odom time 1732386198.3472342 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.688618]: No matching point cloud for odometry at time 1732386198.347
+[WARN] [1732393009.689374]: Odom time 1732386198.4471624 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.690058]: No matching point cloud for odometry at time 1732386198.447
+[WARN] [1732393009.690764]: Odom time 1732386198.547263 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393009.691409]: No matching point cloud for odometry at time 1732386198.547
+[INFO] [1732393011.962525]: 
+Sync Statistics:
+  Total Odometry Messages: 324
+  Successful Matches: 155
+  Match Rate: 47.8%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393016.960924]: 
+Sync Statistics:
+  Total Odometry Messages: 324
+  Successful Matches: 155
+  Match Rate: 47.8%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+
+
+gem@gem-nuvo:~/bobabee_ws_test$ rostopic hz /synchronized_cloud_with_pose
+subscribed to [/synchronized_cloud_with_pose]
+average rate: 2.523
+	min: 0.396s max: 0.396s std dev: 0.00000s window: 2
+average rate: 2.623
+	min: 0.315s max: 0.464s std dev: 0.05590s window: 5
+average rate: 2.620
+	min: 0.315s max: 0.464s std dev: 0.04400s window: 8
+average rate: 2.637
+	min: 0.315s max: 0.464s std dev: 0.03959s window: 10
+average rate: 2.649
+	min: 0.315s max: 0.464s std dev: 0.03636s window: 13
+average rate: 2.587
+	min: 0.315s max: 0.530s std dev: 0.05268s window: 15
+average rate: 2.611
+	min: 0.315s max: 0.530s std dev: 0.05439s window: 18
+average rate: 2.646
+	min: 0.315s max: 0.530s std dev: 0.05287s window: 21
+average rate: 2.686
+	min: 0.290s max: 0.530s std dev: 0.05283s window: 24
+average rate: 2.732
+	min: 0.290s max: 0.530s std dev: 0.05284s window: 27
+average rate: 2.714
+	min: 0.290s max: 0.530s std dev: 0.05653s window: 30
+average rate: 2.750
+	min: 0.290s max: 0.530s std dev: 0.05684s window: 33
+average rate: 2.730
+	min: 0.290s max: 0.530s std dev: 0.05616s window: 35
+average rate: 2.706
+	min: 0.290s max: 0.530s std dev: 0.05506s window: 38
+average rate: 2.698
+	min: 0.290s max: 0.530s std dev: 0.05391s window: 40
+average rate: 2.709
+	min: 0.290s max: 0.530s std dev: 0.05236s window: 43
+average rate: 2.728
+	min: 0.258s max: 0.530s std dev: 0.05562s window: 46
+average rate: 2.691
+	min: 0.258s max: 0.549s std dev: 0.06087s window: 48
+average rate: 2.672
+	min: 0.258s max: 0.549s std dev: 0.06127s window: 50
+average rate: 2.647
+	min: 0.258s max: 0.549s std dev: 0.06273s window: 52
+average rate: 2.612
+	min: 0.258s max: 0.549s std dev: 0.06543s window: 55
+average rate: 2.591
+	min: 0.258s max: 0.549s std dev: 0.06669s window: 57
+average rate: 2.561
+	min: 0.258s max: 0.552s std dev: 0.07002s window: 59
+average rate: 2.556
+	min: 0.258s max: 0.552s std dev: 0.06921s window: 61
+average rate: 2.533
+	min: 0.258s max: 0.552s std dev: 0.07081s window: 63
+average rate: 2.565
+	min: 0.237s max: 0.552s std dev: 0.07254s window: 67
+average rate: 2.548
+	min: 0.237s max: 0.552s std dev: 0.07326s window: 69
+average rate: 2.528
+	min: 0.237s max: 0.552s std dev: 0.07446s window: 71
+average rate: 2.541
+	min: 0.229s max: 0.552s std dev: 0.07660s window: 74
+average rate: 2.524
+	min: 0.229s max: 0.552s std dev: 0.07738s window: 76
+average rate: 2.521
+	min: 0.229s max: 0.552s std dev: 0.07727s window: 78
+average rate: 2.556
+	min: 0.227s max: 0.552s std dev: 0.08092s window: 82
+average rate: 2.578
+	min: 0.227s max: 0.552s std dev: 0.08136s window: 85
+average rate: 2.615
+	min: 0.215s max: 0.552s std dev: 0.08387s window: 89
+average rate: 2.636
+	min: 0.215s max: 0.552s std dev: 0.08439s window: 92
+average rate: 2.651
+	min: 0.215s max: 0.552s std dev: 0.08400s window: 95
+average rate: 2.675
+	min: 0.215s max: 0.552s std dev: 0.08385s window: 99
+average rate: 2.695
+	min: 0.215s max: 0.552s std dev: 0.08539s window: 101
+
+### RUN 2
+
+gem@gem-nuvo:~/bobabee_ws_test/notebooks/timing_test$ python3 test.py
+[WARN] [1732393096.302570]: Odom time 1732386143.746406 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732393096.303588]: No matching point cloud for odometry at time 1732386143.746
+[WARN] [1732393096.304555]: Odom time 1732386143.846421 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732393096.305300]: No matching point cloud for odometry at time 1732386143.846
+[WARN] [1732393096.306078]: Odom time 1732386143.946323 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732393096.310123]: No matching point cloud for odometry at time 1732386143.946
+[WARN] [1732393096.311083]: Odom time 1732386144.0463037 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.311939]: No matching point cloud for odometry at time 1732386144.046
+[WARN] [1732393096.312627]: Odom time 1732386144.146322 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.313371]: No matching point cloud for odometry at time 1732386144.146
+[WARN] [1732393096.314420]: Odom time 1732386144.24625 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.315328]: No matching point cloud for odometry at time 1732386144.246
+[WARN] [1732393096.316210]: Odom time 1732386144.346485 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.317002]: No matching point cloud for odometry at time 1732386144.346
+[WARN] [1732393096.340436]: Odom time 1732386144.4462526 outside buffer range [1732386143.3463602, 1732386143.846421]
+[WARN] [1732393096.341766]: No matching point cloud for odometry at time 1732386144.446
+[INFO] [1732393097.392329]: 
+Sync Statistics:
+  Total Odometry Messages: 16
+  Successful Matches: 8
+  Match Rate: 50.0%
+  Point Cloud Buffer Size: 14
+  Current Threshold: 0.300s
+  Average Time Difference: 0.125s
+[WARN] [1732393gem@gem-nuvo:~/bobabee_ws_test/notebooks/timing_test$ python3 test.py
+[WARN] [1732393096.302570]: Odom time 1732386143.746406 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732393096.303588]: No matching point cloud for odometry at time 1732386143.746
+[WARN] [1732393096.304555]: Odom time 1732386143.846421 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732393096.305300]: No matching point cloud for odometry at time 1732386143.846
+[WARN] [1732393096.306078]: Odom time 1732386143.946323 outside buffer range [1732386143.3463602, 1732386143.4462907]
+[WARN] [1732393096.310123]: No matching point cloud for odometry at time 1732386143.946
+[WARN] [1732393096.311083]: Odom time 1732386144.0463037 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.311939]: No matching point cloud for odometry at time 1732386144.046
+[WARN] [1732393096.312627]: Odom time 1732386144.146322 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.313371]: No matching point cloud for odometry at time 1732386144.146
+[WARN] [1732393096.314420]: Odom time 1732386144.24625 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.315328]: No matching point cloud for odometry at time 1732386144.246
+[WARN] [1732393096.316210]: Odom time 1732386144.346485 outside buffer range [1732386143.3463602, 1732386143.5464008]
+[WARN] [1732393096.317002]: No matching point cloud for odometry at time 1732386144.346
+[WARN] [1732393096.340436]: Odom time 1732386144.4462526 outside buffer range [1732386143.3463602, 1732386143.846421]
+[WARN] [1732393096.341766]: No matching point cloud for odometry at time 1732386144.446
+[INFO] [1732393097.392329]: 
+Sync Statistics:
+  Total Odometry Messages: 16
+  Successful Matches: 8
+  Match Rate: 50.0%
+  Point Cloud Buffer Size: 14
+  Current Threshold: 0.300s
+  Average Time Difference: 0.125s
+[WARN] [1732393097.517455]: Odom time 1732386144.9463954 outside buffer range [1732386143.3463602, 1732386144.6463666]
+[WARN] [1732393097.518422]: No matching point cloud for odometry at time 1732386144.946
+[WARN] [1732393097.519278]: Odom time 1732386145.0463238 outside buffer range [1732386143.3463602, 1732386144.6463666]
+[WARN] [1732393097.523114]: No matching point cloud for odometry at time 1732386145.046
+[WARN] [1732393097.523989]: Odom time 1732386145.1464043 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.524633]: No matching point cloud for odometry at time 1732386145.146
+[WARN] [1732393097.525517]: Odom time 1732386145.246319 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.526478]: No matching point cloud for odometry at time 1732386145.246
+[WARN] [1732393097.527780]: Odom time 1732386145.3466623 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.528596]: No matching point cloud for odometry at time 1732386145.347
+[WARN] [1732393097.529543]: Odom time 1732386145.4463353 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.530486]: No matching point cloud for odometry at time 1732386145.446
+[WARN] [1732393097.531304]: Odom time 1732386145.5464008 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.536450]: No matching point cloud for odometry at time 1732386145.546
+[WARN] [1732393097.554381]: Odom time 1732386145.6463315 outside buffer range [1732386143.3463602, 1732386145.0463238]
+[WARN] [1732393097.555883]: No matching point cloud for odometry at time 1732386145.646
+[WARN] [1732393101.049960]: Odom time 1732386148.1464436 outside buffer range [1732386143.3463602, 1732386146.7464159]
+[WARN] [1732393101.051646]: No matching point cloud for odometry at time 1732386148.146
+[WARN] [1732393101.057277]: Odom time 1732386148.246247 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.058337]: No matching point cloud for odometry at time 1732386148.246
+[WARN] [1732393101.059487]: Odom time 1732386148.3462605 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.060357]: No matching point cloud for odometry at time 1732386148.346
+[WARN] [1732393101.061156]: Odom time 1732386148.446228 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.061903]: No matching point cloud for odometry at time 1732386148.446
+[WARN] [1732393101.062648]: Odom time 1732386148.5462248 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.063377]: No matching point cloud for odometry at time 1732386148.546
+[WARN] [1732393101.067655]: Odom time 1732386148.6462264 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.068647]: No matching point cloud for odometry at time 1732386148.646
+[WARN] [1732393101.069516]: Odom time 1732386148.7462673 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.070288]: No matching point cloud for odometry at time 1732386148.746
+[WARN] [1732393101.071085]: Odom time 1732386148.8461947 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.071843]: No matching point cloud for odometry at time 1732386148.846
+[WARN] [1732393101.072596]: Odom time 1732386148.9461787 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.073381]: No matching point cloud for odometry at time 1732386148.946
+[WARN] [1732393101.077249]: Odom time 1732386149.0461864 outside buffer range [1732386143.3463602, 1732386147.0462976]
+[WARN] [1732393101.077998]: No matching point cloud for odometry at time 1732386149.046
+[WARN] [1732393101.078863]: Odom time 1732386149.1462176 outside buffer range [1732386143.3463602, 1732386147.0462976]
+[WARN] [1732393101.079591]: No matching point cloud for odometry at time 1732386149.146
+[WARN] [1732393101.172586]: Odom time 1732386149.246266 outside buffer range [1732386143.3463602, 1732386148.446228]
+[WARN] [1732393101.173734]: No matching point cloud for odometry at time 1732386149.246
+[WARN] [1732393102.274469]: Odom time 1732386149.6461442 outside buffer range [1732386143.3463602, 1732386149.446156]
+[WARN] [1732393102.275454]: No matching point cloud for odometry at time 1732386149.646
+[WARN] [1732393102.279707]: Odom time 1732386149.7461693 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.280705]: No matching point cloud for odometry at time 1732386149.746
+[WARN] [1732393102.281476]: Odom time 1732386149.8461854 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.282260]: No matching point cloud for odometry at time 1732386149.846
+[WARN] [1732393102.283003]: Odom time 1732386149.946249 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.283765]: No matching point cloud for odometry at time 1732386149.946
+[WARN] [1732393102.284539]: Odom time 1732386150.0461857 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.285245]: No matching point cloud for odometry at time 1732386150.046
+[WARN] [1732393102.285960]: Odom time 1732386150.1461337 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.290010]: No matching point cloud for odometry at time 1732386150.146
+[WARN] [1732393102.290761]: Odom time 1732386150.2462008 outside buffer range [1732386143.3463602, 1732386149.6461442]
+[WARN] [1732393102.291468]: No matching point cloud for odometry at time 1732386150.246
+[WARN] [1732393102.292182]: Odom time 1732386150.346215 outside buffer range [1732386143.3463602, 1732386149.6461442]
+[WARN] [1732393102.292860]: No matching point cloud for odometry at time 1732386150.346
+[INFO] [1732393102.391645]: 
+Sync Statistics:
+  Total Odometry Messages: 58
+  Successful Matches: 22
+  Match Rate: 37.9%
+  Point Cloud Buffer Size: 72
+  Current Threshold: 0.150s
+  Average Time Difference: 0.082s
+[WARN] [1732393102.931081]: Odom time 1732386150.6460595 outside buffer range [1732386143.3463602, 1732386150.4461448]
+[WARN] [1732393102.932483]: No matching point cloud for odometry at time 1732386150.646
+[WARN] [1732393102.933611]: Odom time 1732386150.7461483 outside buffer range [1732386143.3463602, 1732386150.4461448]
+[WARN] [1732393102.939850]: No matching point cloud for odometry at time 1732386150.746
+[WARN] [1732393102.942457]: Odom time 1732386150.846077 outside buffer range [1732386143.3463602, 1732386150.5461984]
+[WARN] [1732393102.944029]: No matching point cloud for odometry at time 1732386150.846
+[WARN] [1732393102.951829]: Odom time 1732386150.946071 outside buffer range [1732386143.3463602, 1732386150.6460595]
+[WARN] [1732393102.953548]: No matching point cloud for odometry at time 1732386150.946
+[WARN] [1732393106.305665]: Odom time 1732386152.0461168 outside buffer range [1732386143.3463602, 1732386151.9460967]
+[WARN] [1732393106.306655]: No matching point cloud for odometry at time 1732386152.046
+[WARN] [1732393106.310446]: Odom time 1732386152.146081 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.311185]: No matching point cloud for odometry at time 1732386152.146
+[WARN] [1732393106.311953]: Odom time 1732386152.2461665 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.312620]: No matching point cloud for odometry at time 1732386152.246
+[WARN] [1732393106.313318]: Odom time 1732386152.3463037 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.314153]: No matching point cloud for odometry at time 1732386152.346
+[WARN] [1732393106.315163]: Odom time 1732386153.4463575 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.315967]: No matching point cloud for odometry at time 1732386153.446
+[WARN] [1732393106.316660]: Odom time 1732386153.5461876 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.320312]: No matching point cloud for odometry at time 1732386153.546
+[WARN] [1732393106.321193]: Odom time 1732386153.646166 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.321874]: No matching point cloud for odometry at time 1732386153.646
+[WARN] [1732393106.322593]: Odom time 1732386153.746156 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.323349]: No matching point cloud for odometry at time 1732386153.746
+[WARN] [1732393106.324039]: Odom time 1732386153.8461294 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.324744]: No matching point cloud for odometry at time 1732386153.846
+[WARN] [1732393106.325459]: Odom time 1732386153.9461303 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.329668]: No matching point cloud for odometry at time 1732386153.946
+[WARN] [1732393106.330907]: Odom time 1732386154.0463102 outside buffer range [1732386143.3463602, 1732386152.2461665]
+[WARN] [1732393106.331738]: No matching point cloud for odometry at time 1732386154.046
+[WARN] [1732393106.332725]: Odom time 1732386154.146296 outside buffer range [1732386143.3463602, 1732386152.2461665]
+[WARN] [1732393106.333802]: No matching point cloud for odometry at time 1732386154.146
+[WARN] [1732393106.334787]: Odom time 1732386154.2463589 outside buffer range [1732386143.3463602, 1732386152.2461665]
+[WARN] [1732393106.335510]: No matching point cloud for odometry at time 1732386154.246
+[WARN] [1732393106.341454]: Odom time 1732386154.346446 outside buffer range [1732386143.3463602, 1732386152.3463037]
+[WARN] [1732393106.346142]: No matching point cloud for odometry at time 1732386154.346
+[WARN] [1732393106.382998]: Odom time 1732386154.4463804 outside buffer range [1732386143.3463602, 1732386152.746532]
+[WARN] [1732393106.384227]: No matching point cloud for odometry at time 1732386154.446
+[WARN] [1732393106.454324]: Odom time 1732386154.5466223 outside buffer range [1732386143.846421, 1732386153.746156]
+[WARN] [1732393106.458336]: No matching point cloud for odometry at time 1732386154.547
+[WARN] [1732393106.875146]: Odom time 1732386154.746428 outside buffer range [1732386144.7463949, 1732386154.6463687]
+[WARN] [1732393106.876153]: No matching point cloud for odometry at time 1732386154.746
+[WARN] [1732393106.876879]: Odom time 1732386154.8462658 outside buffer range [1732386144.7463949, 1732386154.6463687]
+[WARN] [1732393106.877637]: No matching point cloud for odometry at time 1732386154.846
+[WARN] [1732393106.878398]: Odom time 1732386154.9462247 outside buffer range [1732386144.7463949, 1732386154.6463687]
+[WARN] [1732393106.879299]: No matching point cloud for odometry at time 1732386154.946
+[INFO] [1732393107.391904]: 
+Sync Statistics:
+  Total Odometry Messages: 95
+  Successful Matches: 36
+  Match Rate: 37.9%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.056s
+[WARN] [1732393108.312705]: Odom time 1732386155.4463174 outside buffer range [1732386145.4463353, 1732386155.3465283]
+[WARN] [1732393108.313705]: No matching point cloud for odometry at time 1732386155.446
+[WARN] [1732393108.314573]: Odom time 1732386155.5463183 outside buffer range [1732386145.4463353, 1732386155.3465283]
+[WARN] [1732393108.315348]: No matching point cloud for odometry at time 1732386155.546
+[WARN] [1732393108.316036]: Odom time 1732386155.6463792 outside buffer range [1732386145.4463353, 1732386155.3465283]
+[WARN] [1732393108.317852]: No matching point cloud for odometry at time 1732386155.646
+[WARN] [1732393108.318634]: Odom time 1732386155.7462711 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.319354]: No matching point cloud for odometry at time 1732386155.746
+[WARN] [1732393108.320058]: Odom time 1732386155.8465486 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.320770]: No matching point cloud for odometry at time 1732386155.847
+[WARN] [1732393108.321498]: Odom time 1732386155.9463274 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.322200]: No matching point cloud for odometry at time 1732386155.946
+[WARN] [1732393108.322927]: Odom time 1732386156.0463593 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.323695]: No matching point cloud for odometry at time 1732386156.046
+[WARN] [1732393108.325781]: Odom time 1732386156.1466703 outside buffer range [1732386145.6463315, 1732386155.5463183]
+[WARN] [1732393108.326476]: No matching point cloud for odometry at time 1732386156.147
+[WARN] [1732393108.327218]: Odom time 1732386156.24651 outside buffer range [1732386145.6463315, 1732386155.5463183]
+[WARN] [1732393108.327977]: No matching point cloud for odometry at time 1732386156.247
+[WARN] [1732393108.328710]: Odom time 1732386156.346451 outside buffer range [1732386145.6463315, 1732386155.5463183]
+[WARN] [1732393108.329696]: No matching point cloud for odometry at time 1732386156.346
+[WARN] [1732393108.370880]: Odom time 1732386156.4463952 outside buffer range [1732386146.2462673, 1732386156.1466703]
+[WARN] [1732393108.374105]: No matching point cloud for odometry at time 1732386156.446
+[INFO] [1732393112.391432]: 
+Sync Statistics:
+  Total Odometry Messages: 120
+  Successful Matches: 50
+  Match Rate: 41.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.040s
+[WARN] [1732393113.203064]: Odom time 1732386160.3466787 outside buffer range [1732386148.6462264, 1732386158.5467076]
+[WARN] [1732393113.204139]: No matching point cloud for odometry at time 1732386160.347
+[WARN] [1732393113.206201]: Odom time 1732386160.4466233 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.207046]: No matching point cloud for odometry at time 1732386160.447
+[WARN] [1732393113.207814]: Odom time 1732386160.5466223 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.208629]: No matching point cloud for odometry at time 1732386160.547
+[WARN] [1732393113.209388]: Odom time 1732386160.6467042 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.210020]: No matching point cloud for odometry at time 1732386160.647
+[WARN] [1732393113.210993]: Odom time 1732386160.746744 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.211730]: No matching point cloud for odometry at time 1732386160.747
+[WARN] [1732393113.212507]: Odom time 1732386160.8465712 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.215118]: No matching point cloud for odometry at time 1732386160.847
+[WARN] [1732393113.216016]: Odom time 1732386160.9468076 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.216722]: No matching point cloud for odometry at time 1732386160.947
+[WARN] [1732393113.217434]: Odom time 1732386161.046606 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.218185]: No matching point cloud for odometry at time 1732386161.047
+[WARN] [1732393113.218950]: Odom time 1732386161.1467123 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.219704]: No matching point cloud for odometry at time 1732386161.147
+[WARN] [1732393113.220431]: Odom time 1732386161.2467232 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.222374]: No matching point cloud for odometry at time 1732386161.247
+[WARN] [1732393113.302342]: Odom time 1732386161.3467393 outside buffer range [1732386150.0461857, 1732386159.9466834]
+[WARN] [1732393113.305853]: No matching point cloud for odometry at time 1732386161.347
+[WARN] [1732393113.368988]: Odom time 1732386161.4469686 outside buffer range [1732386151.1462421, 1732386161.046606]
+[WARN] [1732393113.370705]: No matching point cloud for odometry at time 1732386161.447
+[INFO] [1732393117.393239]: 
+Sync Statistics:
+  Total Odometry Messages: 145
+  Successful Matches: 63
+  Match Rate: 43.4%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.014s
+[WARN] [1732393118.763074]: Odom time 1732386165.8466854 outside buffer range [1732386154.746428, 1732386164.6467178]
+[WARN] [1732393118.764773]: No matching point cloud for odometry at time 1732386165.847
+[WARN] [1732393118.768525]: Odom time 1732386165.9466288 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.772110]: No matching point cloud for odometry at time 1732386165.947
+[WARN] [1732393118.773895]: Odom time 1732386166.0466661 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.775689]: No matching point cloud for odometry at time 1732386166.047
+[WARN] [1732393118.777971]: Odom time 1732386166.1467137 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.779627]: No matching point cloud for odometry at time 1732386166.147
+[WARN] [1732393118.781272]: Odom time 1732386166.2468007 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.785981]: No matching point cloud for odometry at time 1732386166.247
+[WARN] [1732393118.787927]: Odom time 1732386166.3467982 outside buffer range [1732386154.9462247, 1732386164.846669]
+[WARN] [1732393118.788973]: No matching point cloud for odometry at time 1732386166.347
+[WARN] [1732393118.790037]: Odom time 1732386166.4469419 outside buffer range [1732386154.9462247, 1732386164.846669]
+[WARN] [1732393118.790914]: No matching point cloud for odometry at time 1732386166.447
+[WARN] [1732393118.791958]: Odom time 1732386166.5468342 outside buffer range [1732386154.9462247, 1732386164.846669]
+[WARN] [1732393118.792879]: No matching point cloud for odometry at time 1732386166.547
+[WARN] [1732393118.795980]: Odom time 1732386166.6467505 outside buffer range [1732386155.0464783, 1732386164.946947]
+[WARN] [1732393118.796742]: No matching point cloud for odometry at time 1732386166.647
+[WARN] [1732393118.797507]: Odom time 1732386166.7469099 outside buffer range [1732386155.0464783, 1732386164.946947]
+[WARN] [1732393118.798261]: No matching point cloud for odometry at time 1732386166.747
+[WARN] [1732393118.799053]: Odom time 1732386166.8467174 outside buffer range [1732386155.0464783, 1732386164.946947]
+[WARN] [1732393118.799755]: No matching point cloud for odometry at time 1732386166.847
+[WARN] [1732393118.864949]: Odom time 1732386166.9468064 outside buffer range [1732386156.1466703, 1732386166.0466661]
+[WARN] [1732393118.868015]: No matching point cloud for odometry at time 1732386166.947
+[WARN] [1732393119.987288]: Odom time 1732386167.3468442 outside buffer range [1732386157.3463385, 1732386167.2467704]
+[WARN] [1732393119.988425]: No matching point cloud for odometry at time 1732386167.347
+[WARN] [1732393119.989470]: Odom time 1732386167.4468696 outside buffer range [1732386157.3463385, 1732386167.2467704]
+[WARN] [1732393119.990221]: No matching point cloud for odometry at time 1732386167.447
+[WARN] [1732393119.990957]: Odom time 1732386167.5469294 outside buffer range [1732386157.3463385, 1732386167.2467704]
+[WARN] [1732393119.993185]: No matching point cloud for odometry at time 1732386167.547
+[WARN] [1732393119.993956]: Odom time 1732386167.6468809 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.994885]: No matching point cloud for odometry at time 1732386167.647
+[WARN] [1732393119.995668]: Odom time 1732386167.7468898 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.996514]: No matching point cloud for odometry at time 1732386167.747
+[WARN] [1732393119.997213]: Odom time 1732386167.8468153 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.998012]: No matching point cloud for odometry at time 1732386167.847
+[WARN] [1732393119.998736]: Odom time 1732386167.946818 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.999521]: No matching point cloud for odometry at time 1732386167.947
+[WARN] [1732393120.002027]: Odom time 1732386168.0467923 outside buffer range [1732386157.5463674, 1732386167.4468696]
+[WARN] [1732393120.002959]: No matching point cloud for odometry at time 1732386168.047
+[INFO] [1732393122.396897]: 
+Sync Statistics:
+  Total Odometry Messages: 178
+  Successful Matches: 76
+  Match Rate: 42.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.002s
+[WARN] [1732393124.807722]: Odom time 1732386171.9468353 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732393124.808752]: No matching point cloud for odometry at time 1732386171.947
+[WARN] [1732393124.809480]: Odom time 1732386172.0468857 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732393124.810151]: No matching point cloud for odometry at time 1732386172.047
+[WARN] [1732393124.811014]: Odom time 1732386172.1469274 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732393124.813283]: No matching point cloud for odometry at time 1732386172.147
+[WARN] [1732393124.814116]: Odom time 1732386172.2469165 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.815000]: No matching point cloud for odometry at time 1732386172.247
+[WARN] [1732393124.815841]: Odom time 1732386172.346933 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.816653]: No matching point cloud for odometry at time 1732386172.347
+[WARN] [1732393124.817377]: Odom time 1732386172.4468615 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.818029]: No matching point cloud for odometry at time 1732386172.447
+[WARN] [1732393124.818754]: Odom time 1732386172.5468657 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.821055]: No matching point cloud for odometry at time 1732386172.547
+[WARN] [1732393124.821827]: Odom time 1732386172.6468215 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732393124.822626]: No matching point cloud for odometry at time 1732386172.647
+[WARN] [1732393124.823444]: Odom time 1732386172.74681 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732393124.824251]: No matching point cloud for odometry at time 1732386172.747
+[WARN] [1732393124.825002]: Odom time 1732386172.846883 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732393124.825757]: No matching point cloud for odometry at time 1732386172.847
+[WARN] [1732393124.858438]: Odom time 1732386172.9467993 outside buffer range [1732386160.6467042, 1732386170.5468512]
+[WARN] [1732393124.859717]: No matching point cloud for odometry at time 1732386172.947
+[WARN] [1732393124.967906]: Odom time 1732386173.0467975 outside buffer range [1732386162.5467284, 1732386172.4468615]
+[WARN] [1732393124.969489]: No matching point cloud for odometry at time 1732386173.047
+[WARN] [1732393125.339388]: Odom time 1732386173.246903 outside buffer range [1732386163.246711, 1732386173.1469314]
+[WARN] [1732393125.346661]: No matching point cloud for odometry at time 1732386173.247
+[WARN] [1732393125.348848]: Odom time 1732386173.3469162 outside buffer range [1732386163.346735, 1732386173.246903]
+[WARN] [1732393125.361880]: No matching point cloud for odometry at time 1732386173.347
+[WARN] [1732393125.658194]: Odom time 1732386173.5468981 outside buffer range [1732386163.5467193, 1732386173.446848]
+[WARN] [1732393125.659299]: No matching point cloud for odometry at time 1732386173.547
+[WARN] [1732393125.660204]: Odom time 1732386173.6468656 outside buffer range [1732386163.5467193, 1732386173.446848]
+[WARN] [1732393125.660928]: No matching point cloud for odometry at time 1732386173.647
+[WARN] [1732393125.661759]: Odom time 1732386173.746904 outside buffer range [1732386163.5467193, 1732386173.446848]
+[WARN] [1732393125.662556]: No matching point cloud for odometry at time 1732386173.747
+[WARN] [1732393126.056360]: Odom time 1732386173.946952 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732393126.057500]: No matching point cloud for odometry at time 1732386173.947
+[WARN] [1732393126.058553]: Odom time 1732386174.0469556 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732393126.059283]: No matching point cloud for odometry at time 1732386174.047
+[WARN] [1732393126.059990]: Odom time 1732386174.147087 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732393126.061927]: No matching point cloud for odometry at time 1732386174.147
+[WARN] [1732393126.468534]: Odom time 1732386174.3470833 outside buffer range [1732386164.3467307, 1732386174.2469797]
+[WARN] [1732393126.469872]: No matching point cloud for odometry at time 1732386174.347
+[WARN] [1732393126.470978]: Odom time 1732386174.446937 outside buffer range [1732386164.3467307, 1732386174.2469797]
+[WARN] [1732393126.471985]: No matching point cloud for odometry at time 1732386174.447
+[WARN] [1732393126.472945]: Odom time 1732386174.547016 outside buffer range [1732386164.3467307, 1732386174.2469797]
+[WARN] [1732393126.473927]: No matching point cloud for odometry at time 1732386174.547
+[WARN] [1732393126.847651]: Odom time 1732386174.7471685 outside buffer range [1732386164.746797, 1732386174.6471353]
+[WARN] [1732393126.849864]: No matching point cloud for odometry at time 1732386174.747
+[WARN] [1732393126.851808]: Odom time 1732386174.8469226 outside buffer range [1732386164.746797, 1732386174.6471353]
+[WARN] [1732393126.853302]: No matching point cloud for odometry at time 1732386174.847
+[WARN] [1732393126.863561]: Odom time 1732386174.9470053 outside buffer range [1732386164.946947, 1732386174.8469226]
+[WARN] [1732393126.864981]: No matching point cloud for odometry at time 1732386174.947
+[WARN] [1732393127.268043]: Odom time 1732386175.1470244 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732393127.269255]: No matching point cloud for odometry at time 1732386175.147
+[WARN] [1732393127.270132]: Odom time 1732386175.247001 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732393127.270910]: No matching point cloud for odometry at time 1732386175.247
+[WARN] [1732393127.271723]: Odom time 1732386175.3472514 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732393127.273998]: No matching point cloud for odometry at time 1732386175.347
+[INFO] [1732393127.391755]: 
+Sync Statistics:
+  Total Odometry Messages: 221
+  Successful Matches: 90
+  Match Rate: 40.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[WARN] [1732393127.658340]: Odom time 1732386175.5470364 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732393127.659414]: No matching point cloud for odometry at time 1732386175.547
+[WARN] [1732393127.660370]: Odom time 1732386175.6469471 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732393127.661193]: No matching point cloud for odometry at time 1732386175.647
+[WARN] [1732393127.662054]: Odom time 1732386175.7470126 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732393127.662951]: No matching point cloud for odometry at time 1732386175.747
+[WARN] [1732393128.046619]: Odom time 1732386175.9470048 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732393128.048282]: No matching point cloud for odometry at time 1732386175.947
+[WARN] [1732393128.049316]: Odom time 1732386176.0469925 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732393128.050074]: No matching point cloud for odometry at time 1732386176.047
+[WARN] [1732393128.050869]: Odom time 1732386176.147054 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732393128.051565]: No matching point cloud for odometry at time 1732386176.147
+[WARN] [1732393128.460026]: Odom time 1732386176.3470201 outside buffer range [1732386166.3467982, 1732386176.2469912]
+[WARN] [1732393128.463010]: No matching point cloud for odometry at time 1732386176.347
+[WARN] [1732393128.464649]: Odom time 1732386176.4469764 outside buffer range [1732386166.3467982, 1732386176.2469912]
+[WARN] [1732393128.466274]: No matching point cloud for odometry at time 1732386176.447
+[WARN] [1732393128.469568]: Odom time 1732386176.5470316 outside buffer range [1732386166.4469419, 1732386176.3470201]
+[WARN] [1732393128.470461]: No matching point cloud for odometry at time 1732386176.547
+[WARN] [1732393128.863811]: Odom time 1732386176.7469919 outside buffer range [1732386166.7469099, 1732386176.6469963]
+[WARN] [1732393128.864903]: No matching point cloud for odometry at time 1732386176.747
+[WARN] [1732393128.865897]: Odom time 1732386176.8469846 outside buffer range [1732386166.7469099, 1732386176.6469963]
+[WARN] [1732393128.866762]: No matching point cloud for odometry at time 1732386176.847
+[WARN] [1732393128.867723]: Odom time 1732386176.9472127 outside buffer range [1732386166.7469099, 1732386176.6469963]
+[WARN] [1732393128.870158]: No matching point cloud for odometry at time 1732386176.947
+[WARN] [1732393129.282368]: Odom time 1732386177.1470616 outside buffer range [1732386167.146798, 1732386177.0469258]
+[WARN] [1732393129.283679]: No matching point cloud for odometry at time 1732386177.147
+[WARN] [1732393129.284769]: Odom time 1732386177.246909 outside buffer range [1732386167.146798, 1732386177.0469258]
+[WARN] [1732393129.285753]: No matching point cloud for odometry at time 1732386177.247
+[WARN] [1732393129.286629]: Odom time 1732386177.3468926 outside buffer range [1732386167.146798, 1732386177.0469258]
+[WARN] [1732393129.289284]: No matching point cloud for odometry at time 1732386177.347
+[INFO] [1732393132.391743]: 
+Sync Statistics:
+  Total Odometry Messages: 248
+  Successful Matches: 102
+  Match Rate: 41.1%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393137.391410]: 
+Sync Statistics:
+  Total Odometry Messages: 260
+  Successful Matches: 114
+  Match Rate: 43.8%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393142.394540]: 
+Sync Statistics:
+  Total Odometry Messages: 272
+  Successful Matches: 126
+  Match Rate: 46.3%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393147.388230]: 
+Sync Statistics:
+  Total Odometry Messages: 289
+  Successful Matches: 143
+  Match Rate: 49.5%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[WARN] [1732393150.752373]: Odom time 1732386197.6471097 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.753873]: No matching point cloud for odometry at time 1732386197.647
+[WARN] [1732393150.754626]: Odom time 1732386197.747185 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.755253]: No matching point cloud for odometry at time 1732386197.747
+[WARN] [1732393150.755953]: Odom time 1732386197.8472493 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.756592]: No matching point cloud for odometry at time 1732386197.847
+[WARN] [1732393150.757234]: Odom time 1732386197.9472096 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.758943]: No matching point cloud for odometry at time 1732386197.947
+[WARN] [1732393150.759552]: Odom time 1732386198.0472484 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.760303]: No matching point cloud for odometry at time 1732386198.047
+[WARN] [1732393150.760981]: Odom time 1732386198.1472213 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.761627]: No matching point cloud for odometry at time 1732386198.147
+[WARN] [1732393150.762360]: Odom time 1732386198.247226 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.762990]: No matching point cloud for odometry at time 1732386198.247
+[WARN] [1732393150.763599]: Odom time 1732386198.3472342 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.764208]: No matching point cloud for odometry at time 1732386198.347
+[WARN] [1732393150.764950]: Odom time 1732386198.4471624 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.765573]: No matching point cloud for odometry at time 1732386198.447
+[WARN] [1732393150.766290]: Odom time 1732386198.547263 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.766962]: No matching point cloud for odometry at time 1732386198.547
+[INFO] [1732393152.386926]: 
+Sync Statistics:
+  Total Odometry Messages: 310
+  Successful Matches: 154
+  Match Rate: 49.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393157.389484]: 
+Sync Statistics:
+  Total Odometry Messages: 310
+  Successful Matches: 154
+  Match Rate: 49.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393162.386621]: 
+Sync Statistics:
+  Total Odometry Messages: 310
+  Successful Matches: 154
+  Match Rate: 49.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+097.517455]: Odom time 1732386144.9463954 outside buffer range [1732386143.3463602, 1732386144.6463666]
+[WARN] [1732393097.518422]: No matching point cloud for odometry at time 1732386144.946
+[WARN] [1732393097.519278]: Odom time 1732386145.0463238 outside buffer range [1732386143.3463602, 1732386144.6463666]
+[WARN] [1732393097.523114]: No matching point cloud for odometry at time 1732386145.046
+[WARN] [1732393097.523989]: Odom time 1732386145.1464043 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.524633]: No matching point cloud for odometry at time 1732386145.146
+[WARN] [1732393097.525517]: Odom time 1732386145.246319 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.526478]: No matching point cloud for odometry at time 1732386145.246
+[WARN] [1732393097.527780]: Odom time 1732386145.3466623 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.528596]: No matching point cloud for odometry at time 1732386145.347
+[WARN] [1732393097.529543]: Odom time 1732386145.4463353 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.530486]: No matching point cloud for odometry at time 1732386145.446
+[WARN] [1732393097.531304]: Odom time 1732386145.5464008 outside buffer range [1732386143.3463602, 1732386144.7463949]
+[WARN] [1732393097.536450]: No matching point cloud for odometry at time 1732386145.546
+[WARN] [1732393097.554381]: Odom time 1732386145.6463315 outside buffer range [1732386143.3463602, 1732386145.0463238]
+[WARN] [1732393097.555883]: No matching point cloud for odometry at time 1732386145.646
+[WARN] [1732393101.049960]: Odom time 1732386148.1464436 outside buffer range [1732386143.3463602, 1732386146.7464159]
+[WARN] [1732393101.051646]: No matching point cloud for odometry at time 1732386148.146
+[WARN] [1732393101.057277]: Odom time 1732386148.246247 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.058337]: No matching point cloud for odometry at time 1732386148.246
+[WARN] [1732393101.059487]: Odom time 1732386148.3462605 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.060357]: No matching point cloud for odometry at time 1732386148.346
+[WARN] [1732393101.061156]: Odom time 1732386148.446228 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.061903]: No matching point cloud for odometry at time 1732386148.446
+[WARN] [1732393101.062648]: Odom time 1732386148.5462248 outside buffer range [1732386143.3463602, 1732386146.8462808]
+[WARN] [1732393101.063377]: No matching point cloud for odometry at time 1732386148.546
+[WARN] [1732393101.067655]: Odom time 1732386148.6462264 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.068647]: No matching point cloud for odometry at time 1732386148.646
+[WARN] [1732393101.069516]: Odom time 1732386148.7462673 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.070288]: No matching point cloud for odometry at time 1732386148.746
+[WARN] [1732393101.071085]: Odom time 1732386148.8461947 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.071843]: No matching point cloud for odometry at time 1732386148.846
+[WARN] [1732393101.072596]: Odom time 1732386148.9461787 outside buffer range [1732386143.3463602, 1732386146.9463081]
+[WARN] [1732393101.073381]: No matching point cloud for odometry at time 1732386148.946
+[WARN] [1732393101.077249]: Odom time 1732386149.0461864 outside buffer range [1732386143.3463602, 1732386147.0462976]
+[WARN] [1732393101.077998]: No matching point cloud for odometry at time 1732386149.046
+[WARN] [1732393101.078863]: Odom time 1732386149.1462176 outside buffer range [1732386143.3463602, 1732386147.0462976]
+[WARN] [1732393101.079591]: No matching point cloud for odometry at time 1732386149.146
+[WARN] [1732393101.172586]: Odom time 1732386149.246266 outside buffer range [1732386143.3463602, 1732386148.446228]
+[WARN] [1732393101.173734]: No matching point cloud for odometry at time 1732386149.246
+[WARN] [1732393102.274469]: Odom time 1732386149.6461442 outside buffer range [1732386143.3463602, 1732386149.446156]
+[WARN] [1732393102.275454]: No matching point cloud for odometry at time 1732386149.646
+[WARN] [1732393102.279707]: Odom time 1732386149.7461693 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.280705]: No matching point cloud for odometry at time 1732386149.746
+[WARN] [1732393102.281476]: Odom time 1732386149.8461854 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.282260]: No matching point cloud for odometry at time 1732386149.846
+[WARN] [1732393102.283003]: Odom time 1732386149.946249 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.283765]: No matching point cloud for odometry at time 1732386149.946
+[WARN] [1732393102.284539]: Odom time 1732386150.0461857 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.285245]: No matching point cloud for odometry at time 1732386150.046
+[WARN] [1732393102.285960]: Odom time 1732386150.1461337 outside buffer range [1732386143.3463602, 1732386149.5461285]
+[WARN] [1732393102.290010]: No matching point cloud for odometry at time 1732386150.146
+[WARN] [1732393102.290761]: Odom time 1732386150.2462008 outside buffer range [1732386143.3463602, 1732386149.6461442]
+[WARN] [1732393102.291468]: No matching point cloud for odometry at time 1732386150.246
+[WARN] [1732393102.292182]: Odom time 1732386150.346215 outside buffer range [1732386143.3463602, 1732386149.6461442]
+[WARN] [1732393102.292860]: No matching point cloud for odometry at time 1732386150.346
+[INFO] [1732393102.391645]: 
+Sync Statistics:
+  Total Odometry Messages: 58
+  Successful Matches: 22
+  Match Rate: 37.9%
+  Point Cloud Buffer Size: 72
+  Current Threshold: 0.150s
+  Average Time Difference: 0.082s
+[WARN] [1732393102.931081]: Odom time 1732386150.6460595 outside buffer range [1732386143.3463602, 1732386150.4461448]
+[WARN] [1732393102.932483]: No matching point cloud for odometry at time 1732386150.646
+[WARN] [1732393102.933611]: Odom time 1732386150.7461483 outside buffer range [1732386143.3463602, 1732386150.4461448]
+[WARN] [1732393102.939850]: No matching point cloud for odometry at time 1732386150.746
+[WARN] [1732393102.942457]: Odom time 1732386150.846077 outside buffer range [1732386143.3463602, 1732386150.5461984]
+[WARN] [1732393102.944029]: No matching point cloud for odometry at time 1732386150.846
+[WARN] [1732393102.951829]: Odom time 1732386150.946071 outside buffer range [1732386143.3463602, 1732386150.6460595]
+[WARN] [1732393102.953548]: No matching point cloud for odometry at time 1732386150.946
+[WARN] [1732393106.305665]: Odom time 1732386152.0461168 outside buffer range [1732386143.3463602, 1732386151.9460967]
+[WARN] [1732393106.306655]: No matching point cloud for odometry at time 1732386152.046
+[WARN] [1732393106.310446]: Odom time 1732386152.146081 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.311185]: No matching point cloud for odometry at time 1732386152.146
+[WARN] [1732393106.311953]: Odom time 1732386152.2461665 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.312620]: No matching point cloud for odometry at time 1732386152.246
+[WARN] [1732393106.313318]: Odom time 1732386152.3463037 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.314153]: No matching point cloud for odometry at time 1732386152.346
+[WARN] [1732393106.315163]: Odom time 1732386153.4463575 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.315967]: No matching point cloud for odometry at time 1732386153.446
+[WARN] [1732393106.316660]: Odom time 1732386153.5461876 outside buffer range [1732386143.3463602, 1732386152.0461168]
+[WARN] [1732393106.320312]: No matching point cloud for odometry at time 1732386153.546
+[WARN] [1732393106.321193]: Odom time 1732386153.646166 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.321874]: No matching point cloud for odometry at time 1732386153.646
+[WARN] [1732393106.322593]: Odom time 1732386153.746156 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.323349]: No matching point cloud for odometry at time 1732386153.746
+[WARN] [1732393106.324039]: Odom time 1732386153.8461294 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.324744]: No matching point cloud for odometry at time 1732386153.846
+[WARN] [1732393106.325459]: Odom time 1732386153.9461303 outside buffer range [1732386143.3463602, 1732386152.146081]
+[WARN] [1732393106.329668]: No matching point cloud for odometry at time 1732386153.946
+[WARN] [1732393106.330907]: Odom time 1732386154.0463102 outside buffer range [1732386143.3463602, 1732386152.2461665]
+[WARN] [1732393106.331738]: No matching point cloud for odometry at time 1732386154.046
+[WARN] [1732393106.332725]: Odom time 1732386154.146296 outside buffer range [1732386143.3463602, 1732386152.2461665]
+[WARN] [1732393106.333802]: No matching point cloud for odometry at time 1732386154.146
+[WARN] [1732393106.334787]: Odom time 1732386154.2463589 outside buffer range [1732386143.3463602, 1732386152.2461665]
+[WARN] [1732393106.335510]: No matching point cloud for odometry at time 1732386154.246
+[WARN] [1732393106.341454]: Odom time 1732386154.346446 outside buffer range [1732386143.3463602, 1732386152.3463037]
+[WARN] [1732393106.346142]: No matching point cloud for odometry at time 1732386154.346
+[WARN] [1732393106.382998]: Odom time 1732386154.4463804 outside buffer range [1732386143.3463602, 1732386152.746532]
+[WARN] [1732393106.384227]: No matching point cloud for odometry at time 1732386154.446
+[WARN] [1732393106.454324]: Odom time 1732386154.5466223 outside buffer range [1732386143.846421, 1732386153.746156]
+[WARN] [1732393106.458336]: No matching point cloud for odometry at time 1732386154.547
+[WARN] [1732393106.875146]: Odom time 1732386154.746428 outside buffer range [1732386144.7463949, 1732386154.6463687]
+[WARN] [1732393106.876153]: No matching point cloud for odometry at time 1732386154.746
+[WARN] [1732393106.876879]: Odom time 1732386154.8462658 outside buffer range [1732386144.7463949, 1732386154.6463687]
+[WARN] [1732393106.877637]: No matching point cloud for odometry at time 1732386154.846
+[WARN] [1732393106.878398]: Odom time 1732386154.9462247 outside buffer range [1732386144.7463949, 1732386154.6463687]
+[WARN] [1732393106.879299]: No matching point cloud for odometry at time 1732386154.946
+[INFO] [1732393107.391904]: 
+Sync Statistics:
+  Total Odometry Messages: 95
+  Successful Matches: 36
+  Match Rate: 37.9%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.056s
+[WARN] [1732393108.312705]: Odom time 1732386155.4463174 outside buffer range [1732386145.4463353, 1732386155.3465283]
+[WARN] [1732393108.313705]: No matching point cloud for odometry at time 1732386155.446
+[WARN] [1732393108.314573]: Odom time 1732386155.5463183 outside buffer range [1732386145.4463353, 1732386155.3465283]
+[WARN] [1732393108.315348]: No matching point cloud for odometry at time 1732386155.546
+[WARN] [1732393108.316036]: Odom time 1732386155.6463792 outside buffer range [1732386145.4463353, 1732386155.3465283]
+[WARN] [1732393108.317852]: No matching point cloud for odometry at time 1732386155.646
+[WARN] [1732393108.318634]: Odom time 1732386155.7462711 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.319354]: No matching point cloud for odometry at time 1732386155.746
+[WARN] [1732393108.320058]: Odom time 1732386155.8465486 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.320770]: No matching point cloud for odometry at time 1732386155.847
+[WARN] [1732393108.321498]: Odom time 1732386155.9463274 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.322200]: No matching point cloud for odometry at time 1732386155.946
+[WARN] [1732393108.322927]: Odom time 1732386156.0463593 outside buffer range [1732386145.5464008, 1732386155.4463174]
+[WARN] [1732393108.323695]: No matching point cloud for odometry at time 1732386156.046
+[WARN] [1732393108.325781]: Odom time 1732386156.1466703 outside buffer range [1732386145.6463315, 1732386155.5463183]
+[WARN] [1732393108.326476]: No matching point cloud for odometry at time 1732386156.147
+[WARN] [1732393108.327218]: Odom time 1732386156.24651 outside buffer range [1732386145.6463315, 1732386155.5463183]
+[WARN] [1732393108.327977]: No matching point cloud for odometry at time 1732386156.247
+[WARN] [1732393108.328710]: Odom time 1732386156.346451 outside buffer range [1732386145.6463315, 1732386155.5463183]
+[WARN] [1732393108.329696]: No matching point cloud for odometry at time 1732386156.346
+[WARN] [1732393108.370880]: Odom time 1732386156.4463952 outside buffer range [1732386146.2462673, 1732386156.1466703]
+[WARN] [1732393108.374105]: No matching point cloud for odometry at time 1732386156.446
+[INFO] [1732393112.391432]: 
+Sync Statistics:
+  Total Odometry Messages: 120
+  Successful Matches: 50
+  Match Rate: 41.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.040s
+[WARN] [1732393113.203064]: Odom time 1732386160.3466787 outside buffer range [1732386148.6462264, 1732386158.5467076]
+[WARN] [1732393113.204139]: No matching point cloud for odometry at time 1732386160.347
+[WARN] [1732393113.206201]: Odom time 1732386160.4466233 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.207046]: No matching point cloud for odometry at time 1732386160.447
+[WARN] [1732393113.207814]: Odom time 1732386160.5466223 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.208629]: No matching point cloud for odometry at time 1732386160.547
+[WARN] [1732393113.209388]: Odom time 1732386160.6467042 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.210020]: No matching point cloud for odometry at time 1732386160.647
+[WARN] [1732393113.210993]: Odom time 1732386160.746744 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.211730]: No matching point cloud for odometry at time 1732386160.747
+[WARN] [1732393113.212507]: Odom time 1732386160.8465712 outside buffer range [1732386148.7462673, 1732386158.646677]
+[WARN] [1732393113.215118]: No matching point cloud for odometry at time 1732386160.847
+[WARN] [1732393113.216016]: Odom time 1732386160.9468076 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.216722]: No matching point cloud for odometry at time 1732386160.947
+[WARN] [1732393113.217434]: Odom time 1732386161.046606 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.218185]: No matching point cloud for odometry at time 1732386161.047
+[WARN] [1732393113.218950]: Odom time 1732386161.1467123 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.219704]: No matching point cloud for odometry at time 1732386161.147
+[WARN] [1732393113.220431]: Odom time 1732386161.2467232 outside buffer range [1732386148.8461947, 1732386158.7465029]
+[WARN] [1732393113.222374]: No matching point cloud for odometry at time 1732386161.247
+[WARN] [1732393113.302342]: Odom time 1732386161.3467393 outside buffer range [1732386150.0461857, 1732386159.9466834]
+[WARN] [1732393113.305853]: No matching point cloud for odometry at time 1732386161.347
+[WARN] [1732393113.368988]: Odom time 1732386161.4469686 outside buffer range [1732386151.1462421, 1732386161.046606]
+[WARN] [1732393113.370705]: No matching point cloud for odometry at time 1732386161.447
+[INFO] [1732393117.393239]: 
+Sync Statistics:
+  Total Odometry Messages: 145
+  Successful Matches: 63
+  Match Rate: 43.4%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.014s
+[WARN] [1732393118.763074]: Odom time 1732386165.8466854 outside buffer range [1732386154.746428, 1732386164.6467178]
+[WARN] [1732393118.764773]: No matching point cloud for odometry at time 1732386165.847
+[WARN] [1732393118.768525]: Odom time 1732386165.9466288 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.772110]: No matching point cloud for odometry at time 1732386165.947
+[WARN] [1732393118.773895]: Odom time 1732386166.0466661 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.775689]: No matching point cloud for odometry at time 1732386166.047
+[WARN] [1732393118.777971]: Odom time 1732386166.1467137 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.779627]: No matching point cloud for odometry at time 1732386166.147
+[WARN] [1732393118.781272]: Odom time 1732386166.2468007 outside buffer range [1732386154.8462658, 1732386164.746797]
+[WARN] [1732393118.785981]: No matching point cloud for odometry at time 1732386166.247
+[WARN] [1732393118.787927]: Odom time 1732386166.3467982 outside buffer range [1732386154.9462247, 1732386164.846669]
+[WARN] [1732393118.788973]: No matching point cloud for odometry at time 1732386166.347
+[WARN] [1732393118.790037]: Odom time 1732386166.4469419 outside buffer range [1732386154.9462247, 1732386164.846669]
+[WARN] [1732393118.790914]: No matching point cloud for odometry at time 1732386166.447
+[WARN] [1732393118.791958]: Odom time 1732386166.5468342 outside buffer range [1732386154.9462247, 1732386164.846669]
+[WARN] [1732393118.792879]: No matching point cloud for odometry at time 1732386166.547
+[WARN] [1732393118.795980]: Odom time 1732386166.6467505 outside buffer range [1732386155.0464783, 1732386164.946947]
+[WARN] [1732393118.796742]: No matching point cloud for odometry at time 1732386166.647
+[WARN] [1732393118.797507]: Odom time 1732386166.7469099 outside buffer range [1732386155.0464783, 1732386164.946947]
+[WARN] [1732393118.798261]: No matching point cloud for odometry at time 1732386166.747
+[WARN] [1732393118.799053]: Odom time 1732386166.8467174 outside buffer range [1732386155.0464783, 1732386164.946947]
+[WARN] [1732393118.799755]: No matching point cloud for odometry at time 1732386166.847
+[WARN] [1732393118.864949]: Odom time 1732386166.9468064 outside buffer range [1732386156.1466703, 1732386166.0466661]
+[WARN] [1732393118.868015]: No matching point cloud for odometry at time 1732386166.947
+[WARN] [1732393119.987288]: Odom time 1732386167.3468442 outside buffer range [1732386157.3463385, 1732386167.2467704]
+[WARN] [1732393119.988425]: No matching point cloud for odometry at time 1732386167.347
+[WARN] [1732393119.989470]: Odom time 1732386167.4468696 outside buffer range [1732386157.3463385, 1732386167.2467704]
+[WARN] [1732393119.990221]: No matching point cloud for odometry at time 1732386167.447
+[WARN] [1732393119.990957]: Odom time 1732386167.5469294 outside buffer range [1732386157.3463385, 1732386167.2467704]
+[WARN] [1732393119.993185]: No matching point cloud for odometry at time 1732386167.547
+[WARN] [1732393119.993956]: Odom time 1732386167.6468809 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.994885]: No matching point cloud for odometry at time 1732386167.647
+[WARN] [1732393119.995668]: Odom time 1732386167.7468898 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.996514]: No matching point cloud for odometry at time 1732386167.747
+[WARN] [1732393119.997213]: Odom time 1732386167.8468153 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.998012]: No matching point cloud for odometry at time 1732386167.847
+[WARN] [1732393119.998736]: Odom time 1732386167.946818 outside buffer range [1732386157.4464414, 1732386167.3468442]
+[WARN] [1732393119.999521]: No matching point cloud for odometry at time 1732386167.947
+[WARN] [1732393120.002027]: Odom time 1732386168.0467923 outside buffer range [1732386157.5463674, 1732386167.4468696]
+[WARN] [1732393120.002959]: No matching point cloud for odometry at time 1732386168.047
+[INFO] [1732393122.396897]: 
+Sync Statistics:
+  Total Odometry Messages: 178
+  Successful Matches: 76
+  Match Rate: 42.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.002s
+[WARN] [1732393124.807722]: Odom time 1732386171.9468353 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732393124.808752]: No matching point cloud for odometry at time 1732386171.947
+[WARN] [1732393124.809480]: Odom time 1732386172.0468857 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732393124.810151]: No matching point cloud for odometry at time 1732386172.047
+[WARN] [1732393124.811014]: Odom time 1732386172.1469274 outside buffer range [1732386159.9466834, 1732386169.8467033]
+[WARN] [1732393124.813283]: No matching point cloud for odometry at time 1732386172.147
+[WARN] [1732393124.814116]: Odom time 1732386172.2469165 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.815000]: No matching point cloud for odometry at time 1732386172.247
+[WARN] [1732393124.815841]: Odom time 1732386172.346933 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.816653]: No matching point cloud for odometry at time 1732386172.347
+[WARN] [1732393124.817377]: Odom time 1732386172.4468615 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.818029]: No matching point cloud for odometry at time 1732386172.447
+[WARN] [1732393124.818754]: Odom time 1732386172.5468657 outside buffer range [1732386160.046677, 1732386169.9467802]
+[WARN] [1732393124.821055]: No matching point cloud for odometry at time 1732386172.547
+[WARN] [1732393124.821827]: Odom time 1732386172.6468215 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732393124.822626]: No matching point cloud for odometry at time 1732386172.647
+[WARN] [1732393124.823444]: Odom time 1732386172.74681 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732393124.824251]: No matching point cloud for odometry at time 1732386172.747
+[WARN] [1732393124.825002]: Odom time 1732386172.846883 outside buffer range [1732386160.1467483, 1732386170.0467355]
+[WARN] [1732393124.825757]: No matching point cloud for odometry at time 1732386172.847
+[WARN] [1732393124.858438]: Odom time 1732386172.9467993 outside buffer range [1732386160.6467042, 1732386170.5468512]
+[WARN] [1732393124.859717]: No matching point cloud for odometry at time 1732386172.947
+[WARN] [1732393124.967906]: Odom time 1732386173.0467975 outside buffer range [1732386162.5467284, 1732386172.4468615]
+[WARN] [1732393124.969489]: No matching point cloud for odometry at time 1732386173.047
+[WARN] [1732393125.339388]: Odom time 1732386173.246903 outside buffer range [1732386163.246711, 1732386173.1469314]
+[WARN] [1732393125.346661]: No matching point cloud for odometry at time 1732386173.247
+[WARN] [1732393125.348848]: Odom time 1732386173.3469162 outside buffer range [1732386163.346735, 1732386173.246903]
+[WARN] [1732393125.361880]: No matching point cloud for odometry at time 1732386173.347
+[WARN] [1732393125.658194]: Odom time 1732386173.5468981 outside buffer range [1732386163.5467193, 1732386173.446848]
+[WARN] [1732393125.659299]: No matching point cloud for odometry at time 1732386173.547
+[WARN] [1732393125.660204]: Odom time 1732386173.6468656 outside buffer range [1732386163.5467193, 1732386173.446848]
+[WARN] [1732393125.660928]: No matching point cloud for odometry at time 1732386173.647
+[WARN] [1732393125.661759]: Odom time 1732386173.746904 outside buffer range [1732386163.5467193, 1732386173.446848]
+[WARN] [1732393125.662556]: No matching point cloud for odometry at time 1732386173.747
+[WARN] [1732393126.056360]: Odom time 1732386173.946952 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732393126.057500]: No matching point cloud for odometry at time 1732386173.947
+[WARN] [1732393126.058553]: Odom time 1732386174.0469556 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732393126.059283]: No matching point cloud for odometry at time 1732386174.047
+[WARN] [1732393126.059990]: Odom time 1732386174.147087 outside buffer range [1732386163.9466455, 1732386173.846924]
+[WARN] [1732393126.061927]: No matching point cloud for odometry at time 1732386174.147
+[WARN] [1732393126.468534]: Odom time 1732386174.3470833 outside buffer range [1732386164.3467307, 1732386174.2469797]
+[WARN] [1732393126.469872]: No matching point cloud for odometry at time 1732386174.347
+[WARN] [1732393126.470978]: Odom time 1732386174.446937 outside buffer range [1732386164.3467307, 1732386174.2469797]
+[WARN] [1732393126.471985]: No matching point cloud for odometry at time 1732386174.447
+[WARN] [1732393126.472945]: Odom time 1732386174.547016 outside buffer range [1732386164.3467307, 1732386174.2469797]
+[WARN] [1732393126.473927]: No matching point cloud for odometry at time 1732386174.547
+[WARN] [1732393126.847651]: Odom time 1732386174.7471685 outside buffer range [1732386164.746797, 1732386174.6471353]
+[WARN] [1732393126.849864]: No matching point cloud for odometry at time 1732386174.747
+[WARN] [1732393126.851808]: Odom time 1732386174.8469226 outside buffer range [1732386164.746797, 1732386174.6471353]
+[WARN] [1732393126.853302]: No matching point cloud for odometry at time 1732386174.847
+[WARN] [1732393126.863561]: Odom time 1732386174.9470053 outside buffer range [1732386164.946947, 1732386174.8469226]
+[WARN] [1732393126.864981]: No matching point cloud for odometry at time 1732386174.947
+[WARN] [1732393127.268043]: Odom time 1732386175.1470244 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732393127.269255]: No matching point cloud for odometry at time 1732386175.147
+[WARN] [1732393127.270132]: Odom time 1732386175.247001 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732393127.270910]: No matching point cloud for odometry at time 1732386175.247
+[WARN] [1732393127.271723]: Odom time 1732386175.3472514 outside buffer range [1732386165.1467361, 1732386175.0469782]
+[WARN] [1732393127.273998]: No matching point cloud for odometry at time 1732386175.347
+[INFO] [1732393127.391755]: 
+Sync Statistics:
+  Total Odometry Messages: 221
+  Successful Matches: 90
+  Match Rate: 40.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[WARN] [1732393127.658340]: Odom time 1732386175.5470364 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732393127.659414]: No matching point cloud for odometry at time 1732386175.547
+[WARN] [1732393127.660370]: Odom time 1732386175.6469471 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732393127.661193]: No matching point cloud for odometry at time 1732386175.647
+[WARN] [1732393127.662054]: Odom time 1732386175.7470126 outside buffer range [1732386165.5467098, 1732386175.4469864]
+[WARN] [1732393127.662951]: No matching point cloud for odometry at time 1732386175.747
+[WARN] [1732393128.046619]: Odom time 1732386175.9470048 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732393128.048282]: No matching point cloud for odometry at time 1732386175.947
+[WARN] [1732393128.049316]: Odom time 1732386176.0469925 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732393128.050074]: No matching point cloud for odometry at time 1732386176.047
+[WARN] [1732393128.050869]: Odom time 1732386176.147054 outside buffer range [1732386165.9466288, 1732386175.8469489]
+[WARN] [1732393128.051565]: No matching point cloud for odometry at time 1732386176.147
+[WARN] [1732393128.460026]: Odom time 1732386176.3470201 outside buffer range [1732386166.3467982, 1732386176.2469912]
+[WARN] [1732393128.463010]: No matching point cloud for odometry at time 1732386176.347
+[WARN] [1732393128.464649]: Odom time 1732386176.4469764 outside buffer range [1732386166.3467982, 1732386176.2469912]
+[WARN] [1732393128.466274]: No matching point cloud for odometry at time 1732386176.447
+[WARN] [1732393128.469568]: Odom time 1732386176.5470316 outside buffer range [1732386166.4469419, 1732386176.3470201]
+[WARN] [1732393128.470461]: No matching point cloud for odometry at time 1732386176.547
+[WARN] [1732393128.863811]: Odom time 1732386176.7469919 outside buffer range [1732386166.7469099, 1732386176.6469963]
+[WARN] [1732393128.864903]: No matching point cloud for odometry at time 1732386176.747
+[WARN] [1732393128.865897]: Odom time 1732386176.8469846 outside buffer range [1732386166.7469099, 1732386176.6469963]
+[WARN] [1732393128.866762]: No matching point cloud for odometry at time 1732386176.847
+[WARN] [1732393128.867723]: Odom time 1732386176.9472127 outside buffer range [1732386166.7469099, 1732386176.6469963]
+[WARN] [1732393128.870158]: No matching point cloud for odometry at time 1732386176.947
+[WARN] [1732393129.282368]: Odom time 1732386177.1470616 outside buffer range [1732386167.146798, 1732386177.0469258]
+[WARN] [1732393129.283679]: No matching point cloud for odometry at time 1732386177.147
+[WARN] [1732393129.284769]: Odom time 1732386177.246909 outside buffer range [1732386167.146798, 1732386177.0469258]
+[WARN] [1732393129.285753]: No matching point cloud for odometry at time 1732386177.247
+[WARN] [1732393129.286629]: Odom time 1732386177.3468926 outside buffer range [1732386167.146798, 1732386177.0469258]
+[WARN] [1732393129.289284]: No matching point cloud for odometry at time 1732386177.347
+[INFO] [1732393132.391743]: 
+Sync Statistics:
+  Total Odometry Messages: 248
+  Successful Matches: 102
+  Match Rate: 41.1%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393137.391410]: 
+Sync Statistics:
+  Total Odometry Messages: 260
+  Successful Matches: 114
+  Match Rate: 43.8%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393142.394540]: 
+Sync Statistics:
+  Total Odometry Messages: 272
+  Successful Matches: 126
+  Match Rate: 46.3%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393147.388230]: 
+Sync Statistics:
+  Total Odometry Messages: 289
+  Successful Matches: 143
+  Match Rate: 49.5%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[WARN] [1732393150.752373]: Odom time 1732386197.6471097 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.753873]: No matching point cloud for odometry at time 1732386197.647
+[WARN] [1732393150.754626]: Odom time 1732386197.747185 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.755253]: No matching point cloud for odometry at time 1732386197.747
+[WARN] [1732393150.755953]: Odom time 1732386197.8472493 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.756592]: No matching point cloud for odometry at time 1732386197.847
+[WARN] [1732393150.757234]: Odom time 1732386197.9472096 outside buffer range [1732386179.946989, 1732386196.447239]
+[WARN] [1732393150.758943]: No matching point cloud for odometry at time 1732386197.947
+[WARN] [1732393150.759552]: Odom time 1732386198.0472484 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.760303]: No matching point cloud for odometry at time 1732386198.047
+[WARN] [1732393150.760981]: Odom time 1732386198.1472213 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.761627]: No matching point cloud for odometry at time 1732386198.147
+[WARN] [1732393150.762360]: Odom time 1732386198.247226 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.762990]: No matching point cloud for odometry at time 1732386198.247
+[WARN] [1732393150.763599]: Odom time 1732386198.3472342 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.764208]: No matching point cloud for odometry at time 1732386198.347
+[WARN] [1732393150.764950]: Odom time 1732386198.4471624 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.765573]: No matching point cloud for odometry at time 1732386198.447
+[WARN] [1732393150.766290]: Odom time 1732386198.547263 outside buffer range [1732386180.046983, 1732386196.7476096]
+[WARN] [1732393150.766962]: No matching point cloud for odometry at time 1732386198.547
+[INFO] [1732393152.386926]: 
+Sync Statistics:
+  Total Odometry Messages: 310
+  Successful Matches: 154
+  Match Rate: 49.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393157.389484]: 
+Sync Statistics:
+  Total Odometry Messages: 310
+  Successful Matches: 154
+  Match Rate: 49.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s
+[INFO] [1732393162.386621]: 
+Sync Statistics:
+  Total Odometry Messages: 310
+  Successful Matches: 154
+  Match Rate: 49.7%
+  Point Cloud Buffer Size: 100
+  Current Threshold: 0.000s
+  Average Time Difference: 0.000s

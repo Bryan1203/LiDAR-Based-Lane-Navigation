@@ -1,0 +1,6 @@
+devel_space: /home/kevin/ece484_final_project/devel
+install: false
+install_space: /home/kevin/ece484_final_project/install
+profile: default
+source_space: /home/kevin/ece484_final_project/src
+workspace: /home/kevin/ece484_final_project

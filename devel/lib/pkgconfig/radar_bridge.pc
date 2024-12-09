@@ -1,8 +1,0 @@
-prefix=/home/gem/demo_ws/devel
-
-Name: radar_bridge
-Description: Description of radar_bridge
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

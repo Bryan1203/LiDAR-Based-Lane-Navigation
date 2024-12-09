@@ -1,0 +1,49 @@
+## Ouster Points Around 10 HZ
+
+gem@gem-nuvo:~/bobabee_ws_test$ rostopic hz /ouster/points
+subscribed to [/ouster/points]
+average rate: 10.062
+	min: 0.094s max: 0.104s std dev: 0.00322s window: 10
+average rate: 10.017
+	min: 0.094s max: 0.106s std dev: 0.00322s window: 20
+average rate: 10.000
+	min: 0.088s max: 0.118s std dev: 0.00614s window: 30
+average rate: 10.003
+	min: 0.081s max: 0.118s std dev: 0.00674s window: 40
+average rate: 10.018
+	min: 0.081s max: 0.118s std dev: 0.00629s window: 50
+average rate: 10.011
+	min: 0.081s max: 0.118s std dev: 0.00616s window: 60
+average rate: 10.012
+	min: 0.081s max: 0.118s std dev: 0.00613s window: 70
+average rate: 10.011
+	min: 0.081s max: 0.118s std dev: 0.00587s window: 80
+^Caverage rate: 10.005
+	min: 0.081s max: 0.118s std dev: 0.00585s window: 82
+
+## KISS Odometry Around 10 HZ
+
+gem@gem-nuvo:~/bobabee_ws_test$ rostopic hz /kiss/odometry
+subscribed to [/kiss/odometry]
+average rate: 9.964
+	min: 0.031s max: 0.192s std dev: 0.04749s window: 10
+average rate: 10.124
+	min: 0.031s max: 0.192s std dev: 0.03484s window: 20
+average rate: 10.146
+	min: 0.031s max: 0.192s std dev: 0.03339s window: 30
+average rate: 10.077
+	min: 0.031s max: 0.192s std dev: 0.03319s window: 40
+average rate: 10.097
+	min: 0.031s max: 0.192s std dev: 0.03406s window: 50
+average rate: 10.095
+	min: 0.031s max: 0.192s std dev: 0.03323s window: 60
+average rate: 10.096
+	min: 0.031s max: 0.192s std dev: 0.03334s window: 70
+average rate: 10.094
+	min: 0.031s max: 0.192s std dev: 0.03163s window: 81
+average rate: 10.086
+	min: 0.031s max: 0.192s std dev: 0.03006s window: 91
+average rate: 10.057
+	min: 0.031s max: 0.192s std dev: 0.02966s window: 101
+^Caverage rate: 10.060
+	min: 0.031s max: 0.192s std dev: 0.02890s window: 107

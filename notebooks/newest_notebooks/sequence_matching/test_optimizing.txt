@@ -1,0 +1,402 @@
+gem@gem-nuvo:~/bobabee_ws_test/notebooks/timing_test$ python3 test_optimizing.py 
+[INFO] [1732394049.937992]: Subscribing to point cloud topic...
+[INFO] [1732394051.941870]: Subscribing to odometry topic...
+[WARN] [1732394053.130883]: No suitable match found. Best time difference: infs
+[WARN] [1732394053.132366]: No suitable match found. Best time difference: infs
+[WARN] [1732394053.140818]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394053.498991]: No suitable match found. Best time difference: infs
+[WARN] [1732394053.500224]: No suitable match found. Best time difference: infs
+[WARN] [1732394053.800162]: No suitable match found. Best time difference: infs
+[WARN] [1732394053.801189]: No suitable match found. Best time difference: infs
+[WARN] [1732394054.097530]: No suitable match found. Best time difference: infs
+[WARN] [1732394054.098602]: No suitable match found. Best time difference: infs
+[WARN] [1732394054.398780]: No suitable match found. Best time difference: infs
+[WARN] [1732394054.399824]: No suitable match found. Best time difference: infs
+[WARN] [1732394054.697198]: No suitable match found. Best time difference: infs
+[WARN] [1732394054.698255]: No suitable match found. Best time difference: infs
+[WARN] [1732394055.012878]: No suitable match found. Best time difference: infs
+[WARN] [1732394055.013962]: No suitable match found. Best time difference: infs
+[WARN] [1732394055.307266]: No suitable match found. Best time difference: infs
+[WARN] [1732394055.308177]: No suitable match found. Best time difference: infs
+[WARN] [1732394055.654876]: No suitable match found. Best time difference: infs
+[WARN] [1732394055.656024]: No suitable match found. Best time difference: infs
+[WARN] [1732394055.656792]: No suitable match found. Best time difference: infs
+[WARN] [1732394056.115893]: No suitable match found. Best time difference: infs
+[WARN] [1732394056.487572]: No suitable match found. Best time difference: infs
+[WARN] [1732394056.488850]: No suitable match found. Best time difference: infs
+[WARN] [1732394056.489696]: No suitable match found. Best time difference: infs
+[WARN] [1732394056.493653]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394056.494463]: No suitable match found. Best time difference: 0.500s
+[WARN] [1732394056.893102]: No suitable match found. Best time difference: infs
+[WARN] [1732394056.894077]: No suitable match found. Best time difference: infs
+[WARN] [1732394056.894852]: No suitable match found. Best time difference: infs
+[INFO] [1732394056.954672]: 
+Sync Statistics:
+  Total Odometry Messages: 41
+  Successful Matches: 12
+  Match Rate: 29.3%
+  Point Cloud Buffer Size: 42
+  Average Time Difference: 0.008s
+  Average Publish Rate: 3.0 Hz
+[WARN] [1732394057.294230]: No suitable match found. Best time difference: infs
+[WARN] [1732394057.295228]: No suitable match found. Best time difference: infs
+[WARN] [1732394057.296077]: No suitable match found. Best time difference: infs
+[WARN] [1732394058.718003]: No suitable match found. Best time difference: infs
+[WARN] [1732394058.719043]: No suitable match found. Best time difference: infs
+[WARN] [1732394058.719917]: No suitable match found. Best time difference: infs
+[WARN] [1732394058.724041]: No suitable match found. Best time difference: 0.300s
+[WARN] [1732394058.724952]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394058.725764]: No suitable match found. Best time difference: 0.500s
+[WARN] [1732394058.726557]: No suitable match found. Best time difference: 0.600s
+[WARN] [1732394058.727315]: No suitable match found. Best time difference: 0.700s
+[WARN] [1732394058.728392]: No suitable match found. Best time difference: 0.800s
+[WARN] [1732394058.729401]: No suitable match found. Best time difference: 0.900s
+[WARN] [1732394058.770582]: No suitable match found. Best time difference: 0.500s
+[WARN] [1732394059.898874]: No suitable match found. Best time difference: infs
+[WARN] [1732394059.900073]: No suitable match found. Best time difference: infs
+[WARN] [1732394059.900856]: No suitable match found. Best time difference: infs
+[WARN] [1732394059.901535]: No suitable match found. Best time difference: infs
+[WARN] [1732394059.905638]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394059.906798]: No suitable match found. Best time difference: 0.500s
+[WARN] [1732394059.907698]: No suitable match found. Best time difference: 0.600s
+[WARN] [1732394059.908471]: No suitable match found. Best time difference: 0.700s
+[WARN] [1732394059.938719]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394060.342293]: No suitable match found. Best time difference: infs
+[WARN] [1732394060.344818]: No suitable match found. Best time difference: infs
+[WARN] [1732394060.703383]: No suitable match found. Best time difference: infs
+[WARN] [1732394060.704604]: No suitable match found. Best time difference: infs
+[WARN] [1732394060.705446]: No suitable match found. Best time difference: infs
+[WARN] [1732394061.387695]: No suitable match found. Best time difference: infs
+[WARN] [1732394061.714511]: No suitable match found. Best time difference: infs
+[WARN] [1732394061.715648]: No suitable match found. Best time difference: infs
+[WARN] [1732394061.716542]: No suitable match found. Best time difference: infs
+[WARN] [1732394061.720543]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394061.721586]: No suitable match found. Best time difference: 0.500s
+[WARN] [1732394061.722454]: No suitable match found. Best time difference: 0.600s
+[WARN] [1732394061.766329]: No suitable match found. Best time difference: 0.200s
+[INFO] [1732394061.959691]: 
+Sync Statistics:
+  Total Odometry Messages: 91
+  Successful Matches: 26
+  Match Rate: 28.6%
+  Point Cloud Buffer Size: 91
+  Average Time Difference: 0.012s
+  Average Publish Rate: 2.8 Hz
+[WARN] [1732394062.186910]: No suitable match found. Best time difference: infs
+[WARN] [1732394062.188501]: No suitable match found. Best time difference: infs
+[WARN] [1732394062.195135]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394062.585256]: No suitable match found. Best time difference: infs
+[WARN] [1732394062.586331]: No suitable match found. Best time difference: infs
+[WARN] [1732394062.587109]: No suitable match found. Best time difference: infs
+[WARN] [1732394062.957672]: No suitable match found. Best time difference: infs
+[WARN] [1732394062.959521]: No suitable match found. Best time difference: infs
+[WARN] [1732394062.960572]: No suitable match found. Best time difference: infs
+[WARN] [1732394063.718681]: No suitable match found. Best time difference: infs
+[WARN] [1732394063.719648]: No suitable match found. Best time difference: infs
+[WARN] [1732394063.720526]: No suitable match found. Best time difference: infs
+[WARN] [1732394063.721148]: No suitable match found. Best time difference: infs
+[WARN] [1732394063.724844]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394064.101316]: No suitable match found. Best time difference: infs
+[WARN] [1732394064.102424]: No suitable match found. Best time difference: infs
+[WARN] [1732394064.103259]: No suitable match found. Best time difference: infs
+[WARN] [1732394064.467592]: No suitable match found. Best time difference: infs
+[WARN] [1732394064.468769]: No suitable match found. Best time difference: infs
+[WARN] [1732394064.469541]: No suitable match found. Best time difference: infs
+[WARN] [1732394064.911087]: No suitable match found. Best time difference: infs
+[WARN] [1732394064.915408]: No suitable match found. Best time difference: 0.100s
+[WARN] [1732394064.916389]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394065.270556]: No suitable match found. Best time difference: infs
+[WARN] [1732394065.271682]: No suitable match found. Best time difference: infs
+[WARN] [1732394065.272700]: No suitable match found. Best time difference: infs
+[WARN] [1732394066.018864]: No suitable match found. Best time difference: infs
+[WARN] [1732394066.019967]: No suitable match found. Best time difference: infs
+[WARN] [1732394066.024187]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394066.025022]: No suitable match found. Best time difference: 0.300s
+[WARN] [1732394066.025793]: No suitable match found. Best time difference: 0.400s
+[INFO] [1732394066.989221]: 
+Sync Statistics:
+  Total Odometry Messages: 135
+  Successful Matches: 39
+  Match Rate: 28.9%
+  Point Cloud Buffer Size: 136
+  Average Time Difference: 0.008s
+  Average Publish Rate: 2.8 Hz
+[WARN] [1732394067.365460]: No suitable match found. Best time difference: infs
+[WARN] [1732394067.366655]: No suitable match found. Best time difference: infs
+[WARN] [1732394067.367528]: No suitable match found. Best time difference: infs
+[WARN] [1732394067.368399]: No suitable match found. Best time difference: infs
+[WARN] [1732394067.372357]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394067.373284]: No suitable match found. Best time difference: 0.500s
+[WARN] [1732394067.374198]: No suitable match found. Best time difference: 0.600s
+[WARN] [1732394067.375076]: No suitable match found. Best time difference: 0.700s
+[WARN] [1732394067.375946]: No suitable match found. Best time difference: 0.800s
+[WARN] [1732394067.376740]: No suitable match found. Best time difference: 0.900s
+[WARN] [1732394068.093497]: No suitable match found. Best time difference: infs
+[WARN] [1732394068.094773]: No suitable match found. Best time difference: infs
+[WARN] [1732394068.099894]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394068.100902]: No suitable match found. Best time difference: 0.300s
+[WARN] [1732394068.101638]: No suitable match found. Best time difference: 0.400s
+[WARN] [1732394068.491709]: No suitable match found. Best time difference: infs
+[WARN] [1732394068.492922]: No suitable match found. Best time difference: infs
+[WARN] [1732394068.866357]: No suitable match found. Best time difference: 0.100s
+[WARN] [1732394068.867740]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394068.868901]: No suitable match found. Best time difference: 0.300s
+[WARN] [1732394068.869720]: No suitable match found. Best time difference: 0.400s
+[INFO] [1732394071.960813]: 
+Sync Statistics:
+  Total Odometry Messages: 170
+  Successful Matches: 53
+  Match Rate: 31.2%
+  Point Cloud Buffer Size: 178
+  Average Time Difference: 0.008s
+  Average Publish Rate: 2.8 Hz
+[WARN] [1732394074.137326]: No suitable match found. Best time difference: 0.900s
+[WARN] [1732394074.140662]: No suitable match found. Best time difference: 1.000s
+[WARN] [1732394074.150661]: No suitable match found. Best time difference: 1.000s
+[WARN] [1732394074.152313]: No suitable match found. Best time difference: 1.100s
+[WARN] [1732394074.155304]: No suitable match found. Best time difference: 1.200s
+[WARN] [1732394074.157432]: No suitable match found. Best time difference: 1.300s
+[WARN] [1732394074.159833]: No suitable match found. Best time difference: 1.400s
+[WARN] [1732394074.161827]: No suitable match found. Best time difference: 1.500s
+[WARN] [1732394074.163691]: No suitable match found. Best time difference: 1.600s
+[WARN] [1732394074.171511]: No suitable match found. Best time difference: 1.600s
+[WARN] [1732394074.210816]: No suitable match found. Best time difference: 1.300s
+[WARN] [1732394074.274906]: No suitable match found. Best time difference: 0.600s
+[INFO] [1732394076.960182]: 
+Sync Statistics:
+  Total Odometry Messages: 195
+  Successful Matches: 66
+  Match Rate: 33.8%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.006s
+  Average Publish Rate: 2.8 Hz
+[WARN] [1732394079.404614]: No suitable match found. Best time difference: 1.800s
+[WARN] [1732394079.407537]: No suitable match found. Best time difference: 1.800s
+[WARN] [1732394079.408526]: No suitable match found. Best time difference: 1.900s
+[WARN] [1732394079.409343]: No suitable match found. Best time difference: 2.000s
+[WARN] [1732394079.410271]: No suitable match found. Best time difference: 2.100s
+[WARN] [1732394079.411175]: No suitable match found. Best time difference: 2.200s
+[WARN] [1732394079.411997]: No suitable match found. Best time difference: 2.300s
+[WARN] [1732394079.412762]: No suitable match found. Best time difference: 2.400s
+[WARN] [1732394079.413457]: No suitable match found. Best time difference: 2.500s
+[WARN] [1732394079.414225]: No suitable match found. Best time difference: 2.600s
+[WARN] [1732394079.459787]: No suitable match found. Best time difference: 1.900s
+[INFO] [1732394081.957682]: 
+Sync Statistics:
+  Total Odometry Messages: 220
+  Successful Matches: 80
+  Match Rate: 36.4%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.005s
+  Average Publish Rate: 2.8 Hz
+[WARN] [1732394082.218888]: No suitable match found. Best time difference: infs
+[WARN] [1732394082.220158]: No suitable match found. Best time difference: infs
+[WARN] [1732394082.221139]: No suitable match found. Best time difference: infs
+[WARN] [1732394082.221924]: No suitable match found. Best time difference: infs
+[WARN] [1732394082.222747]: No suitable match found. Best time difference: infs
+[WARN] [1732394082.224844]: No suitable match found. Best time difference: 0.500s
+[WARN] [1732394082.225945]: No suitable match found. Best time difference: 0.900s
+[WARN] [1732394082.226721]: No suitable match found. Best time difference: 1.000s
+[WARN] [1732394082.227646]: No suitable match found. Best time difference: 1.100s
+[WARN] [1732394082.228512]: No suitable match found. Best time difference: 1.200s
+[WARN] [1732394082.229409]: No suitable match found. Best time difference: 1.300s
+[WARN] [1732394082.230490]: No suitable match found. Best time difference: 1.400s
+[WARN] [1732394082.231450]: No suitable match found. Best time difference: 1.500s
+[WARN] [1732394082.232193]: No suitable match found. Best time difference: 1.600s
+[WARN] [1732394082.232979]: No suitable match found. Best time difference: 1.700s
+[WARN] [1732394082.233850]: No suitable match found. Best time difference: 1.800s
+[WARN] [1732394082.274292]: No suitable match found. Best time difference: 1.300s
+[WARN] [1732394082.649629]: No suitable match found. Best time difference: infs
+[WARN] [1732394082.654162]: No suitable match found. Best time difference: infs
+[WARN] [1732394082.655401]: No suitable match found. Best time difference: infs
+[WARN] [1732394083.040044]: No suitable match found. Best time difference: infs
+[WARN] [1732394083.043688]: No suitable match found. Best time difference: infs
+[WARN] [1732394083.047096]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394083.423382]: No suitable match found. Best time difference: infs
+[WARN] [1732394083.424536]: No suitable match found. Best time difference: infs
+[WARN] [1732394083.763505]: No suitable match found. Best time difference: infs
+[WARN] [1732394083.765102]: No suitable match found. Best time difference: infs
+[WARN] [1732394083.766246]: No suitable match found. Best time difference: infs
+[WARN] [1732394084.144343]: No suitable match found. Best time difference: infs
+[WARN] [1732394084.455821]: No suitable match found. Best time difference: infs
+[WARN] [1732394084.460148]: No suitable match found. Best time difference: 0.100s
+[WARN] [1732394084.461618]: No suitable match found. Best time difference: 0.200s
+[WARN] [1732394084.462951]: No suitable match found. Best time difference: 0.300s
+[WARN] [1732394084.843074]: No suitable match found. Best time difference: infs
+[WARN] [1732394084.848818]: No suitable match found. Best time difference: infs
+[WARN] [1732394084.862044]: No suitable match found. Best time difference: 0.100s
+[WARN] [1732394085.266305]: No suitable match found. Best time difference: infs
+[WARN] [1732394085.267456]: No suitable match found. Best time difference: infs
+[WARN] [1732394085.268342]: No suitable match found. Best time difference: infs
+[WARN] [1732394085.653555]: No suitable match found. Best time difference: infs
+[WARN] [1732394085.655215]: No suitable match found. Best time difference: infs
+[WARN] [1732394085.656234]: No suitable match found. Best time difference: infs
+[WARN] [1732394086.040847]: No suitable match found. Best time difference: infs
+[WARN] [1732394086.661486]: No suitable match found. Best time difference: infs
+[INFO] [1732394086.957492]: 
+Sync Statistics:
+  Total Odometry Messages: 277
+  Successful Matches: 93
+  Match Rate: 33.6%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.005s
+  Average Publish Rate: 2.8 Hz
+[INFO] [1732394091.954727]: 
+Sync Statistics:
+  Total Odometry Messages: 290
+  Successful Matches: 106
+  Match Rate: 36.6%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.005s
+  Average Publish Rate: 2.8 Hz
+[INFO] [1732394096.976608]: 
+Sync Statistics:
+  Total Odometry Messages: 302
+  Successful Matches: 118
+  Match Rate: 39.1%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.004s
+  Average Publish Rate: 2.7 Hz
+[INFO] [1732394101.959697]: 
+Sync Statistics:
+  Total Odometry Messages: 316
+  Successful Matches: 132
+  Match Rate: 41.8%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.002s
+  Average Publish Rate: 2.7 Hz
+[INFO] [1732394106.969015]: 
+Sync Statistics:
+  Total Odometry Messages: 333
+  Successful Matches: 149
+  Match Rate: 44.7%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.001s
+  Average Publish Rate: 2.9 Hz
+[WARN] [1732394108.341424]: No suitable match found. Best time difference: 0.700s
+[WARN] [1732394108.342443]: No suitable match found. Best time difference: 0.800s
+[WARN] [1732394108.344696]: No suitable match found. Best time difference: 0.800s
+[WARN] [1732394108.345571]: No suitable match found. Best time difference: 0.900s
+[WARN] [1732394108.346370]: No suitable match found. Best time difference: 1.000s
+[WARN] [1732394108.347156]: No suitable match found. Best time difference: 1.100s
+[WARN] [1732394108.347852]: No suitable match found. Best time difference: 1.200s
+[WARN] [1732394108.348711]: No suitable match found. Best time difference: 1.300s
+[WARN] [1732394108.349462]: No suitable match found. Best time difference: 1.400s
+[WARN] [1732394108.350292]: No suitable match found. Best time difference: 1.500s
+[INFO] [1732394111.957401]: 
+Sync Statistics:
+  Total Odometry Messages: 347
+  Successful Matches: 153
+  Match Rate: 44.1%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.001s
+  Average Publish Rate: 2.9 Hz
+[INFO] [1732394116.957509]: 
+Sync Statistics:
+  Total Odometry Messages: 347
+  Successful Matches: 153
+  Match Rate: 44.1%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.001s
+  Average Publish Rate: 2.9 Hz
+[INFO] [1732394121.957524]: 
+Sync Statistics:
+  Total Odometry Messages: 347
+  Successful Matches: 153
+  Match Rate: 44.1%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.001s
+  Average Publish Rate: 2.9 Hz
+[INFO] [1732394126.954636]: 
+Sync Statistics:
+  Total Odometry Messages: 347
+  Successful Matches: 153
+  Match Rate: 44.1%
+  Point Cloud Buffer Size: 200
+  Average Time Difference: 0.001s
+  Average Publish Rate: 2.9 Hz
+
+gem@gem-nuvo:~/bobabee_ws_test$ rostopic hz /synchronized_cloud_with_pose
+subscribed to [/synchronized_cloud_with_pose]
+average rate: 2.665
+	min: 0.375s max: 0.375s std dev: 0.00000s window: 2
+average rate: 2.439
+	min: 0.375s max: 0.493s std dev: 0.04879s window: 5
+average rate: 2.628
+	min: 0.305s max: 0.493s std dev: 0.05382s window: 8
+average rate: 2.715
+	min: 0.305s max: 0.493s std dev: 0.05116s window: 11
+average rate: 2.706
+	min: 0.305s max: 0.493s std dev: 0.04684s window: 13
+average rate: 2.683GetTimestamps
+	min: 0.305s max: 0.493s std dev: 0.04670s window: 16
+average rate: 2.665
+	min: 0.305s max: 0.493s std dev: 0.04492s window: 18
+average rate: 2.569
+	min: 0.305s max: 0.619s std dev: 0.06894s window: 20
+average rate: 2.599
+	min: 0.305s max: 0.619s std dev: 0.06511s window: 23
+average rate: 2.624
+	min: 0.305s max: 0.619s std dev: 0.06198s window: 26
+average rate: 2.617
+	min: 0.305s max: 0.619s std dev: 0.05988s window: 29
+average rate: 2.653
+	min: 0.297s max: 0.619s std dev: 0.05984s window: 32
+average rate: 2.633
+	min: 0.297s max: 0.619s std dev: 0.06232s window: 34
+average rate: 2.662
+	min: 0.297s max: 0.619s std dev: 0.06139s window: 37
+average rate: 2.690
+	min: 0.269s max: 0.619s std dev: 0.06174s window: 40
+average rate: 2.675
+	min: 0.269s max: 0.619s std dev: 0.06027s window: 43
+average rate: 2.679
+	min: 0.269s max: 0.619s std dev: 0.05911s window: 45
+average rate: 2.679
+	min: 0.269s max: 0.619s std dev: 0.05838s window: 48
+average rate: 2.682
+	min: 0.269s max: 0.619s std dev: 0.05711s window: 51
+average rate: 2.702
+	min: 0.269s max: 0.619s std dev: 0.05680s window: 54
+average rate: 2.704
+	min: 0.269s max: 0.619s std dev: 0.05602s window: 57
+average rate: 2.691
+	min: 0.269s max: 0.619s std dev: 0.05707s window: 59
+average rate: 2.670
+	min: 0.269s max: 0.619s std dev: 0.05857s window: 61
+average rate: 2.670
+	min: 0.269s max: 0.619s std dev: 0.05787s window: 64
+average rate: 2.669
+	min: 0.253s max: 0.619s std dev: 0.06123s window: 66
+average rate: 2.648
+	min: 0.253s max: 0.619s std dev: 0.06301s window: 68
+average rate: 2.626
+	min: 0.253s max: 0.619s std dev: 0.06490s window: 70
+average rate: 2.619
+	min: 0.236s max: 0.619s std dev: 0.06846s window: 73
+average rate: 2.612
+	min: 0.236s max: 0.619s std dev: 0.07052s window: 76
+average rate: 2.637
+	min: 0.227s max: 0.619s std dev: 0.07212s window: 79
+average rate: 2.639
+	min: 0.227s max: 0.619s std dev: 0.07115s window: 82
+average rate: 2.645
+	min: 0.227s max: 0.619s std dev: 0.07052s window: 84
+average rate: 2.665
+	min: 0.224s max: 0.619s std dev: 0.07283s window: 88
+average rate: 2.643
+	min: 0.224s max: 0.619s std dev: 0.07482s window: 90
+average rate: 2.640
+	min: 0.224s max: 0.619s std dev: 0.07722s window: 92
+average rate: 2.667
+	min: 0.224s max: 0.619s std dev: 0.07938s window: 96
+average rate: 2.682
+	min: 0.224s max: 0.619s std dev: 0.07926s window: 99
+average rate: 2.711
+	min: 0.217s max: 0.619s std dev: 0.08093s window: 103
+average rate: 2.730
+	min: 0.217s max: 0.619s std dev: 0.08139s window: 106
+average rate: 2.736
+	min: 0.217s max: 0.619s std dev: 0.08077s window: 109
+average rate: 2.757
+	min: 0.217s max: 0.619s std dev: 0.08104s window: 113
