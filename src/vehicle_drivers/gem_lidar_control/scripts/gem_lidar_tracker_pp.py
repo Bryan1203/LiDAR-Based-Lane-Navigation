@@ -91,7 +91,7 @@ class PurePursuit(object):
         self.enable_sub = rospy.Subscriber("/pacmod/as_tx/enable", Bool, self.enable_callback)
         self.used_waypoints_pub = rospy.Publisher("/used_waypoints", Marker, queue_size=1)
         # Initialize the publisher
-        self.pose_pub = rospy.Publisher('/current_pose', PoseStamped, queue_size=10)
+        self.pose_pub = rospy.Publisher('/current_pose', PoseStamped, queue_size=1)
         # Vehicle state
         self.speed = 0.0
         self.gem_enable = False
@@ -299,8 +299,7 @@ class PurePursuit(object):
             self.look_ahead = self.dist_arr.min()
             rospy.loginfo("Look-ahead distance: %f", self.look_ahead)
             goal_arr = np.where(
-                (self.dist_arr < self.look_ahead + 0.5) & 
-                (self.dist_arr > self.look_ahead - 0.5)
+                (self.dist_arr < self.look_ahead + 0.5)
             )[0]
             # rospy.loginfo("Goal points: %s", goal_arr)
             # Find goal point starting from last goal
@@ -340,6 +339,7 @@ class PurePursuit(object):
             t1 = +1.0 - 2.0 * (x * x + y * y)
             curr_yaw = math.degrees(math.atan2(t0, t1))
             rospy.loginfo("Current yaw: %f", curr_yaw)
+
             # Calculate steering control
             L = self.dist_arr[self.goal]
             alpha = math.atan2(self.current_path_y[self.goal] - curr_y, self.current_path_x[self.goal] - curr_x) - curr_yaw
