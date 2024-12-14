@@ -1,6 +1,6 @@
 # Autonomous Vehicle Navigation System
 
-This repository contains a ROS-based autonomous vehicle navigation system that uses LiDAR point clouds and various sensors for lane detection and vehicle control.
+This repository contains a ROS-based autonomous vehicle navigation system that uses LiDAR point clouds for lane detection and vehicle control on Polaris GEM e2 and e4.
 
 ## Demo
 
