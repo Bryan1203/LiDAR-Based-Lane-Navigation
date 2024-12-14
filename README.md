@@ -52,6 +52,9 @@ python setup.py install --include_dirs=${CONDA_PREFIX}/include
 cd ../..
 ```
 
+4. Download the model weight from hugging face
+   https://huggingface.co/bryanchang/PTv3_laneline_segemenation_signal
+
 ## Usage
 
 ### Initial Setup
