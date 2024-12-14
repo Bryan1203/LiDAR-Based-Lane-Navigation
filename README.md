@@ -23,7 +23,7 @@ Key components:
 - ROS (tested on ROS Noetic)
 - Python 3.8+
 - Conda package manager
-- NVIDIA GPU (recommended)
+- NVIDIA GPU 
 
 ## Installation
 
@@ -58,8 +58,13 @@ cd ../..
 ## Usage
 
 ### Initial Setup
-1. Drive the vehicle to an open area away from buildings
-2. Remain stationary for 30 seconds to allow sensor calibration
+1. remove build and devel
+2. cd demo_ws
+3. build:
+```bash
+catkin_make
+source devel/setup.bash
+```
 
 ### Launch Sequence
 1. Initialize sensors:
@@ -107,6 +112,11 @@ roslaunch src/kiss-icp/ros/launch/odometry.launch topic:=/ouster/points
 5. Launch inference with near-IR model or signal by default (optional):
 ```bash
 python3 src/pointcept151/inference_ros_filter.py model_type:=near_ir 
+```
+
+5. Launch control module:
+```bash
+python3 src/gem_lidar_tracker_pp_new.py
 ```
 
 ## System Components
